@@ -4,7 +4,7 @@
 
 import { readFileSync } from 'node:fs'
 import { resolve } from 'node:path'
-const DATA_DIR = resolve(import.meta.dirname, '../../../data')
+const DATA_DIR = resolve(process.cwd(), 'data')
 
 interface SolarTermEntry {
   term_name: string
@@ -43,7 +43,7 @@ export class InvarianceLayer {
       solar_longitude: entry.solar_longitude,
       climate_pattern: entry.climate_trend,
       yinyang: entry.yinyang_attribute,
-      tcm_organ: entry.tcm_organ_command,
+      tcm_organ: entry.yinyang_attribute,
       wellness_direction: entry.wellness_direction,
       vulnerability_points: entry.vulnerability_points,
       season: entry.season,
@@ -53,12 +53,7 @@ export class InvarianceLayer {
   static getCurrentHou(term: string, day: number) {
     const houIndex = Math.min(Math.floor((day - 1) / 5), 2)
     const houNames = ['初候', '中候', '末候']
-    return {
-      name: houNames[houIndex],
-      day: houIndex * 5 + 1,
-      end_day: (houIndex + 1) * 5,
-      intensity: houIndex === 0 ? 0.8 : houIndex === 1 ? 1.0 : 1.2,
-    }
+    return { name: houNames[houIndex], day: houIndex * 5 + 1, end_day: (houIndex + 1) * 5, intensity: houIndex === 0 ? 0.8 : houIndex === 1 ? 1.0 : 1.2 }
   }
 
   static getHouIntensity(day: number) {

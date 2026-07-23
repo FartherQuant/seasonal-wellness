@@ -4,7 +4,7 @@
 
 import { readFileSync } from 'node:fs'
 import { resolve } from 'node:path'
-const DATA_DIR = resolve(import.meta.dirname, '../../../data')
+const DATA_DIR = resolve(process.cwd(), 'data')
 
 interface CityEntry {
   city: string

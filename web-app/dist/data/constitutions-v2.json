@@ -1,0 +1,5325 @@
+{
+  "version": "v2.0",
+  "description": "九种体质 × 24节气适配数据（完整版），基于CM1方向锚定+CM3侧重点偏移生成",
+  "disclaimer": "本数据基于中医养生理论整理，仅作日常养生参考，不构成医疗诊断或处方。",
+  "entries": [
+    {
+      "constitution_type": "血瘀质",
+      "solar_term": "立春",
+      "vulnerability_points": [
+        "血瘀+肝旺→气滞血瘀加重，面色晦暗，痛经，易怒胸闷，关节痛"
+      ],
+      "direction_override": "活血化瘀为主，疏肝为辅",
+      "intensity_modifier": "强度×1.2",
+      "focus_shift": "活血化瘀优先于疏肝",
+      "diet_additions": [
+        "山楂",
+        "玫瑰花",
+        "红糖",
+        "生姜",
+        "洋葱"
+      ],
+      "diet_restrictions": [
+        "生冷",
+        "油腻",
+        "甜食",
+        "寒性水果"
+      ]
+    },
+    {
+      "constitution_type": "血瘀质",
+      "solar_term": "雨水",
+      "vulnerability_points": [
+        "血瘀+湿困→气滞血瘀加重，面色晦暗关节痛，腹胀纳差"
+      ],
+      "direction_override": "活血化瘀，化湿",
+      "intensity_modifier": "强度×1.2",
+      "focus_shift": "活血化瘀+化湿",
+      "diet_additions": [
+        "山楂",
+        "玫瑰花",
+        "红糖",
+        "生姜",
+        "薏米"
+      ],
+      "diet_restrictions": [
+        "生冷",
+        "油腻",
+        "甜食",
+        "寒性水果"
+      ]
+    },
+    {
+      "constitution_type": "血瘀质",
+      "solar_term": "惊蛰",
+      "vulnerability_points": [
+        "血瘀+昼夜温差大→气滞血瘀加重，面色晦暗关节痛，易感冒"
+      ],
+      "direction_override": "活血化瘀，散寒",
+      "intensity_modifier": "强度×1.2",
+      "focus_shift": "活血化瘀+散寒",
+      "diet_additions": [
+        "山楂",
+        "玫瑰花",
+        "红糖",
+        "生姜",
+        "洋葱"
+      ],
+      "diet_restrictions": [
+        "生冷",
+        "油腻",
+        "甜食",
+        "寒性水果"
+      ]
+    },
+    {
+      "constitution_type": "血瘀质",
+      "solar_term": "春分",
+      "vulnerability_points": [
+        "血瘀+肝旺→气滞血瘀加重，面色晦暗，痛经，胸闷易怒"
+      ],
+      "direction_override": "活血化瘀为主，疏肝为辅",
+      "intensity_modifier": "强度×1.2",
+      "focus_shift": "活血化瘀优先",
+      "diet_additions": [
+        "山楂",
+        "玫瑰花",
+        "红糖",
+        "生姜",
+        "洋葱"
+      ],
+      "diet_restrictions": [
+        "生冷",
+        "油腻",
+        "甜食",
+        "寒性水果"
+      ]
+    },
+    {
+      "constitution_type": "血瘀质",
+      "solar_term": "清明",
+      "vulnerability_points": [
+        "血瘀+肝郁化火→气滞血瘀加重，面色晦暗胸闷，口苦失眠"
+      ],
+      "direction_override": "活血化瘀，清肝",
+      "intensity_modifier": "强度×1.2",
+      "focus_shift": "活血化瘀+清肝",
+      "diet_additions": [
+        "山楂",
+        "玫瑰花",
+        "红糖",
+        "生姜",
+        "菊花"
+      ],
+      "diet_restrictions": [
+        "生冷",
+        "油腻",
+        "甜食",
+        "寒性水果"
+      ]
+    },
+    {
+      "constitution_type": "血瘀质",
+      "solar_term": "谷雨",
+      "vulnerability_points": [
+        "血瘀+湿热→气滞血瘀加重，面色晦暗口苦，关节痛腹胀"
+      ],
+      "direction_override": "活血化瘀，清热利湿",
+      "intensity_modifier": "强度×1.2",
+      "focus_shift": "活血化瘀+利湿",
+      "diet_additions": [
+        "山楂",
+        "玫瑰花",
+        "红糖",
+        "生姜",
+        "绿豆"
+      ],
+      "diet_restrictions": [
+        "生冷",
+        "油腻",
+        "甜食",
+        "寒性水果"
+      ]
+    },
+    {
+      "constitution_type": "血瘀质",
+      "solar_term": "立夏",
+      "vulnerability_points": [
+        "血瘀+心火→气滞血瘀加重，面色晦暗心悸，失眠胸闷"
+      ],
+      "direction_override": "活血化瘀，清心",
+      "intensity_modifier": "强度×1.2",
+      "focus_shift": "活血化瘀+清心",
+      "diet_additions": [
+        "山楂",
+        "玫瑰花",
+        "红糖",
+        "生姜",
+        "莲子"
+      ],
+      "diet_restrictions": [
+        "生冷",
+        "油腻",
+        "甜食",
+        "寒性水果"
+      ]
+    },
+    {
+      "constitution_type": "血瘀质",
+      "solar_term": "小满",
+      "vulnerability_points": [
+        "血瘀+湿热→气滞血瘀加重，面色晦暗口苦，关节痛腹胀"
+      ],
+      "direction_override": "活血化瘀，清热利湿",
+      "intensity_modifier": "强度×1.2",
+      "focus_shift": "活血化瘀+利湿",
+      "diet_additions": [
+        "山楂",
+        "玫瑰花",
+        "红糖",
+        "生姜",
+        "绿豆"
+      ],
+      "diet_restrictions": [
+        "生冷",
+        "油腻",
+        "甜食",
+        "寒性水果"
+      ]
+    },
+    {
+      "constitution_type": "血瘀质",
+      "solar_term": "芒种",
+      "vulnerability_points": [
+        "血瘀+暑热→气滞血瘀加重，面色晦暗乏力，心悸胸闷"
+      ],
+      "direction_override": "活血化瘀，清热生津",
+      "intensity_modifier": "强度×1.2",
+      "focus_shift": "活血化瘀+生津",
+      "diet_additions": [
+        "山楂",
+        "玫瑰花",
+        "红糖",
+        "生姜",
+        "梨"
+      ],
+      "diet_restrictions": [
+        "生冷",
+        "油腻",
+        "甜食",
+        "寒性水果"
+      ]
+    },
+    {
+      "constitution_type": "血瘀质",
+      "solar_term": "夏至",
+      "vulnerability_points": [
+        "血瘀+阳极→气滞血瘀加重，面色晦暗心悸，乏力胸闷"
+      ],
+      "direction_override": "活血化瘀，清热",
+      "intensity_modifier": "强度×1.2",
+      "focus_shift": "活血化瘀+清热",
+      "diet_additions": [
+        "山楂",
+        "玫瑰花",
+        "红糖",
+        "生姜",
+        "梨"
+      ],
+      "diet_restrictions": [
+        "生冷",
+        "油腻",
+        "甜食",
+        "寒性水果"
+      ]
+    },
+    {
+      "constitution_type": "血瘀质",
+      "solar_term": "小暑",
+      "vulnerability_points": [
+        "血瘀+暑热→气滞血瘀加重，面色晦暗乏力，心悸胸闷，暑热伤津"
+      ],
+      "direction_override": "活血化瘀，清热生津",
+      "intensity_modifier": "强度×1.2",
+      "focus_shift": "活血化瘀+生津",
+      "diet_additions": [
+        "山楂",
+        "玫瑰花",
+        "红糖",
+        "生姜",
+        "梨",
+        "绿豆"
+      ],
+      "diet_restrictions": [
+        "生冷",
+        "油腻",
+        "甜食",
+        "寒性水果"
+      ]
+    },
+    {
+      "constitution_type": "血瘀质",
+      "solar_term": "大暑",
+      "vulnerability_points": [
+        "血瘀+暑热极盛→气滞血瘀加重，面色晦暗乏力，心悸胸闷"
+      ],
+      "direction_override": "活血化瘀，清热生津",
+      "intensity_modifier": "强度×1.2",
+      "focus_shift": "活血化瘀+生津",
+      "diet_additions": [
+        "山楂",
+        "玫瑰花",
+        "红糖",
+        "生姜",
+        "梨",
+        "绿豆"
+      ],
+      "diet_restrictions": [
+        "生冷",
+        "油腻",
+        "甜食",
+        "寒性水果"
+      ]
+    },
+    {
+      "constitution_type": "血瘀质",
+      "solar_term": "立秋",
+      "vulnerability_points": [
+        "血瘀+秋燥→气滞血瘀加重，面色晦暗咽干，关节痛咳嗽"
+      ],
+      "direction_override": "活血化瘀，润肺",
+      "intensity_modifier": "强度×1.2",
+      "focus_shift": "活血化瘀+润肺",
+      "diet_additions": [
+        "山楂",
+        "玫瑰花",
+        "红糖",
+        "生姜",
+        "银耳"
+      ],
+      "diet_restrictions": [
+        "生冷",
+        "油腻",
+        "甜食",
+        "寒性水果"
+      ]
+    },
+    {
+      "constitution_type": "血瘀质",
+      "solar_term": "处暑",
+      "vulnerability_points": [
+        "血瘀+秋燥→气滞血瘀加重，面色晦暗咽干，关节痛咳嗽"
+      ],
+      "direction_override": "活血化瘀，润肺",
+      "intensity_modifier": "强度×1.2",
+      "focus_shift": "活血化瘀+润肺",
+      "diet_additions": [
+        "山楂",
+        "玫瑰花",
+        "红糖",
+        "生姜",
+        "银耳"
+      ],
+      "diet_restrictions": [
+        "生冷",
+        "油腻",
+        "甜食",
+        "寒性水果"
+      ]
+    },
+    {
+      "constitution_type": "血瘀质",
+      "solar_term": "白露",
+      "vulnerability_points": [
+        "血瘀+秋燥→气滞血瘀加重，面色晦暗咽干，关节痛咳嗽"
+      ],
+      "direction_override": "活血化瘀，润肺固表",
+      "intensity_modifier": "强度×1.2",
+      "focus_shift": "活血化瘀+润肺",
+      "diet_additions": [
+        "山楂",
+        "玫瑰花",
+        "红糖",
+        "生姜",
+        "银耳",
+        "百合"
+      ],
+      "diet_restrictions": [
+        "生冷",
+        "油腻",
+        "甜食",
+        "寒性水果"
+      ]
+    },
+    {
+      "constitution_type": "血瘀质",
+      "solar_term": "秋分",
+      "vulnerability_points": [
+        "血瘀+秋燥→气滞血瘀加重，面色晦暗咽干，关节痛咳嗽"
+      ],
+      "direction_override": "活血化瘀，润肺",
+      "intensity_modifier": "强度×1.2",
+      "focus_shift": "活血化瘀+润肺",
+      "diet_additions": [
+        "山楂",
+        "玫瑰花",
+        "红糖",
+        "生姜",
+        "银耳",
+        "莲藕"
+      ],
+      "diet_restrictions": [
+        "生冷",
+        "油腻",
+        "甜食",
+        "寒性水果"
+      ]
+    },
+    {
+      "constitution_type": "血瘀质",
+      "solar_term": "寒露",
+      "vulnerability_points": [
+        "血瘀+寒邪→气滞血瘀加重，面色晦暗关节痛，痛经加重"
+      ],
+      "direction_override": "活血化瘀，温阳散寒",
+      "intensity_modifier": "强度×1.2",
+      "focus_shift": "活血化瘀+温阳",
+      "diet_additions": [
+        "山楂",
+        "玫瑰花",
+        "红糖",
+        "生姜",
+        "桂圆"
+      ],
+      "diet_restrictions": [
+        "生冷",
+        "油腻",
+        "甜食",
+        "寒性水果"
+      ]
+    },
+    {
+      "constitution_type": "血瘀质",
+      "solar_term": "霜降",
+      "vulnerability_points": [
+        "血瘀+寒邪→气滞血瘀加重，面色晦暗关节痛，痛经加重"
+      ],
+      "direction_override": "活血化瘀，温阳散寒",
+      "intensity_modifier": "强度×1.2",
+      "focus_shift": "活血化瘀+温阳",
+      "diet_additions": [
+        "山楂",
+        "玫瑰花",
+        "红糖",
+        "生姜",
+        "桂圆",
+        "大枣"
+      ],
+      "diet_restrictions": [
+        "生冷",
+        "油腻",
+        "甜食",
+        "寒性水果"
+      ]
+    },
+    {
+      "constitution_type": "血瘀质",
+      "solar_term": "立冬",
+      "vulnerability_points": [
+        "血瘀+寒邪→气滞血瘀加重，面色晦暗关节痛，痛经加重"
+      ],
+      "direction_override": "活血化瘀，温阳",
+      "intensity_modifier": "强度×1.2",
+      "focus_shift": "活血化瘀+温阳",
+      "diet_additions": [
+        "山楂",
+        "玫瑰花",
+        "红糖",
+        "生姜",
+        "桂圆",
+        "大枣"
+      ],
+      "diet_restrictions": [
+        "生冷",
+        "油腻",
+        "甜食",
+        "寒性水果"
+      ]
+    },
+    {
+      "constitution_type": "血瘀质",
+      "solar_term": "小雪",
+      "vulnerability_points": [
+        "血瘀+寒邪深侵→气滞血瘀加重，面色晦暗关节痛，痛经加重"
+      ],
+      "direction_override": "活血化瘀，温阳固表",
+      "intensity_modifier": "强度×1.2",
+      "focus_shift": "活血化瘀+温阳",
+      "diet_additions": [
+        "山楂",
+        "玫瑰花",
+        "红糖",
+        "生姜",
+        "桂圆",
+        "大枣"
+      ],
+      "diet_restrictions": [
+        "生冷",
+        "油腻",
+        "甜食",
+        "寒性水果"
+      ]
+    },
+    {
+      "constitution_type": "血瘀质",
+      "solar_term": "大雪",
+      "vulnerability_points": [
+        "血瘀+寒邪极盛→气滞血瘀加重，面色晦暗关节痛，心悸加重"
+      ],
+      "direction_override": "活血化瘀，温阳护心",
+      "intensity_modifier": "强度×1.2",
+      "focus_shift": "活血化瘀+温阳",
+      "diet_additions": [
+        "山楂",
+        "玫瑰花",
+        "红糖",
+        "生姜",
+        "桂圆",
+        "大枣"
+      ],
+      "diet_restrictions": [
+        "生冷",
+        "油腻",
+        "甜食",
+        "寒性水果"
+      ]
+    },
+    {
+      "constitution_type": "血瘀质",
+      "solar_term": "冬至",
+      "vulnerability_points": [
+        "血瘀+阴极→气滞血瘀加重，面色晦暗关节痛，心悸加重"
+      ],
+      "direction_override": "活血化瘀，温阳固精",
+      "intensity_modifier": "强度×1.2",
+      "focus_shift": "活血化瘀+温阳",
+      "diet_additions": [
+        "山楂",
+        "玫瑰花",
+        "红糖",
+        "生姜",
+        "桂圆",
+        "大枣"
+      ],
+      "diet_restrictions": [
+        "生冷",
+        "油腻",
+        "甜食",
+        "寒性水果"
+      ]
+    },
+    {
+      "constitution_type": "血瘀质",
+      "solar_term": "小寒",
+      "vulnerability_points": [
+        "血瘀+寒邪→气滞血瘀加重，面色晦暗关节痛，痛经加重"
+      ],
+      "direction_override": "活血化瘀，温阳",
+      "intensity_modifier": "强度×1.2",
+      "focus_shift": "活血化瘀+温阳",
+      "diet_additions": [
+        "山楂",
+        "玫瑰花",
+        "红糖",
+        "生姜",
+        "桂圆",
+        "大枣"
+      ],
+      "diet_restrictions": [
+        "生冷",
+        "油腻",
+        "甜食",
+        "寒性水果"
+      ]
+    },
+    {
+      "constitution_type": "血瘀质",
+      "solar_term": "大寒",
+      "vulnerability_points": [
+        "血瘀+寒邪极盛→气滞血瘀加重，面色晦暗关节痛，心悸加重"
+      ],
+      "direction_override": "活血化瘀，温阳驱寒",
+      "intensity_modifier": "强度×1.2",
+      "focus_shift": "活血化瘀+温阳",
+      "diet_additions": [
+        "山楂",
+        "玫瑰花",
+        "红糖",
+        "生姜",
+        "桂圆",
+        "大枣"
+      ],
+      "diet_restrictions": [
+        "生冷",
+        "油腻",
+        "甜食",
+        "寒性水果"
+      ]
+    },
+    {
+      "constitution_type": "气郁质",
+      "solar_term": "立春",
+      "vulnerability_points": [
+        "气郁+肝旺→肝气郁结加重，胸闷喜太息，情绪低落，易怒"
+      ],
+      "direction_override": "疏肝解郁为主",
+      "intensity_modifier": "强度×1.2",
+      "focus_shift": "疏肝解郁优先",
+      "diet_additions": [
+        "玫瑰花",
+        "薄荷",
+        "陈皮",
+        "佛手",
+        "山楂"
+      ],
+      "diet_restrictions": [
+        "辛辣",
+        "油腻",
+        "甜食",
+        "酒精"
+      ]
+    },
+    {
+      "constitution_type": "气郁质",
+      "solar_term": "雨水",
+      "vulnerability_points": [
+        "气郁+湿困→肝郁脾虚加重，胸闷腹胀，情绪低落，纳差"
+      ],
+      "direction_override": "疏肝健脾化湿",
+      "intensity_modifier": "强度×1.2",
+      "focus_shift": "疏肝+化湿",
+      "diet_additions": [
+        "玫瑰花",
+        "薄荷",
+        "陈皮",
+        "茯苓",
+        "薏米"
+      ],
+      "diet_restrictions": [
+        "辛辣",
+        "油腻",
+        "甜食",
+        "寒性水果"
+      ]
+    },
+    {
+      "constitution_type": "气郁质",
+      "solar_term": "惊蛰",
+      "vulnerability_points": [
+        "气郁+昼夜温差大→肝气郁结加重，胸闷喜太息，情绪波动"
+      ],
+      "direction_override": "疏肝解郁为主",
+      "intensity_modifier": "强度×1.2",
+      "focus_shift": "疏肝解郁优先",
+      "diet_additions": [
+        "玫瑰花",
+        "薄荷",
+        "陈皮",
+        "佛手",
+        "山楂"
+      ],
+      "diet_restrictions": [
+        "辛辣",
+        "油腻",
+        "甜食",
+        "酒精"
+      ]
+    },
+    {
+      "constitution_type": "气郁质",
+      "solar_term": "春分",
+      "vulnerability_points": [
+        "气郁+肝旺→肝气郁结最重，胸闷喜太息，情绪低落易怒"
+      ],
+      "direction_override": "大疏肝解郁",
+      "intensity_modifier": "强度×1.3",
+      "focus_shift": "疏肝解郁优先",
+      "diet_additions": [
+        "玫瑰花",
+        "薄荷",
+        "陈皮",
+        "佛手",
+        "山楂"
+      ],
+      "diet_restrictions": [
+        "辛辣",
+        "油腻",
+        "甜食",
+        "酒精"
+      ]
+    },
+    {
+      "constitution_type": "气郁质",
+      "solar_term": "清明",
+      "vulnerability_points": [
+        "气郁+肝郁化火→肝火旺盛，口苦失眠，情绪急躁"
+      ],
+      "direction_override": "疏肝清热",
+      "intensity_modifier": "强度×1.3",
+      "focus_shift": "疏肝+清热",
+      "diet_additions": [
+        "玫瑰花",
+        "薄荷",
+        "菊花",
+        "陈皮",
+        "山楂"
+      ],
+      "diet_restrictions": [
+        "辛辣",
+        "油腻",
+        "甜食",
+        "酒精"
+      ]
+    },
+    {
+      "constitution_type": "气郁质",
+      "solar_term": "谷雨",
+      "vulnerability_points": [
+        "气郁+湿热→肝郁化火加重，口苦腹胀，情绪急躁"
+      ],
+      "direction_override": "疏肝清热利湿",
+      "intensity_modifier": "强度×1.2",
+      "focus_shift": "疏肝+利湿",
+      "diet_additions": [
+        "玫瑰花",
+        "薄荷",
+        "菊花",
+        "陈皮",
+        "绿豆"
+      ],
+      "diet_restrictions": [
+        "辛辣",
+        "油腻",
+        "甜食",
+        "酒精"
+      ]
+    },
+    {
+      "constitution_type": "气郁质",
+      "solar_term": "立夏",
+      "vulnerability_points": [
+        "气郁+心火→肝火扰心，心悸失眠，情绪低落"
+      ],
+      "direction_override": "疏肝清心",
+      "intensity_modifier": "强度×1.2",
+      "focus_shift": "疏肝+清心",
+      "diet_additions": [
+        "玫瑰花",
+        "薄荷",
+        "菊花",
+        "陈皮",
+        "莲子"
+      ],
+      "diet_restrictions": [
+        "辛辣",
+        "油腻",
+        "甜食",
+        "酒精"
+      ]
+    },
+    {
+      "constitution_type": "气郁质",
+      "solar_term": "小满",
+      "vulnerability_points": [
+        "气郁+湿热→肝郁化火加重，口苦腹胀，情绪急躁"
+      ],
+      "direction_override": "疏肝清热利湿",
+      "intensity_modifier": "强度×1.2",
+      "focus_shift": "疏肝+利湿",
+      "diet_additions": [
+        "玫瑰花",
+        "薄荷",
+        "菊花",
+        "陈皮",
+        "绿豆"
+      ],
+      "diet_restrictions": [
+        "辛辣",
+        "油腻",
+        "甜食",
+        "酒精"
+      ]
+    },
+    {
+      "constitution_type": "气郁质",
+      "solar_term": "芒种",
+      "vulnerability_points": [
+        "气郁+暑热→肝火旺盛，心悸失眠，情绪低落"
+      ],
+      "direction_override": "疏肝清热生津",
+      "intensity_modifier": "强度×1.2",
+      "focus_shift": "疏肝+生津",
+      "diet_additions": [
+        "玫瑰花",
+        "薄荷",
+        "菊花",
+        "陈皮",
+        "梨"
+      ],
+      "diet_restrictions": [
+        "辛辣",
+        "油腻",
+        "甜食",
+        "酒精"
+      ]
+    },
+    {
+      "constitution_type": "气郁质",
+      "solar_term": "夏至",
+      "vulnerability_points": [
+        "气郁+阳极→肝火旺盛，心悸失眠，情绪低落"
+      ],
+      "direction_override": "疏肝清热",
+      "intensity_modifier": "强度×1.2",
+      "focus_shift": "疏肝+清热",
+      "diet_additions": [
+        "玫瑰花",
+        "薄荷",
+        "菊花",
+        "陈皮",
+        "梨"
+      ],
+      "diet_restrictions": [
+        "辛辣",
+        "油腻",
+        "甜食",
+        "酒精"
+      ]
+    },
+    {
+      "constitution_type": "气郁质",
+      "solar_term": "小暑",
+      "vulnerability_points": [
+        "气郁+暑热→肝火旺盛，心悸失眠，情绪低落，暑热伤津"
+      ],
+      "direction_override": "疏肝清热生津",
+      "intensity_modifier": "强度×1.2",
+      "focus_shift": "疏肝+生津",
+      "diet_additions": [
+        "玫瑰花",
+        "薄荷",
+        "菊花",
+        "陈皮",
+        "梨",
+        "绿豆"
+      ],
+      "diet_restrictions": [
+        "辛辣",
+        "油腻",
+        "甜食",
+        "酒精"
+      ]
+    },
+    {
+      "constitution_type": "气郁质",
+      "solar_term": "大暑",
+      "vulnerability_points": [
+        "气郁+暑热极盛→肝火旺盛，心悸失眠，情绪低落"
+      ],
+      "direction_override": "疏肝清热生津",
+      "intensity_modifier": "强度×1.2",
+      "focus_shift": "疏肝+生津",
+      "diet_additions": [
+        "玫瑰花",
+        "薄荷",
+        "菊花",
+        "陈皮",
+        "梨",
+        "绿豆"
+      ],
+      "diet_restrictions": [
+        "辛辣",
+        "油腻",
+        "甜食",
+        "酒精"
+      ]
+    },
+    {
+      "constitution_type": "气郁质",
+      "solar_term": "立秋",
+      "vulnerability_points": [
+        "气郁+秋燥→肝郁肺燥，咽干胸闷，情绪低落"
+      ],
+      "direction_override": "疏肝润肺",
+      "intensity_modifier": "强度×1.1",
+      "focus_shift": "疏肝+润肺",
+      "diet_additions": [
+        "玫瑰花",
+        "薄荷",
+        "菊花",
+        "陈皮",
+        "银耳"
+      ],
+      "diet_restrictions": [
+        "辛辣",
+        "油腻",
+        "甜食",
+        "酒精"
+      ]
+    },
+    {
+      "constitution_type": "气郁质",
+      "solar_term": "处暑",
+      "vulnerability_points": [
+        "气郁+秋燥→肝郁肺燥，咽干胸闷，情绪低落"
+      ],
+      "direction_override": "疏肝润肺",
+      "intensity_modifier": "强度×1.1",
+      "focus_shift": "疏肝+润肺",
+      "diet_additions": [
+        "玫瑰花",
+        "薄荷",
+        "菊花",
+        "陈皮",
+        "银耳"
+      ],
+      "diet_restrictions": [
+        "辛辣",
+        "油腻",
+        "甜食",
+        "酒精"
+      ]
+    },
+    {
+      "constitution_type": "气郁质",
+      "solar_term": "白露",
+      "vulnerability_points": [
+        "气郁+秋燥→肝郁肺燥，咽干胸闷，情绪低落"
+      ],
+      "direction_override": "疏肝润肺固表",
+      "intensity_modifier": "强度×1.1",
+      "focus_shift": "疏肝+润肺",
+      "diet_additions": [
+        "玫瑰花",
+        "薄荷",
+        "菊花",
+        "陈皮",
+        "银耳",
+        "百合"
+      ],
+      "diet_restrictions": [
+        "辛辣",
+        "油腻",
+        "甜食",
+        "酒精"
+      ]
+    },
+    {
+      "constitution_type": "气郁质",
+      "solar_term": "秋分",
+      "vulnerability_points": [
+        "气郁+秋燥→肝郁肺燥，咽干胸闷，情绪低落"
+      ],
+      "direction_override": "疏肝润肺",
+      "intensity_modifier": "强度×1.1",
+      "focus_shift": "疏肝+润肺",
+      "diet_additions": [
+        "玫瑰花",
+        "薄荷",
+        "菊花",
+        "陈皮",
+        "银耳",
+        "莲藕"
+      ],
+      "diet_restrictions": [
+        "辛辣",
+        "油腻",
+        "甜食",
+        "酒精"
+      ]
+    },
+    {
+      "constitution_type": "气郁质",
+      "solar_term": "寒露",
+      "vulnerability_points": [
+        "气郁+寒邪→肝郁加重，胸闷喜太息，情绪低落加重"
+      ],
+      "direction_override": "疏肝解郁，温阳",
+      "intensity_modifier": "强度×1.1",
+      "focus_shift": "疏肝+温阳",
+      "diet_additions": [
+        "玫瑰花",
+        "薄荷",
+        "陈皮",
+        "佛手",
+        "生姜"
+      ],
+      "diet_restrictions": [
+        "辛辣",
+        "油腻",
+        "甜食",
+        "酒精"
+      ]
+    },
+    {
+      "constitution_type": "气郁质",
+      "solar_term": "霜降",
+      "vulnerability_points": [
+        "气郁+寒邪→肝郁加重，胸闷喜太息，情绪低落加重"
+      ],
+      "direction_override": "疏肝解郁，温阳",
+      "intensity_modifier": "强度×1.1",
+      "focus_shift": "疏肝+温阳",
+      "diet_additions": [
+        "玫瑰花",
+        "薄荷",
+        "陈皮",
+        "佛手",
+        "生姜",
+        "大枣"
+      ],
+      "diet_restrictions": [
+        "辛辣",
+        "油腻",
+        "甜食",
+        "酒精"
+      ]
+    },
+    {
+      "constitution_type": "气郁质",
+      "solar_term": "立冬",
+      "vulnerability_points": [
+        "气郁+寒邪→肝郁加重，胸闷喜太息，情绪低落加重"
+      ],
+      "direction_override": "疏肝解郁，温阳",
+      "intensity_modifier": "强度×1.1",
+      "focus_shift": "疏肝+温阳",
+      "diet_additions": [
+        "玫瑰花",
+        "薄荷",
+        "陈皮",
+        "佛手",
+        "生姜",
+        "大枣"
+      ],
+      "diet_restrictions": [
+        "辛辣",
+        "油腻",
+        "甜食",
+        "酒精"
+      ]
+    },
+    {
+      "constitution_type": "气郁质",
+      "solar_term": "小雪",
+      "vulnerability_points": [
+        "气郁+寒邪深侵→肝郁加重，胸闷喜太息，情绪低落加重"
+      ],
+      "direction_override": "疏肝解郁，温阳固表",
+      "intensity_modifier": "强度×1.1",
+      "focus_shift": "疏肝+温阳",
+      "diet_additions": [
+        "玫瑰花",
+        "薄荷",
+        "陈皮",
+        "佛手",
+        "生姜",
+        "大枣"
+      ],
+      "diet_restrictions": [
+        "辛辣",
+        "油腻",
+        "甜食",
+        "酒精"
+      ]
+    },
+    {
+      "constitution_type": "气郁质",
+      "solar_term": "大雪",
+      "vulnerability_points": [
+        "气郁+寒邪极盛→肝郁加重，胸闷喜太息，情绪低落加重，心悸"
+      ],
+      "direction_override": "疏肝解郁，温阳护心",
+      "intensity_modifier": "强度×1.1",
+      "focus_shift": "疏肝+温阳",
+      "diet_additions": [
+        "玫瑰花",
+        "薄荷",
+        "陈皮",
+        "佛手",
+        "生姜",
+        "大枣"
+      ],
+      "diet_restrictions": [
+        "辛辣",
+        "油腻",
+        "甜食",
+        "酒精"
+      ]
+    },
+    {
+      "constitution_type": "气郁质",
+      "solar_term": "冬至",
+      "vulnerability_points": [
+        "气郁+阴极→肝郁加重，胸闷喜太息，情绪低落加重"
+      ],
+      "direction_override": "疏肝解郁，温阳固精",
+      "intensity_modifier": "强度×1.1",
+      "focus_shift": "疏肝+温阳",
+      "diet_additions": [
+        "玫瑰花",
+        "薄荷",
+        "陈皮",
+        "佛手",
+        "生姜",
+        "大枣"
+      ],
+      "diet_restrictions": [
+        "辛辣",
+        "油腻",
+        "甜食",
+        "酒精"
+      ]
+    },
+    {
+      "constitution_type": "气郁质",
+      "solar_term": "小寒",
+      "vulnerability_points": [
+        "气郁+寒邪→肝郁加重，胸闷喜太息，情绪低落加重"
+      ],
+      "direction_override": "疏肝解郁，温阳",
+      "intensity_modifier": "强度×1.1",
+      "focus_shift": "疏肝+温阳",
+      "diet_additions": [
+        "玫瑰花",
+        "薄荷",
+        "陈皮",
+        "佛手",
+        "生姜",
+        "大枣"
+      ],
+      "diet_restrictions": [
+        "辛辣",
+        "油腻",
+        "甜食",
+        "酒精"
+      ]
+    },
+    {
+      "constitution_type": "气郁质",
+      "solar_term": "大寒",
+      "vulnerability_points": [
+        "气郁+寒邪极盛→肝郁加重，胸闷喜太息，情绪低落加重"
+      ],
+      "direction_override": "疏肝解郁，温阳驱寒",
+      "intensity_modifier": "强度×1.1",
+      "focus_shift": "疏肝+温阳",
+      "diet_additions": [
+        "玫瑰花",
+        "薄荷",
+        "陈皮",
+        "佛手",
+        "生姜",
+        "大枣"
+      ],
+      "diet_restrictions": [
+        "辛辣",
+        "油腻",
+        "甜食",
+        "酒精"
+      ]
+    },
+    {
+      "constitution_type": "特禀质",
+      "solar_term": "立春",
+      "vulnerability_points": [
+        "特禀+春寒→过敏加重，皮肤过敏，鼻炎加重，易感冒"
+      ],
+      "direction_override": "益气固表，抗过敏为主，疏肝为辅",
+      "intensity_modifier": "强度×1.3",
+      "focus_shift": "益气固表优先于疏肝",
+      "diet_additions": [
+        "黄芪",
+        "大枣",
+        "山药",
+        "蜂蜜",
+        "生姜"
+      ],
+      "diet_restrictions": [
+        "海鲜",
+        "辛辣",
+        "油炸",
+        "芒果",
+        "菠萝"
+      ]
+    },
+    {
+      "constitution_type": "特禀质",
+      "solar_term": "雨水",
+      "vulnerability_points": [
+        "特禀+湿困→过敏加重，皮肤过敏，鼻炎加重，腹胀纳差"
+      ],
+      "direction_override": "益气固表，化湿抗过敏",
+      "intensity_modifier": "强度×1.3",
+      "focus_shift": "益气固表+化湿",
+      "diet_additions": [
+        "黄芪",
+        "大枣",
+        "山药",
+        "茯苓",
+        "薏米"
+      ],
+      "diet_restrictions": [
+        "海鲜",
+        "辛辣",
+        "油炸",
+        "芒果",
+        "菠萝",
+        "寒性水果"
+      ]
+    },
+    {
+      "constitution_type": "特禀质",
+      "solar_term": "惊蛰",
+      "vulnerability_points": [
+        "特禀+昼夜温差大→过敏加重，皮肤过敏，鼻炎加重，易感冒"
+      ],
+      "direction_override": "益气固表，抗过敏为主",
+      "intensity_modifier": "强度×1.3",
+      "focus_shift": "益气固表优先",
+      "diet_additions": [
+        "黄芪",
+        "大枣",
+        "山药",
+        "蜂蜜",
+        "生姜"
+      ],
+      "diet_restrictions": [
+        "海鲜",
+        "辛辣",
+        "油炸",
+        "芒果",
+        "菠萝"
+      ]
+    },
+    {
+      "constitution_type": "特禀质",
+      "solar_term": "春分",
+      "vulnerability_points": [
+        "特禀+肝旺→过敏加重，皮肤过敏，鼻炎加重，易感冒"
+      ],
+      "direction_override": "益气固表，疏肝抗过敏",
+      "intensity_modifier": "强度×1.3",
+      "focus_shift": "益气固表优先",
+      "diet_additions": [
+        "黄芪",
+        "大枣",
+        "山药",
+        "蜂蜜",
+        "生姜"
+      ],
+      "diet_restrictions": [
+        "海鲜",
+        "辛辣",
+        "油炸",
+        "芒果",
+        "菠萝"
+      ]
+    },
+    {
+      "constitution_type": "特禀质",
+      "solar_term": "清明",
+      "vulnerability_points": [
+        "特禀+肝郁化火→过敏加重，皮肤过敏，鼻炎加重，口苦"
+      ],
+      "direction_override": "益气固表，疏肝清热",
+      "intensity_modifier": "强度×1.2",
+      "focus_shift": "益气固表+清热",
+      "diet_additions": [
+        "黄芪",
+        "大枣",
+        "山药",
+        "菊花",
+        "生姜"
+      ],
+      "diet_restrictions": [
+        "海鲜",
+        "辛辣",
+        "油炸",
+        "芒果",
+        "菠萝"
+      ]
+    },
+    {
+      "constitution_type": "特禀质",
+      "solar_term": "谷雨",
+      "vulnerability_points": [
+        "特禀+湿热→过敏加重，皮肤过敏，鼻炎加重，口苦腹胀"
+      ],
+      "direction_override": "益气固表，清热利湿",
+      "intensity_modifier": "强度×1.3",
+      "focus_shift": "益气固表+利湿",
+      "diet_additions": [
+        "黄芪",
+        "大枣",
+        "山药",
+        "薏米",
+        "绿豆"
+      ],
+      "diet_restrictions": [
+        "海鲜",
+        "辛辣",
+        "油炸",
+        "芒果",
+        "菠萝",
+        "寒性水果"
+      ]
+    },
+    {
+      "constitution_type": "特禀质",
+      "solar_term": "立夏",
+      "vulnerability_points": [
+        "特禀+心火→过敏加重，皮肤过敏，鼻炎加重，心悸失眠"
+      ],
+      "direction_override": "益气固表，清心抗过敏",
+      "intensity_modifier": "强度×1.2",
+      "focus_shift": "益气固表+清心",
+      "diet_additions": [
+        "黄芪",
+        "大枣",
+        "山药",
+        "莲子",
+        "生姜"
+      ],
+      "diet_restrictions": [
+        "海鲜",
+        "辛辣",
+        "油炸",
+        "芒果",
+        "菠萝"
+      ]
+    },
+    {
+      "constitution_type": "特禀质",
+      "solar_term": "小满",
+      "vulnerability_points": [
+        "特禀+湿热→过敏加重，皮肤过敏，鼻炎加重，口苦腹胀"
+      ],
+      "direction_override": "益气固表，清热利湿",
+      "intensity_modifier": "强度×1.3",
+      "focus_shift": "益气固表+利湿",
+      "diet_additions": [
+        "黄芪",
+        "大枣",
+        "山药",
+        "薏米",
+        "绿豆"
+      ],
+      "diet_restrictions": [
+        "海鲜",
+        "辛辣",
+        "油炸",
+        "芒果",
+        "菠萝",
+        "寒性水果"
+      ]
+    },
+    {
+      "constitution_type": "特禀质",
+      "solar_term": "芒种",
+      "vulnerability_points": [
+        "特禀+暑热→过敏加重，皮肤过敏，鼻炎加重，心悸乏力"
+      ],
+      "direction_override": "益气固表，清热生津",
+      "intensity_modifier": "强度×1.2",
+      "focus_shift": "益气固表+生津",
+      "diet_additions": [
+        "黄芪",
+        "大枣",
+        "山药",
+        "梨",
+        "太子参"
+      ],
+      "diet_restrictions": [
+        "海鲜",
+        "辛辣",
+        "油炸",
+        "芒果",
+        "菠萝"
+      ]
+    },
+    {
+      "constitution_type": "特禀质",
+      "solar_term": "夏至",
+      "vulnerability_points": [
+        "特禀+阳极→过敏加重，皮肤过敏，鼻炎加重，心悸乏力"
+      ],
+      "direction_override": "益气固表，清热",
+      "intensity_modifier": "强度×1.2",
+      "focus_shift": "益气固表+清热",
+      "diet_additions": [
+        "黄芪",
+        "大枣",
+        "山药",
+        "梨",
+        "太子参"
+      ],
+      "diet_restrictions": [
+        "海鲜",
+        "辛辣",
+        "油炸",
+        "芒果",
+        "菠萝"
+      ]
+    },
+    {
+      "constitution_type": "特禀质",
+      "solar_term": "小暑",
+      "vulnerability_points": [
+        "特禀+暑热→过敏加重，皮肤过敏，鼻炎加重，心悸乏力，暑热伤津"
+      ],
+      "direction_override": "益气固表，清热生津",
+      "intensity_modifier": "强度×1.2",
+      "focus_shift": "益气固表+生津",
+      "diet_additions": [
+        "黄芪",
+        "大枣",
+        "山药",
+        "梨",
+        "太子参",
+        "绿豆"
+      ],
+      "diet_restrictions": [
+        "海鲜",
+        "辛辣",
+        "油炸",
+        "芒果",
+        "菠萝"
+      ]
+    },
+    {
+      "constitution_type": "特禀质",
+      "solar_term": "大暑",
+      "vulnerability_points": [
+        "特禀+暑热极盛→过敏加重，皮肤过敏，鼻炎加重，心悸乏力"
+      ],
+      "direction_override": "益气固表，清热生津",
+      "intensity_modifier": "强度×1.2",
+      "focus_shift": "益气固表+生津",
+      "diet_additions": [
+        "黄芪",
+        "大枣",
+        "山药",
+        "梨",
+        "太子参",
+        "绿豆"
+      ],
+      "diet_restrictions": [
+        "海鲜",
+        "辛辣",
+        "油炸",
+        "芒果",
+        "菠萝"
+      ]
+    },
+    {
+      "constitution_type": "特禀质",
+      "solar_term": "立秋",
+      "vulnerability_points": [
+        "特禀+秋燥→过敏加重，皮肤过敏，鼻炎加重，咽干咳嗽"
+      ],
+      "direction_override": "益气固表，润肺抗过敏",
+      "intensity_modifier": "强度×1.2",
+      "focus_shift": "益气固表+润肺",
+      "diet_additions": [
+        "黄芪",
+        "大枣",
+        "山药",
+        "银耳",
+        "百合"
+      ],
+      "diet_restrictions": [
+        "海鲜",
+        "辛辣",
+        "油炸",
+        "芒果",
+        "菠萝"
+      ]
+    },
+    {
+      "constitution_type": "特禀质",
+      "solar_term": "处暑",
+      "vulnerability_points": [
+        "特禀+秋燥→过敏加重，皮肤过敏，鼻炎加重，咽干咳嗽"
+      ],
+      "direction_override": "益气固表，润肺抗过敏",
+      "intensity_modifier": "强度×1.2",
+      "focus_shift": "益气固表+润肺",
+      "diet_additions": [
+        "黄芪",
+        "大枣",
+        "山药",
+        "银耳",
+        "百合"
+      ],
+      "diet_restrictions": [
+        "海鲜",
+        "辛辣",
+        "油炸",
+        "芒果",
+        "菠萝"
+      ]
+    },
+    {
+      "constitution_type": "特禀质",
+      "solar_term": "白露",
+      "vulnerability_points": [
+        "特禀+秋燥→过敏加重，皮肤过敏，鼻炎加重，咽干咳嗽"
+      ],
+      "direction_override": "益气固表，润肺固表",
+      "intensity_modifier": "强度×1.2",
+      "focus_shift": "益气固表+润肺",
+      "diet_additions": [
+        "黄芪",
+        "大枣",
+        "山药",
+        "银耳",
+        "百合",
+        "蜂蜜"
+      ],
+      "diet_restrictions": [
+        "海鲜",
+        "辛辣",
+        "油炸",
+        "芒果",
+        "菠萝"
+      ]
+    },
+    {
+      "constitution_type": "特禀质",
+      "solar_term": "秋分",
+      "vulnerability_points": [
+        "特禀+秋燥→过敏加重，皮肤过敏，鼻炎加重，咽干咳嗽"
+      ],
+      "direction_override": "益气固表，润肺抗过敏",
+      "intensity_modifier": "强度×1.2",
+      "focus_shift": "益气固表+润肺",
+      "diet_additions": [
+        "黄芪",
+        "大枣",
+        "山药",
+        "银耳",
+        "百合",
+        "莲藕"
+      ],
+      "diet_restrictions": [
+        "海鲜",
+        "辛辣",
+        "油炸",
+        "芒果",
+        "菠萝"
+      ]
+    },
+    {
+      "constitution_type": "特禀质",
+      "solar_term": "寒露",
+      "vulnerability_points": [
+        "特禀+寒邪→过敏加重，皮肤过敏，鼻炎加重，关节疼痛"
+      ],
+      "direction_override": "益气固表，温阳抗过敏",
+      "intensity_modifier": "强度×1.3",
+      "focus_shift": "益气固表+温阳",
+      "diet_additions": [
+        "黄芪",
+        "大枣",
+        "山药",
+        "生姜",
+        "桂圆"
+      ],
+      "diet_restrictions": [
+        "海鲜",
+        "辛辣",
+        "油炸",
+        "芒果",
+        "菠萝"
+      ]
+    },
+    {
+      "constitution_type": "特禀质",
+      "solar_term": "霜降",
+      "vulnerability_points": [
+        "特禀+寒邪→过敏加重，皮肤过敏，鼻炎加重，关节疼痛"
+      ],
+      "direction_override": "益气固表，温阳抗过敏",
+      "intensity_modifier": "强度×1.3",
+      "focus_shift": "益气固表+温阳",
+      "diet_additions": [
+        "黄芪",
+        "大枣",
+        "山药",
+        "生姜",
+        "桂圆"
+      ],
+      "diet_restrictions": [
+        "海鲜",
+        "辛辣",
+        "油炸",
+        "芒果",
+        "菠萝"
+      ]
+    },
+    {
+      "constitution_type": "特禀质",
+      "solar_term": "立冬",
+      "vulnerability_points": [
+        "特禀+寒邪→过敏加重，皮肤过敏，鼻炎加重，关节疼痛"
+      ],
+      "direction_override": "益气固表，温阳",
+      "intensity_modifier": "强度×1.3",
+      "focus_shift": "益气固表+温阳",
+      "diet_additions": [
+        "黄芪",
+        "大枣",
+        "山药",
+        "生姜",
+        "桂圆"
+      ],
+      "diet_restrictions": [
+        "海鲜",
+        "辛辣",
+        "油炸",
+        "芒果",
+        "菠萝"
+      ]
+    },
+    {
+      "constitution_type": "特禀质",
+      "solar_term": "小雪",
+      "vulnerability_points": [
+        "特禀+寒邪深侵→过敏加重，皮肤过敏，鼻炎加重，关节疼痛"
+      ],
+      "direction_override": "益气固表，温阳固表",
+      "intensity_modifier": "强度×1.3",
+      "focus_shift": "益气固表+温阳",
+      "diet_additions": [
+        "黄芪",
+        "大枣",
+        "山药",
+        "生姜",
+        "桂圆"
+      ],
+      "diet_restrictions": [
+        "海鲜",
+        "辛辣",
+        "油炸",
+        "芒果",
+        "菠萝"
+      ]
+    },
+    {
+      "constitution_type": "特禀质",
+      "solar_term": "大雪",
+      "vulnerability_points": [
+        "特禀+寒邪极盛→过敏加重，皮肤过敏，鼻炎加重，关节疼痛，心悸"
+      ],
+      "direction_override": "益气固表，温阳护心",
+      "intensity_modifier": "强度×1.3",
+      "focus_shift": "益气固表+温阳",
+      "diet_additions": [
+        "黄芪",
+        "大枣",
+        "山药",
+        "生姜",
+        "桂圆"
+      ],
+      "diet_restrictions": [
+        "海鲜",
+        "辛辣",
+        "油炸",
+        "芒果",
+        "菠萝"
+      ]
+    },
+    {
+      "constitution_type": "特禀质",
+      "solar_term": "冬至",
+      "vulnerability_points": [
+        "特禀+阴极→过敏加重，皮肤过敏，鼻炎加重，关节疼痛"
+      ],
+      "direction_override": "益气固表，温阳固精",
+      "intensity_modifier": "强度×1.3",
+      "focus_shift": "益气固表+温阳",
+      "diet_additions": [
+        "黄芪",
+        "大枣",
+        "山药",
+        "生姜",
+        "桂圆"
+      ],
+      "diet_restrictions": [
+        "海鲜",
+        "辛辣",
+        "油炸",
+        "芒果",
+        "菠萝"
+      ]
+    },
+    {
+      "constitution_type": "特禀质",
+      "solar_term": "小寒",
+      "vulnerability_points": [
+        "特禀+寒邪→过敏加重，皮肤过敏，鼻炎加重，关节疼痛"
+      ],
+      "direction_override": "益气固表，温阳",
+      "intensity_modifier": "强度×1.3",
+      "focus_shift": "益气固表+温阳",
+      "diet_additions": [
+        "黄芪",
+        "大枣",
+        "山药",
+        "生姜",
+        "桂圆"
+      ],
+      "diet_restrictions": [
+        "海鲜",
+        "辛辣",
+        "油炸",
+        "芒果",
+        "菠萝"
+      ]
+    },
+    {
+      "constitution_type": "特禀质",
+      "solar_term": "大寒",
+      "vulnerability_points": [
+        "特禀+寒邪极盛→过敏加重，皮肤过敏，鼻炎加重，关节疼痛"
+      ],
+      "direction_override": "益气固表，温阳驱寒",
+      "intensity_modifier": "强度×1.3",
+      "focus_shift": "益气固表+温阳",
+      "diet_additions": [
+        "黄芪",
+        "大枣",
+        "山药",
+        "生姜",
+        "桂圆"
+      ],
+      "diet_restrictions": [
+        "海鲜",
+        "辛辣",
+        "油炸",
+        "芒果",
+        "菠萝"
+      ]
+    },
+    {
+      "constitution_type": "阴虚质",
+      "solar_term": "立春",
+      "vulnerability_points": [
+        "阴虚+春燥→更口干，手脚心发热加重，肝火上炎，失眠加重"
+      ],
+      "direction_override": "养阴润燥为主，疏肝为辅",
+      "intensity_modifier": "强度×1.2",
+      "focus_shift": "养阴优先于疏肝",
+      "diet_additions": [
+        "银耳",
+        "百合",
+        "麦冬",
+        "石斛",
+        "梨"
+      ],
+      "diet_restrictions": [
+        "辛辣",
+        "油炸",
+        "烧烤",
+        "羊肉"
+      ]
+    },
+    {
+      "constitution_type": "阴虚质",
+      "solar_term": "雨水",
+      "vulnerability_points": [
+        "阴虚+湿困→阴液更不足，口干舌燥加重，失眠加重"
+      ],
+      "direction_override": "养阴化湿",
+      "intensity_modifier": "强度×1.2",
+      "focus_shift": "养阴+化湿",
+      "diet_additions": [
+        "银耳",
+        "百合",
+        "麦冬",
+        "石斛",
+        "薏米"
+      ],
+      "diet_restrictions": [
+        "辛辣",
+        "油炸",
+        "羊肉",
+        "烧烤"
+      ]
+    },
+    {
+      "constitution_type": "阴虚质",
+      "solar_term": "惊蛰",
+      "vulnerability_points": [
+        "阴虚+春燥→更口干，咽干咳嗽加重，失眠加重"
+      ],
+      "direction_override": "养阴润燥为主",
+      "intensity_modifier": "强度×1.2",
+      "focus_shift": "养阴优先",
+      "diet_additions": [
+        "银耳",
+        "百合",
+        "麦冬",
+        "石斛",
+        "梨",
+        "蜂蜜"
+      ],
+      "diet_restrictions": [
+        "辛辣",
+        "油炸",
+        "羊肉",
+        "烧烤"
+      ]
+    },
+    {
+      "constitution_type": "阴虚质",
+      "solar_term": "春分",
+      "vulnerability_points": [
+        "阴虚+阴阳平衡→阴液仍不足，手脚心发热，咽干，失眠加重"
+      ],
+      "direction_override": "养阴为主",
+      "intensity_modifier": "强度×1.2",
+      "focus_shift": "养阴优先",
+      "diet_additions": [
+        "银耳",
+        "百合",
+        "麦冬",
+        "石斛",
+        "梨",
+        "蜂蜜"
+      ],
+      "diet_restrictions": [
+        "辛辣",
+        "油炸",
+        "羊肉",
+        "烧烤"
+      ]
+    },
+    {
+      "constitution_type": "阴虚质",
+      "solar_term": "清明",
+      "vulnerability_points": [
+        "阴虚+肝郁化火→阴液更不足，咽干，口苦，失眠加重"
+      ],
+      "direction_override": "养阴清肝",
+      "intensity_modifier": "强度×1.2",
+      "focus_shift": "养阴+清肝",
+      "diet_additions": [
+        "银耳",
+        "百合",
+        "麦冬",
+        "石斛",
+        "菊花"
+      ],
+      "diet_restrictions": [
+        "辛辣",
+        "油炸",
+        "羊肉",
+        "烧烤"
+      ]
+    },
+    {
+      "constitution_type": "阴虚质",
+      "solar_term": "谷雨",
+      "vulnerability_points": [
+        "阴虚+湿热→阴液更不足，咽干，口苦，小便黄，失眠加重"
+      ],
+      "direction_override": "养阴清热利湿",
+      "intensity_modifier": "强度×1.2",
+      "focus_shift": "养阴+利湿",
+      "diet_additions": [
+        "银耳",
+        "百合",
+        "麦冬",
+        "石斛",
+        "绿豆"
+      ],
+      "diet_restrictions": [
+        "辛辣",
+        "油炸",
+        "羊肉",
+        "烧烤"
+      ]
+    },
+    {
+      "constitution_type": "阴虚质",
+      "solar_term": "立夏",
+      "vulnerability_points": [
+        "阴虚+心火→阴液更不足，咽干，心悸，失眠加重"
+      ],
+      "direction_override": "养阴清心",
+      "intensity_modifier": "强度×1.3",
+      "focus_shift": "养阴+清心",
+      "diet_additions": [
+        "银耳",
+        "百合",
+        "麦冬",
+        "石斛",
+        "莲子"
+      ],
+      "diet_restrictions": [
+        "辛辣",
+        "油炸",
+        "羊肉",
+        "烧烤"
+      ]
+    },
+    {
+      "constitution_type": "阴虚质",
+      "solar_term": "小满",
+      "vulnerability_points": [
+        "阴虚+湿热→阴液更不足，咽干，小便黄，失眠加重"
+      ],
+      "direction_override": "养阴清热利湿",
+      "intensity_modifier": "强度×1.2",
+      "focus_shift": "养阴+利湿",
+      "diet_additions": [
+        "银耳",
+        "百合",
+        "麦冬",
+        "石斛",
+        "绿豆"
+      ],
+      "diet_restrictions": [
+        "辛辣",
+        "油炸",
+        "羊肉",
+        "烧烤"
+      ]
+    },
+    {
+      "constitution_type": "阴虚质",
+      "solar_term": "芒种",
+      "vulnerability_points": [
+        "阴虚+暑热→阴液最不足，咽干，心悸，失眠加重，出汗多阴液耗伤"
+      ],
+      "direction_override": "养阴生津，防暑",
+      "intensity_modifier": "强度×1.3",
+      "focus_shift": "养阴+生津",
+      "diet_additions": [
+        "银耳",
+        "百合",
+        "麦冬",
+        "石斛",
+        "梨",
+        "西瓜(少量)"
+      ],
+      "diet_restrictions": [
+        "辛辣",
+        "油炸",
+        "羊肉",
+        "烧烤",
+        "人参"
+      ]
+    },
+    {
+      "constitution_type": "阴虚质",
+      "solar_term": "夏至",
+      "vulnerability_points": [
+        "阴虚+阳极→阴液最不足，咽干，心悸，失眠最严重，出汗多阴液大量耗伤"
+      ],
+      "direction_override": "大养阴液，护阴",
+      "intensity_modifier": "强度×1.3",
+      "focus_shift": "养阴优先",
+      "diet_additions": [
+        "银耳",
+        "百合",
+        "麦冬",
+        "石斛",
+        "梨",
+        "西瓜(少量)"
+      ],
+      "diet_restrictions": [
+        "辛辣",
+        "油炸",
+        "羊肉",
+        "烧烤",
+        "人参"
+      ]
+    },
+    {
+      "constitution_type": "阴虚质",
+      "solar_term": "小暑",
+      "vulnerability_points": [
+        "阴虚+暑热→阴液最不足，咽干，心悸，失眠严重，出汗多阴液大量耗伤"
+      ],
+      "direction_override": "大养阴液，清热生津",
+      "intensity_modifier": "强度×1.3",
+      "focus_shift": "养阴优先",
+      "diet_additions": [
+        "银耳",
+        "百合",
+        "麦冬",
+        "石斛",
+        "梨",
+        "西瓜(少量)"
+      ],
+      "diet_restrictions": [
+        "辛辣",
+        "油炸",
+        "羊肉",
+        "烧烤",
+        "人参"
+      ]
+    },
+    {
+      "constitution_type": "阴虚质",
+      "solar_term": "大暑",
+      "vulnerability_points": [
+        "阴虚+暑热极盛→阴液最不足，咽干，心悸，失眠最严重，出汗极多阴液大量耗伤"
+      ],
+      "direction_override": "大养阴液，清热生津",
+      "intensity_modifier": "强度×1.3",
+      "focus_shift": "养阴优先",
+      "diet_additions": [
+        "银耳",
+        "百合",
+        "麦冬",
+        "石斛",
+        "梨",
+        "西瓜(少量)"
+      ],
+      "diet_restrictions": [
+        "辛辣",
+        "油炸",
+        "羊肉",
+        "烧烤",
+        "人参"
+      ]
+    },
+    {
+      "constitution_type": "阴虚质",
+      "solar_term": "立秋",
+      "vulnerability_points": [
+        "阴虚+秋燥→阴液最不足，咽干，皮肤干，咳嗽加重，失眠加重"
+      ],
+      "direction_override": "大养阴液，润肺",
+      "intensity_modifier": "强度×1.3",
+      "focus_shift": "养阴+润肺",
+      "diet_additions": [
+        "银耳",
+        "百合",
+        "麦冬",
+        "石斛",
+        "梨",
+        "蜂蜜"
+      ],
+      "diet_restrictions": [
+        "辛辣",
+        "油炸",
+        "羊肉",
+        "烧烤"
+      ]
+    },
+    {
+      "constitution_type": "阴虚质",
+      "solar_term": "处暑",
+      "vulnerability_points": [
+        "阴虚+秋燥→阴液最不足，咽干，皮肤干，咳嗽"
+      ],
+      "direction_override": "大养阴液，润肺",
+      "intensity_modifier": "强度×1.3",
+      "focus_shift": "养阴+润肺",
+      "diet_additions": [
+        "银耳",
+        "百合",
+        "麦冬",
+        "石斛",
+        "梨",
+        "蜂蜜"
+      ],
+      "diet_restrictions": [
+        "辛辣",
+        "油炸",
+        "羊肉",
+        "烧烤"
+      ]
+    },
+    {
+      "constitution_type": "阴虚质",
+      "solar_term": "白露",
+      "vulnerability_points": [
+        "阴虚+秋燥→阴液最不足，咽干，皮肤干，咳嗽，肺阴虚加重"
+      ],
+      "direction_override": "大养阴液，润肺固表",
+      "intensity_modifier": "强度×1.3",
+      "focus_shift": "养阴+润肺",
+      "diet_additions": [
+        "银耳",
+        "百合",
+        "麦冬",
+        "石斛",
+        "梨",
+        "蜂蜜",
+        "沙参"
+      ],
+      "diet_restrictions": [
+        "辛辣",
+        "油炸",
+        "羊肉",
+        "烧烤"
+      ]
+    },
+    {
+      "constitution_type": "阴虚质",
+      "solar_term": "秋分",
+      "vulnerability_points": [
+        "阴虚+秋燥→阴液最不足，咽干，皮肤干，咳嗽"
+      ],
+      "direction_override": "大养阴液，润肺",
+      "intensity_modifier": "强度×1.3",
+      "focus_shift": "养阴+润肺",
+      "diet_additions": [
+        "银耳",
+        "百合",
+        "麦冬",
+        "石斛",
+        "梨",
+        "蜂蜜",
+        "沙参"
+      ],
+      "diet_restrictions": [
+        "辛辣",
+        "油炸",
+        "羊肉",
+        "烧烤"
+      ]
+    },
+    {
+      "constitution_type": "阴虚质",
+      "solar_term": "寒露",
+      "vulnerability_points": [
+        "阴虚+寒邪→阴液仍不足，咽干，失眠，腰膝酸软加重"
+      ],
+      "direction_override": "养阴为主，兼顾温阳",
+      "intensity_modifier": "强度×1.1",
+      "focus_shift": "养阴+温阳",
+      "diet_additions": [
+        "银耳",
+        "百合",
+        "麦冬",
+        "石斛",
+        "桂圆"
+      ],
+      "diet_restrictions": [
+        "辛辣",
+        "油炸",
+        "羊肉",
+        "烧烤"
+      ]
+    },
+    {
+      "constitution_type": "阴虚质",
+      "solar_term": "霜降",
+      "vulnerability_points": [
+        "阴虚+寒邪→阴液仍不足，咽干，失眠，腰膝酸软"
+      ],
+      "direction_override": "养阴为主，兼顾温阳",
+      "intensity_modifier": "强度×1.1",
+      "focus_shift": "养阴+温阳",
+      "diet_additions": [
+        "银耳",
+        "百合",
+        "麦冬",
+        "石斛",
+        "桂圆",
+        "山药"
+      ],
+      "diet_restrictions": [
+        "辛辣",
+        "油炸",
+        "羊肉",
+        "烧烤"
+      ]
+    },
+    {
+      "constitution_type": "阴虚质",
+      "solar_term": "立冬",
+      "vulnerability_points": [
+        "阴虚+寒邪→阴液仍不足，咽干，腰膝酸软，肾阴虚加重"
+      ],
+      "direction_override": "养阴固精，兼顾温阳",
+      "intensity_modifier": "强度×1.1",
+      "focus_shift": "养阴+温阳",
+      "diet_additions": [
+        "银耳",
+        "百合",
+        "麦冬",
+        "石斛",
+        "桂圆",
+        "山药"
+      ],
+      "diet_restrictions": [
+        "辛辣",
+        "油炸",
+        "羊肉",
+        "烧烤"
+      ]
+    },
+    {
+      "constitution_type": "阴虚质",
+      "solar_term": "小雪",
+      "vulnerability_points": [
+        "阴虚+寒邪深侵→阴液仍不足，咽干，腰膝酸软，肾阴虚加重"
+      ],
+      "direction_override": "养阴固精，兼顾温阳",
+      "intensity_modifier": "强度×1.1",
+      "focus_shift": "养阴+温阳",
+      "diet_additions": [
+        "银耳",
+        "百合",
+        "麦冬",
+        "石斛",
+        "桂圆",
+        "山药"
+      ],
+      "diet_restrictions": [
+        "辛辣",
+        "油炸",
+        "羊肉",
+        "烧烤"
+      ]
+    },
+    {
+      "constitution_type": "阴虚质",
+      "solar_term": "大雪",
+      "vulnerability_points": [
+        "阴虚+寒邪极盛→阴液仍不足，咽干，腰膝酸软，肾阴虚加重"
+      ],
+      "direction_override": "养阴固精，兼顾温阳",
+      "intensity_modifier": "强度×1.1",
+      "focus_shift": "养阴+温阳",
+      "diet_additions": [
+        "银耳",
+        "百合",
+        "麦冬",
+        "石斛",
+        "桂圆",
+        "山药"
+      ],
+      "diet_restrictions": [
+        "辛辣",
+        "油炸",
+        "羊肉",
+        "烧烤"
+      ]
+    },
+    {
+      "constitution_type": "阴虚质",
+      "solar_term": "冬至",
+      "vulnerability_points": [
+        "阴虚+阴极→阴液最不足，咽干，腰膝酸软，肾阴虚加重"
+      ],
+      "direction_override": "大养阴液，固精",
+      "intensity_modifier": "强度×1.3",
+      "focus_shift": "养阴优先",
+      "diet_additions": [
+        "银耳",
+        "百合",
+        "麦冬",
+        "石斛",
+        "桂圆",
+        "山药"
+      ],
+      "diet_restrictions": [
+        "辛辣",
+        "油炸",
+        "羊肉",
+        "烧烤"
+      ]
+    },
+    {
+      "constitution_type": "阴虚质",
+      "solar_term": "小寒",
+      "vulnerability_points": [
+        "阴虚+寒邪→阴液仍不足，咽干，腰膝酸软"
+      ],
+      "direction_override": "养阴固精，兼顾温阳",
+      "intensity_modifier": "强度×1.1",
+      "focus_shift": "养阴+温阳",
+      "diet_additions": [
+        "银耳",
+        "百合",
+        "麦冬",
+        "石斛",
+        "桂圆",
+        "山药"
+      ],
+      "diet_restrictions": [
+        "辛辣",
+        "油炸",
+        "羊肉",
+        "烧烤"
+      ]
+    },
+    {
+      "constitution_type": "阴虚质",
+      "solar_term": "大寒",
+      "vulnerability_points": [
+        "阴虚+寒邪极盛→阴液仍不足，咽干，腰膝酸软，肾阴虚加重"
+      ],
+      "direction_override": "养阴固精，兼顾温阳",
+      "intensity_modifier": "强度×1.1",
+      "focus_shift": "养阴+温阳",
+      "diet_additions": [
+        "银耳",
+        "百合",
+        "麦冬",
+        "石斛",
+        "桂圆",
+        "山药"
+      ],
+      "diet_restrictions": [
+        "辛辣",
+        "油炸",
+        "羊肉",
+        "烧烤"
+      ]
+    },
+    {
+      "constitution_type": "痰湿质",
+      "solar_term": "立春",
+      "vulnerability_points": [
+        "痰湿+春寒→湿气更重，腹胀纳差大便黏腻，关节沉重，易感冒"
+      ],
+      "direction_override": "化痰祛湿为主，疏肝为辅",
+      "intensity_modifier": "强度×1.3",
+      "focus_shift": "化湿优先于疏肝",
+      "diet_additions": [
+        "薏米",
+        "赤小豆",
+        "陈皮",
+        "茯苓",
+        "白扁豆"
+      ],
+      "diet_restrictions": [
+        "生冷",
+        "油腻",
+        "甜食",
+        "糯米",
+        "肥肉"
+      ]
+    },
+    {
+      "constitution_type": "痰湿质",
+      "solar_term": "雨水",
+      "vulnerability_points": [
+        "痰湿+湿困→最重，腹胀纳差大便黏腻加重，关节沉重浮肿"
+      ],
+      "direction_override": "大化痰湿为主",
+      "intensity_modifier": "强度×1.3",
+      "focus_shift": "化湿优先",
+      "diet_additions": [
+        "薏米",
+        "赤小豆",
+        "陈皮",
+        "茯苓",
+        "冬瓜"
+      ],
+      "diet_restrictions": [
+        "生冷",
+        "油腻",
+        "甜食",
+        "糯米",
+        "肥肉",
+        "寒性水果"
+      ]
+    },
+    {
+      "constitution_type": "痰湿质",
+      "solar_term": "惊蛰",
+      "vulnerability_points": [
+        "痰湿+昼夜温差大→湿气更重，腹胀纳差，感冒易发"
+      ],
+      "direction_override": "化痰祛湿为主",
+      "intensity_modifier": "强度×1.3",
+      "focus_shift": "化湿优先",
+      "diet_additions": [
+        "薏米",
+        "赤小豆",
+        "陈皮",
+        "茯苓",
+        "冬瓜"
+      ],
+      "diet_restrictions": [
+        "生冷",
+        "油腻",
+        "甜食",
+        "糯米",
+        "肥肉"
+      ]
+    },
+    {
+      "constitution_type": "痰湿质",
+      "solar_term": "春分",
+      "vulnerability_points": [
+        "痰湿+肝旺→湿困更重，腹胀纳差大便黏腻"
+      ],
+      "direction_override": "化痰祛湿为主，疏肝为辅",
+      "intensity_modifier": "强度×1.3",
+      "focus_shift": "化湿优先",
+      "diet_additions": [
+        "薏米",
+        "赤小豆",
+        "陈皮",
+        "茯苓",
+        "白扁豆"
+      ],
+      "diet_restrictions": [
+        "生冷",
+        "油腻",
+        "甜食",
+        "糯米",
+        "肥肉"
+      ]
+    },
+    {
+      "constitution_type": "痰湿质",
+      "solar_term": "清明",
+      "vulnerability_points": [
+        "痰湿+肝郁化火→湿困更重，腹胀纳差口苦"
+      ],
+      "direction_override": "化痰祛湿，清肝",
+      "intensity_modifier": "强度×1.2",
+      "focus_shift": "化湿+清肝",
+      "diet_additions": [
+        "薏米",
+        "赤小豆",
+        "陈皮",
+        "茯苓",
+        "菊花"
+      ],
+      "diet_restrictions": [
+        "生冷",
+        "油腻",
+        "甜食",
+        "糯米",
+        "肥肉"
+      ]
+    },
+    {
+      "constitution_type": "痰湿质",
+      "solar_term": "谷雨",
+      "vulnerability_points": [
+        "痰湿+湿热→湿困最重，腹胀纳差口苦小便黄，关节沉重"
+      ],
+      "direction_override": "大化痰湿清热",
+      "intensity_modifier": "强度×1.3",
+      "focus_shift": "化湿+清热",
+      "diet_additions": [
+        "薏米",
+        "赤小豆",
+        "陈皮",
+        "茯苓",
+        "冬瓜",
+        "绿豆"
+      ],
+      "diet_restrictions": [
+        "生冷",
+        "油腻",
+        "甜食",
+        "糯米",
+        "肥肉",
+        "寒性水果"
+      ]
+    },
+    {
+      "constitution_type": "痰湿质",
+      "solar_term": "立夏",
+      "vulnerability_points": [
+        "痰湿+心火→湿困更重，腹胀纳差心悸，湿热内生加重"
+      ],
+      "direction_override": "化痰祛湿，清心",
+      "intensity_modifier": "强度×1.2",
+      "focus_shift": "化湿+清心",
+      "diet_additions": [
+        "薏米",
+        "赤小豆",
+        "陈皮",
+        "茯苓",
+        "莲子"
+      ],
+      "diet_restrictions": [
+        "生冷",
+        "油腻",
+        "甜食",
+        "糯米",
+        "肥肉"
+      ]
+    },
+    {
+      "constitution_type": "痰湿质",
+      "solar_term": "小满",
+      "vulnerability_points": [
+        "痰湿+湿热→湿困最重，腹胀纳差口苦小便黄"
+      ],
+      "direction_override": "大化痰湿清热",
+      "intensity_modifier": "强度×1.3",
+      "focus_shift": "化湿+清热",
+      "diet_additions": [
+        "薏米",
+        "赤小豆",
+        "陈皮",
+        "茯苓",
+        "冬瓜",
+        "绿豆"
+      ],
+      "diet_restrictions": [
+        "生冷",
+        "油腻",
+        "甜食",
+        "糯米",
+        "肥肉",
+        "寒性水果"
+      ]
+    },
+    {
+      "constitution_type": "痰湿质",
+      "solar_term": "芒种",
+      "vulnerability_points": [
+        "痰湿+暑热→湿困最重，腹胀纳差口苦乏力，暑湿困脾加重"
+      ],
+      "direction_override": "大化痰湿清热，防暑",
+      "intensity_modifier": "强度×1.3",
+      "focus_shift": "化湿+清热",
+      "diet_additions": [
+        "薏米",
+        "赤小豆",
+        "陈皮",
+        "茯苓",
+        "冬瓜",
+        "荷叶"
+      ],
+      "diet_restrictions": [
+        "生冷",
+        "油腻",
+        "甜食",
+        "糯米",
+        "肥肉",
+        "寒性水果"
+      ]
+    },
+    {
+      "constitution_type": "痰湿质",
+      "solar_term": "夏至",
+      "vulnerability_points": [
+        "痰湿+阳极→湿困最重，腹胀纳差乏力，暑湿困脾加重"
+      ],
+      "direction_override": "大化痰湿，防暑",
+      "intensity_modifier": "强度×1.3",
+      "focus_shift": "化湿优先",
+      "diet_additions": [
+        "薏米",
+        "赤小豆",
+        "陈皮",
+        "茯苓",
+        "冬瓜",
+        "荷叶"
+      ],
+      "diet_restrictions": [
+        "生冷",
+        "油腻",
+        "甜食",
+        "糯米",
+        "肥肉",
+        "寒性水果"
+      ]
+    },
+    {
+      "constitution_type": "痰湿质",
+      "solar_term": "小暑",
+      "vulnerability_points": [
+        "痰湿+暑热→湿困最重，腹胀纳差口苦乏力，暑湿困脾极重"
+      ],
+      "direction_override": "大化痰湿清热",
+      "intensity_modifier": "强度×1.3",
+      "focus_shift": "化湿+清热",
+      "diet_additions": [
+        "薏米",
+        "赤小豆",
+        "陈皮",
+        "茯苓",
+        "冬瓜",
+        "荷叶",
+        "苦瓜"
+      ],
+      "diet_restrictions": [
+        "生冷",
+        "油腻",
+        "甜食",
+        "糯米",
+        "肥肉",
+        "寒性水果"
+      ]
+    },
+    {
+      "constitution_type": "痰湿质",
+      "solar_term": "大暑",
+      "vulnerability_points": [
+        "痰湿+暑热极盛→湿困最重，腹胀纳差口苦乏力，暑湿困脾极重"
+      ],
+      "direction_override": "大化痰湿清热",
+      "intensity_modifier": "强度×1.3",
+      "focus_shift": "化湿+清热",
+      "diet_additions": [
+        "薏米",
+        "赤小豆",
+        "陈皮",
+        "茯苓",
+        "冬瓜",
+        "荷叶",
+        "苦瓜"
+      ],
+      "diet_restrictions": [
+        "生冷",
+        "油腻",
+        "甜食",
+        "糯米",
+        "肥肉",
+        "寒性水果"
+      ]
+    },
+    {
+      "constitution_type": "痰湿质",
+      "solar_term": "立秋",
+      "vulnerability_points": [
+        "痰湿+秋燥→湿困仍重，腹胀纳差，咳嗽有痰"
+      ],
+      "direction_override": "化痰祛湿，润肺",
+      "intensity_modifier": "强度×1.2",
+      "focus_shift": "化湿+润肺",
+      "diet_additions": [
+        "薏米",
+        "赤小豆",
+        "陈皮",
+        "茯苓",
+        "银耳"
+      ],
+      "diet_restrictions": [
+        "生冷",
+        "油腻",
+        "甜食",
+        "糯米",
+        "肥肉"
+      ]
+    },
+    {
+      "constitution_type": "痰湿质",
+      "solar_term": "处暑",
+      "vulnerability_points": [
+        "痰湿+秋燥→湿困仍重，腹胀纳差，咳嗽有痰"
+      ],
+      "direction_override": "化痰祛湿，润肺",
+      "intensity_modifier": "强度×1.2",
+      "focus_shift": "化湿+润肺",
+      "diet_additions": [
+        "薏米",
+        "赤小豆",
+        "陈皮",
+        "茯苓",
+        "银耳"
+      ],
+      "diet_restrictions": [
+        "生冷",
+        "油腻",
+        "甜食",
+        "糯米",
+        "肥肉"
+      ]
+    },
+    {
+      "constitution_type": "痰湿质",
+      "solar_term": "白露",
+      "vulnerability_points": [
+        "痰湿+秋燥→湿困仍重，腹胀纳差，咳嗽有痰"
+      ],
+      "direction_override": "化痰祛湿，润肺固表",
+      "intensity_modifier": "强度×1.2",
+      "focus_shift": "化湿+润肺",
+      "diet_additions": [
+        "薏米",
+        "赤小豆",
+        "陈皮",
+        "茯苓",
+        "银耳",
+        "百合"
+      ],
+      "diet_restrictions": [
+        "生冷",
+        "油腻",
+        "甜食",
+        "糯米",
+        "肥肉"
+      ]
+    },
+    {
+      "constitution_type": "痰湿质",
+      "solar_term": "秋分",
+      "vulnerability_points": [
+        "痰湿+秋燥→湿困仍重，腹胀纳差，咳嗽有痰"
+      ],
+      "direction_override": "化痰祛湿，润肺",
+      "intensity_modifier": "强度×1.2",
+      "focus_shift": "化湿+润肺",
+      "diet_additions": [
+        "薏米",
+        "赤小豆",
+        "陈皮",
+        "茯苓",
+        "银耳",
+        "莲藕"
+      ],
+      "diet_restrictions": [
+        "生冷",
+        "油腻",
+        "甜食",
+        "糯米",
+        "肥肉"
+      ]
+    },
+    {
+      "constitution_type": "痰湿质",
+      "solar_term": "寒露",
+      "vulnerability_points": [
+        "痰湿+寒邪→湿困仍重，腹胀纳差大便黏腻，关节沉重加重"
+      ],
+      "direction_override": "温阳化痰祛湿",
+      "intensity_modifier": "强度×1.2",
+      "focus_shift": "化湿+温阳",
+      "diet_additions": [
+        "薏米",
+        "赤小豆",
+        "陈皮",
+        "茯苓",
+        "生姜",
+        "山药"
+      ],
+      "diet_restrictions": [
+        "生冷",
+        "油腻",
+        "甜食",
+        "糯米",
+        "肥肉"
+      ]
+    },
+    {
+      "constitution_type": "痰湿质",
+      "solar_term": "霜降",
+      "vulnerability_points": [
+        "痰湿+寒邪→湿困仍重，腹胀纳差大便黏腻，关节沉重"
+      ],
+      "direction_override": "温阳化痰祛湿",
+      "intensity_modifier": "强度×1.2",
+      "focus_shift": "化湿+温阳",
+      "diet_additions": [
+        "薏米",
+        "赤小豆",
+        "陈皮",
+        "茯苓",
+        "生姜",
+        "山药"
+      ],
+      "diet_restrictions": [
+        "生冷",
+        "油腻",
+        "甜食",
+        "糯米",
+        "肥肉"
+      ]
+    },
+    {
+      "constitution_type": "痰湿质",
+      "solar_term": "立冬",
+      "vulnerability_points": [
+        "痰湿+寒邪→湿困仍重，腹胀纳差大便黏腻，关节沉重"
+      ],
+      "direction_override": "温阳化痰祛湿",
+      "intensity_modifier": "强度×1.2",
+      "focus_shift": "化湿+温阳",
+      "diet_additions": [
+        "薏米",
+        "赤小豆",
+        "陈皮",
+        "茯苓",
+        "生姜",
+        "山药"
+      ],
+      "diet_restrictions": [
+        "生冷",
+        "油腻",
+        "甜食",
+        "糯米",
+        "肥肉"
+      ]
+    },
+    {
+      "constitution_type": "痰湿质",
+      "solar_term": "小雪",
+      "vulnerability_points": [
+        "痰湿+寒邪深侵→湿困仍重，腹胀纳差大便黏腻，关节沉重加重"
+      ],
+      "direction_override": "温阳化痰祛湿，固表",
+      "intensity_modifier": "强度×1.2",
+      "focus_shift": "化湿+温阳",
+      "diet_additions": [
+        "薏米",
+        "赤小豆",
+        "陈皮",
+        "茯苓",
+        "生姜",
+        "山药"
+      ],
+      "diet_restrictions": [
+        "生冷",
+        "油腻",
+        "甜食",
+        "糯米",
+        "肥肉"
+      ]
+    },
+    {
+      "constitution_type": "痰湿质",
+      "solar_term": "大雪",
+      "vulnerability_points": [
+        "痰湿+寒邪极盛→湿困仍重，腹胀纳差大便黏腻，关节沉重"
+      ],
+      "direction_override": "温阳化痰祛湿，护心",
+      "intensity_modifier": "强度×1.2",
+      "focus_shift": "化湿+温阳",
+      "diet_additions": [
+        "薏米",
+        "赤小豆",
+        "陈皮",
+        "茯苓",
+        "生姜",
+        "山药"
+      ],
+      "diet_restrictions": [
+        "生冷",
+        "油腻",
+        "甜食",
+        "糯米",
+        "肥肉"
+      ]
+    },
+    {
+      "constitution_type": "痰湿质",
+      "solar_term": "冬至",
+      "vulnerability_points": [
+        "痰湿+阴极→湿困仍重，腹胀纳差大便黏腻，关节沉重"
+      ],
+      "direction_override": "温阳化痰祛湿，固精",
+      "intensity_modifier": "强度×1.2",
+      "focus_shift": "化湿+温阳",
+      "diet_additions": [
+        "薏米",
+        "赤小豆",
+        "陈皮",
+        "茯苓",
+        "生姜",
+        "山药"
+      ],
+      "diet_restrictions": [
+        "生冷",
+        "油腻",
+        "甜食",
+        "糯米",
+        "肥肉"
+      ]
+    },
+    {
+      "constitution_type": "痰湿质",
+      "solar_term": "小寒",
+      "vulnerability_points": [
+        "痰湿+寒邪→湿困仍重，腹胀纳差大便黏腻，关节沉重"
+      ],
+      "direction_override": "温阳化痰祛湿",
+      "intensity_modifier": "强度×1.2",
+      "focus_shift": "化湿+温阳",
+      "diet_additions": [
+        "薏米",
+        "赤小豆",
+        "陈皮",
+        "茯苓",
+        "生姜",
+        "山药"
+      ],
+      "diet_restrictions": [
+        "生冷",
+        "油腻",
+        "甜食",
+        "糯米",
+        "肥肉"
+      ]
+    },
+    {
+      "constitution_type": "痰湿质",
+      "solar_term": "大寒",
+      "vulnerability_points": [
+        "痰湿+寒邪极盛→湿困仍重，腹胀纳差大便黏腻，关节沉重"
+      ],
+      "direction_override": "温阳化痰祛湿，驱寒",
+      "intensity_modifier": "强度×1.2",
+      "focus_shift": "化湿+温阳",
+      "diet_additions": [
+        "薏米",
+        "赤小豆",
+        "陈皮",
+        "茯苓",
+        "生姜",
+        "山药"
+      ],
+      "diet_restrictions": [
+        "生冷",
+        "油腻",
+        "甜食",
+        "糯米",
+        "肥肉"
+      ]
+    },
+    {
+      "constitution_type": "湿热质",
+      "solar_term": "立春",
+      "vulnerability_points": [
+        "湿热+春寒→湿热困脾，口苦小便黄腹胀，易长痘，大便黏腻"
+      ],
+      "direction_override": "清热利湿为主，疏肝为辅",
+      "intensity_modifier": "强度×1.3",
+      "focus_shift": "清热利湿优先于疏肝",
+      "diet_additions": [
+        "绿豆",
+        "薏米",
+        "赤小豆",
+        "冬瓜",
+        "苦瓜"
+      ],
+      "diet_restrictions": [
+        "辛辣",
+        "油炸",
+        "烧烤",
+        "羊肉",
+        "甜食",
+        "酒精"
+      ]
+    },
+    {
+      "constitution_type": "湿热质",
+      "solar_term": "雨水",
+      "vulnerability_points": [
+        "湿热+湿困→最重，口苦小便黄腹胀加重，长痘加重，大便黏腻加重"
+      ],
+      "direction_override": "大清湿热为主",
+      "intensity_modifier": "强度×1.3",
+      "focus_shift": "清热利湿优先",
+      "diet_additions": [
+        "绿豆",
+        "薏米",
+        "赤小豆",
+        "冬瓜",
+        "苦瓜",
+        "薏仁"
+      ],
+      "diet_restrictions": [
+        "辛辣",
+        "油炸",
+        "烧烤",
+        "羊肉",
+        "甜食",
+        "酒精",
+        "寒性水果"
+      ]
+    },
+    {
+      "constitution_type": "湿热质",
+      "solar_term": "惊蛰",
+      "vulnerability_points": [
+        "湿热+昼夜温差大→湿热困脾，口苦腹胀，长痘"
+      ],
+      "direction_override": "清热利湿为主",
+      "intensity_modifier": "强度×1.3",
+      "focus_shift": "清热利湿优先",
+      "diet_additions": [
+        "绿豆",
+        "薏米",
+        "赤小豆",
+        "冬瓜",
+        "苦瓜"
+      ],
+      "diet_restrictions": [
+        "辛辣",
+        "油炸",
+        "烧烤",
+        "羊肉",
+        "甜食",
+        "酒精"
+      ]
+    },
+    {
+      "constitution_type": "湿热质",
+      "solar_term": "春分",
+      "vulnerability_points": [
+        "湿热+肝旺→湿热困脾，口苦腹胀长痘，大便黏腻"
+      ],
+      "direction_override": "清热利湿为主，疏肝为辅",
+      "intensity_modifier": "强度×1.3",
+      "focus_shift": "清热利湿优先",
+      "diet_additions": [
+        "绿豆",
+        "薏米",
+        "赤小豆",
+        "冬瓜",
+        "苦瓜"
+      ],
+      "diet_restrictions": [
+        "辛辣",
+        "油炸",
+        "烧烤",
+        "羊肉",
+        "甜食",
+        "酒精"
+      ]
+    },
+    {
+      "constitution_type": "湿热质",
+      "solar_term": "清明",
+      "vulnerability_points": [
+        "湿热+肝郁化火→湿热最重，口苦腹胀长痘加重，小便黄失眠"
+      ],
+      "direction_override": "清热利湿，清肝",
+      "intensity_modifier": "强度×1.3",
+      "focus_shift": "清热利湿+清肝",
+      "diet_additions": [
+        "绿豆",
+        "薏米",
+        "赤小豆",
+        "冬瓜",
+        "苦瓜",
+        "菊花"
+      ],
+      "diet_restrictions": [
+        "辛辣",
+        "油炸",
+        "烧烤",
+        "羊肉",
+        "甜食",
+        "酒精"
+      ]
+    },
+    {
+      "constitution_type": "湿热质",
+      "solar_term": "谷雨",
+      "vulnerability_points": [
+        "湿热+湿热→湿热最重，口苦腹胀长痘严重，小便黄大便黏腻"
+      ],
+      "direction_override": "大清湿热",
+      "intensity_modifier": "强度×1.3",
+      "focus_shift": "清热利湿优先",
+      "diet_additions": [
+        "绿豆",
+        "薏米",
+        "赤小豆",
+        "冬瓜",
+        "苦瓜",
+        "绿豆"
+      ],
+      "diet_restrictions": [
+        "辛辣",
+        "油炸",
+        "烧烤",
+        "羊肉",
+        "甜食",
+        "酒精",
+        "寒性水果"
+      ]
+    },
+    {
+      "constitution_type": "湿热质",
+      "solar_term": "立夏",
+      "vulnerability_points": [
+        "湿热+心火→湿热最重，口苦心悸长痘严重，小便黄失眠"
+      ],
+      "direction_override": "清热利湿，清心",
+      "intensity_modifier": "强度×1.3",
+      "focus_shift": "清热利湿+清心",
+      "diet_additions": [
+        "绿豆",
+        "薏米",
+        "赤小豆",
+        "冬瓜",
+        "苦瓜",
+        "莲子"
+      ],
+      "diet_restrictions": [
+        "辛辣",
+        "油炸",
+        "烧烤",
+        "羊肉",
+        "甜食",
+        "酒精"
+      ]
+    },
+    {
+      "constitution_type": "湿热质",
+      "solar_term": "小满",
+      "vulnerability_points": [
+        "湿热+湿热→湿热最重，口苦腹胀长痘严重，小便黄大便黏腻"
+      ],
+      "direction_override": "大清湿热",
+      "intensity_modifier": "强度×1.3",
+      "focus_shift": "清热利湿优先",
+      "diet_additions": [
+        "绿豆",
+        "薏米",
+        "赤小豆",
+        "冬瓜",
+        "苦瓜",
+        "绿豆"
+      ],
+      "diet_restrictions": [
+        "辛辣",
+        "油炸",
+        "烧烤",
+        "羊肉",
+        "甜食",
+        "酒精",
+        "寒性水果"
+      ]
+    },
+    {
+      "constitution_type": "湿热质",
+      "solar_term": "芒种",
+      "vulnerability_points": [
+        "湿热+暑热→湿热最重，口苦腹胀长痘严重，小便黄乏力"
+      ],
+      "direction_override": "大清湿热，防暑",
+      "intensity_modifier": "强度×1.3",
+      "focus_shift": "清热利湿优先",
+      "diet_additions": [
+        "绿豆",
+        "薏米",
+        "赤小豆",
+        "冬瓜",
+        "苦瓜",
+        "荷叶"
+      ],
+      "diet_restrictions": [
+        "辛辣",
+        "油炸",
+        "烧烤",
+        "羊肉",
+        "甜食",
+        "酒精",
+        "寒性水果"
+      ]
+    },
+    {
+      "constitution_type": "湿热质",
+      "solar_term": "夏至",
+      "vulnerability_points": [
+        "湿热+阳极→湿热最重，口苦腹胀长痘严重，小便黄乏力"
+      ],
+      "direction_override": "大清湿热，防暑",
+      "intensity_modifier": "强度×1.3",
+      "focus_shift": "清热利湿优先",
+      "diet_additions": [
+        "绿豆",
+        "薏米",
+        "赤小豆",
+        "冬瓜",
+        "苦瓜",
+        "荷叶"
+      ],
+      "diet_restrictions": [
+        "辛辣",
+        "油炸",
+        "烧烤",
+        "羊肉",
+        "甜食",
+        "酒精",
+        "寒性水果"
+      ]
+    },
+    {
+      "constitution_type": "湿热质",
+      "solar_term": "小暑",
+      "vulnerability_points": [
+        "湿热+暑热→湿热最重，口苦腹胀长痘严重，小便黄乏力，暑湿困脾极重"
+      ],
+      "direction_override": "大清湿热清热",
+      "intensity_modifier": "强度×1.3",
+      "focus_shift": "清热利湿优先",
+      "diet_additions": [
+        "绿豆",
+        "薏米",
+        "赤小豆",
+        "冬瓜",
+        "苦瓜",
+        "荷叶",
+        "丝瓜"
+      ],
+      "diet_restrictions": [
+        "辛辣",
+        "油炸",
+        "烧烤",
+        "羊肉",
+        "甜食",
+        "酒精",
+        "寒性水果"
+      ]
+    },
+    {
+      "constitution_type": "湿热质",
+      "solar_term": "大暑",
+      "vulnerability_points": [
+        "湿热+暑热极盛→湿热最重，口苦腹胀长痘严重，小便黄乏力，暑湿困脾极重"
+      ],
+      "direction_override": "大清湿热清热",
+      "intensity_modifier": "强度×1.3",
+      "focus_shift": "清热利湿优先",
+      "diet_additions": [
+        "绿豆",
+        "薏米",
+        "赤小豆",
+        "冬瓜",
+        "苦瓜",
+        "荷叶",
+        "丝瓜"
+      ],
+      "diet_restrictions": [
+        "辛辣",
+        "油炸",
+        "烧烤",
+        "羊肉",
+        "甜食",
+        "酒精",
+        "寒性水果"
+      ]
+    },
+    {
+      "constitution_type": "湿热质",
+      "solar_term": "立秋",
+      "vulnerability_points": [
+        "湿热+秋燥→湿热仍重，口苦腹胀长痘，咳嗽有痰"
+      ],
+      "direction_override": "清热利湿，润肺",
+      "intensity_modifier": "强度×1.2",
+      "focus_shift": "清热利湿+润肺",
+      "diet_additions": [
+        "绿豆",
+        "薏米",
+        "赤小豆",
+        "冬瓜",
+        "苦瓜",
+        "银耳"
+      ],
+      "diet_restrictions": [
+        "辛辣",
+        "油炸",
+        "烧烤",
+        "羊肉",
+        "甜食",
+        "酒精"
+      ]
+    },
+    {
+      "constitution_type": "湿热质",
+      "solar_term": "处暑",
+      "vulnerability_points": [
+        "湿热+秋燥→湿热仍重，口苦腹胀长痘，咳嗽有痰"
+      ],
+      "direction_override": "清热利湿，润肺",
+      "intensity_modifier": "强度×1.2",
+      "focus_shift": "清热利湿+润肺",
+      "diet_additions": [
+        "绿豆",
+        "薏米",
+        "赤小豆",
+        "冬瓜",
+        "苦瓜",
+        "银耳"
+      ],
+      "diet_restrictions": [
+        "辛辣",
+        "油炸",
+        "烧烤",
+        "羊肉",
+        "甜食",
+        "酒精"
+      ]
+    },
+    {
+      "constitution_type": "湿热质",
+      "solar_term": "白露",
+      "vulnerability_points": [
+        "湿热+秋燥→湿热仍重，口苦腹胀长痘，咳嗽有痰"
+      ],
+      "direction_override": "清热利湿，润肺固表",
+      "intensity_modifier": "强度×1.2",
+      "focus_shift": "清热利湿+润肺",
+      "diet_additions": [
+        "绿豆",
+        "薏米",
+        "赤小豆",
+        "冬瓜",
+        "苦瓜",
+        "银耳",
+        "百合"
+      ],
+      "diet_restrictions": [
+        "辛辣",
+        "油炸",
+        "烧烤",
+        "羊肉",
+        "甜食",
+        "酒精"
+      ]
+    },
+    {
+      "constitution_type": "湿热质",
+      "solar_term": "秋分",
+      "vulnerability_points": [
+        "湿热+秋燥→湿热仍重，口苦腹胀长痘，咳嗽有痰"
+      ],
+      "direction_override": "清热利湿，润肺",
+      "intensity_modifier": "强度×1.2",
+      "focus_shift": "清热利湿+润肺",
+      "diet_additions": [
+        "绿豆",
+        "薏米",
+        "赤小豆",
+        "冬瓜",
+        "苦瓜",
+        "银耳",
+        "莲藕"
+      ],
+      "diet_restrictions": [
+        "辛辣",
+        "油炸",
+        "烧烤",
+        "羊肉",
+        "甜食",
+        "酒精"
+      ]
+    },
+    {
+      "constitution_type": "湿热质",
+      "solar_term": "寒露",
+      "vulnerability_points": [
+        "湿热+寒邪→湿热仍重，口苦腹胀长痘，关节沉重"
+      ],
+      "direction_override": "清热利湿，温阳",
+      "intensity_modifier": "强度×1.1",
+      "focus_shift": "清热利湿+温阳",
+      "diet_additions": [
+        "绿豆",
+        "薏米",
+        "赤小豆",
+        "冬瓜",
+        "苦瓜",
+        "生姜"
+      ],
+      "diet_restrictions": [
+        "辛辣",
+        "油炸",
+        "烧烤",
+        "羊肉",
+        "甜食",
+        "酒精"
+      ]
+    },
+    {
+      "constitution_type": "湿热质",
+      "solar_term": "霜降",
+      "vulnerability_points": [
+        "湿热+寒邪→湿热仍重，口苦腹胀长痘，关节沉重"
+      ],
+      "direction_override": "清热利湿，温阳",
+      "intensity_modifier": "强度×1.1",
+      "focus_shift": "清热利湿+温阳",
+      "diet_additions": [
+        "绿豆",
+        "薏米",
+        "赤小豆",
+        "冬瓜",
+        "苦瓜",
+        "生姜"
+      ],
+      "diet_restrictions": [
+        "辛辣",
+        "油炸",
+        "烧烤",
+        "羊肉",
+        "甜食",
+        "酒精"
+      ]
+    },
+    {
+      "constitution_type": "湿热质",
+      "solar_term": "立冬",
+      "vulnerability_points": [
+        "湿热+寒邪→湿热仍重，口苦腹胀长痘，关节沉重"
+      ],
+      "direction_override": "清热利湿，温阳",
+      "intensity_modifier": "强度×1.1",
+      "focus_shift": "清热利湿+温阳",
+      "diet_additions": [
+        "绿豆",
+        "薏米",
+        "赤小豆",
+        "冬瓜",
+        "苦瓜",
+        "生姜"
+      ],
+      "diet_restrictions": [
+        "辛辣",
+        "油炸",
+        "烧烤",
+        "羊肉",
+        "甜食",
+        "酒精"
+      ]
+    },
+    {
+      "constitution_type": "湿热质",
+      "solar_term": "小雪",
+      "vulnerability_points": [
+        "湿热+寒邪深侵→湿热仍重，口苦腹胀长痘，关节沉重"
+      ],
+      "direction_override": "清热利湿，温阳固表",
+      "intensity_modifier": "强度×1.1",
+      "focus_shift": "清热利湿+温阳",
+      "diet_additions": [
+        "绿豆",
+        "薏米",
+        "赤小豆",
+        "冬瓜",
+        "苦瓜",
+        "生姜"
+      ],
+      "diet_restrictions": [
+        "辛辣",
+        "油炸",
+        "烧烤",
+        "羊肉",
+        "甜食",
+        "酒精"
+      ]
+    },
+    {
+      "constitution_type": "湿热质",
+      "solar_term": "大雪",
+      "vulnerability_points": [
+        "湿热+寒邪极盛→湿热仍重，口苦腹胀长痘，关节沉重"
+      ],
+      "direction_override": "清热利湿，温阳护心",
+      "intensity_modifier": "强度×1.1",
+      "focus_shift": "清热利湿+温阳",
+      "diet_additions": [
+        "绿豆",
+        "薏米",
+        "赤小豆",
+        "冬瓜",
+        "苦瓜",
+        "生姜"
+      ],
+      "diet_restrictions": [
+        "辛辣",
+        "油炸",
+        "烧烤",
+        "羊肉",
+        "甜食",
+        "酒精"
+      ]
+    },
+    {
+      "constitution_type": "湿热质",
+      "solar_term": "冬至",
+      "vulnerability_points": [
+        "湿热+阴极→湿热仍重，口苦腹胀长痘，关节沉重"
+      ],
+      "direction_override": "清热利湿，温阳固精",
+      "intensity_modifier": "强度×1.1",
+      "focus_shift": "清热利湿+温阳",
+      "diet_additions": [
+        "绿豆",
+        "薏米",
+        "赤小豆",
+        "冬瓜",
+        "苦瓜",
+        "生姜"
+      ],
+      "diet_restrictions": [
+        "辛辣",
+        "油炸",
+        "烧烤",
+        "羊肉",
+        "甜食",
+        "酒精"
+      ]
+    },
+    {
+      "constitution_type": "湿热质",
+      "solar_term": "小寒",
+      "vulnerability_points": [
+        "湿热+寒邪→湿热仍重，口苦腹胀长痘，关节沉重"
+      ],
+      "direction_override": "清热利湿，温阳",
+      "intensity_modifier": "强度×1.1",
+      "focus_shift": "清热利湿+温阳",
+      "diet_additions": [
+        "绿豆",
+        "薏米",
+        "赤小豆",
+        "冬瓜",
+        "苦瓜",
+        "生姜"
+      ],
+      "diet_restrictions": [
+        "辛辣",
+        "油炸",
+        "烧烤",
+        "羊肉",
+        "甜食",
+        "酒精"
+      ]
+    },
+    {
+      "constitution_type": "湿热质",
+      "solar_term": "大寒",
+      "vulnerability_points": [
+        "湿热+寒邪极盛→湿热仍重，口苦腹胀长痘，关节沉重"
+      ],
+      "direction_override": "清热利湿，温阳驱寒",
+      "intensity_modifier": "强度×1.1",
+      "focus_shift": "清热利湿+温阳",
+      "diet_additions": [
+        "绿豆",
+        "薏米",
+        "赤小豆",
+        "冬瓜",
+        "苦瓜",
+        "生姜"
+      ],
+      "diet_restrictions": [
+        "辛辣",
+        "油炸",
+        "烧烤",
+        "羊肉",
+        "甜食",
+        "酒精"
+      ]
+    },
+    {
+      "constitution_type": "平和质",
+      "solar_term": "立春",
+      "vulnerability_points": [
+        "平和体质，春季肝木当令，注意调畅情志，防寒邪未尽"
+      ],
+      "direction_override": "养肝护阳，疏肝解郁，防风防寒",
+      "intensity_modifier": "强度×1.0",
+      "focus_shift": "遵循节气标准方向",
+      "diet_additions": [
+        "韭菜",
+        "菠菜",
+        "生姜",
+        "山药",
+        "大枣",
+        "胡萝卜",
+        "葱"
+      ],
+      "diet_restrictions": [
+        "生冷",
+        "寒性水果"
+      ]
+    },
+    {
+      "constitution_type": "平和质",
+      "solar_term": "雨水",
+      "vulnerability_points": [
+        "平和体质，雨水湿气加重，注意健脾祛湿"
+      ],
+      "direction_override": "疏肝健脾，祛湿化浊，防湿困脾",
+      "intensity_modifier": "强度×1.0",
+      "focus_shift": "遵循节气标准方向",
+      "diet_additions": [
+        "山药",
+        "薏米",
+        "茯苓",
+        "大枣",
+        "豌豆",
+        "蚕豆",
+        "韭菜"
+      ],
+      "diet_restrictions": [
+        "生冷",
+        "油腻",
+        "寒性水果"
+      ]
+    },
+    {
+      "constitution_type": "平和质",
+      "solar_term": "惊蛰",
+      "vulnerability_points": [
+        "平和体质，昼夜温差大，注意调节适应，防春燥伤肺"
+      ],
+      "direction_override": "护肝养脾，防春燥，调节昼夜温差适应",
+      "intensity_modifier": "强度×1.0",
+      "focus_shift": "遵循节气标准方向",
+      "diet_additions": [
+        "银耳",
+        "百合",
+        "梨",
+        "山药",
+        "大枣",
+        "蜂蜜",
+        "菠菜"
+      ],
+      "diet_restrictions": [
+        "辛辣",
+        "寒性水果"
+      ]
+    },
+    {
+      "constitution_type": "平和质",
+      "solar_term": "春分",
+      "vulnerability_points": [
+        "平和体质，阴阳平衡，注意调和气血"
+      ],
+      "direction_override": "疏肝养脾，调和气血，顺应阴阳平衡",
+      "intensity_modifier": "强度×1.0",
+      "focus_shift": "遵循节气标准方向",
+      "diet_additions": [
+        "菠菜",
+        "韭菜",
+        "山药",
+        "大枣",
+        "胡萝卜",
+        "荠菜",
+        "豌豆"
+      ],
+      "diet_restrictions": [
+        "生冷",
+        "寒性水果"
+      ]
+    },
+    {
+      "constitution_type": "平和质",
+      "solar_term": "清明",
+      "vulnerability_points": [
+        "平和体质，阳气升发，注意疏肝清心，防肝郁化火"
+      ],
+      "direction_override": "疏肝健脾，清心火，防肝郁化火",
+      "intensity_modifier": "强度×1.0",
+      "focus_shift": "遵循节气标准方向",
+      "diet_additions": [
+        "菊花",
+        "菠菜",
+        "山药",
+        "大枣",
+        "胡萝卜",
+        "芹菜",
+        "豌豆"
+      ],
+      "diet_restrictions": [
+        "辛辣",
+        "油腻",
+        "寒性水果"
+      ]
+    },
+    {
+      "constitution_type": "平和质",
+      "solar_term": "谷雨",
+      "vulnerability_points": [
+        "平和体质，湿热渐生，注意化湿清心"
+      ],
+      "direction_override": "疏肝健脾，化湿清心，防湿热内生",
+      "intensity_modifier": "强度×1.0",
+      "focus_shift": "遵循节气标准方向",
+      "diet_additions": [
+        "绿豆",
+        "薏米",
+        "山药",
+        "大枣",
+        "冬瓜",
+        "豌豆",
+        "豇豆"
+      ],
+      "diet_restrictions": [
+        "生冷",
+        "油腻",
+        "寒性水果"
+      ]
+    },
+    {
+      "constitution_type": "平和质",
+      "solar_term": "立夏",
+      "vulnerability_points": [
+        "平和体质，心火当令，注意养心护阳，清心火"
+      ],
+      "direction_override": "养心护阳，清心火，健脾化湿",
+      "intensity_modifier": "强度×1.0",
+      "focus_shift": "遵循节气标准方向",
+      "diet_additions": [
+        "莲子",
+        "百合",
+        "绿豆",
+        "冬瓜",
+        "山药",
+        "大枣",
+        "黄瓜"
+      ],
+      "diet_restrictions": [
+        "辛辣",
+        "油炸",
+        "羊肉"
+      ]
+    },
+    {
+      "constitution_type": "平和质",
+      "solar_term": "小满",
+      "vulnerability_points": [
+        "平和体质，湿热加重，注意清心健脾化湿"
+      ],
+      "direction_override": "清心健脾，化湿利水，防湿热内蕴",
+      "intensity_modifier": "强度×1.0",
+      "focus_shift": "遵循节气标准方向",
+      "diet_additions": [
+        "绿豆",
+        "冬瓜",
+        "薏米",
+        "莲子",
+        "百合",
+        "豇豆",
+        "丝瓜"
+      ],
+      "diet_restrictions": [
+        "辛辣",
+        "油腻",
+        "寒性水果"
+      ]
+    },
+    {
+      "constitution_type": "平和质",
+      "solar_term": "芒种",
+      "vulnerability_points": [
+        "平和体质，暑热初起，注意清热化湿，防暑降温"
+      ],
+      "direction_override": "养心健脾，清热化湿，防暑降温",
+      "intensity_modifier": "强度×1.0",
+      "focus_shift": "遵循节气标准方向",
+      "diet_additions": [
+        "绿豆",
+        "冬瓜",
+        "荷叶",
+        "莲子",
+        "百合",
+        "丝瓜",
+        "黄瓜"
+      ],
+      "diet_restrictions": [
+        "辛辣",
+        "油腻",
+        "羊肉",
+        "烧烤"
+      ]
+    },
+    {
+      "constitution_type": "平和质",
+      "solar_term": "夏至",
+      "vulnerability_points": [
+        "平和体质，阳极之时，注意养心护阴，防阴伤"
+      ],
+      "direction_override": "养心护阴，清热祛暑，阳极防阴伤",
+      "intensity_modifier": "强度×1.0",
+      "focus_shift": "遵循节气标准方向",
+      "diet_additions": [
+        "绿豆",
+        "冬瓜",
+        "梨",
+        "百合",
+        "银耳",
+        "莲子",
+        "西瓜(少量)"
+      ],
+      "diet_restrictions": [
+        "辛辣",
+        "油腻",
+        "羊肉",
+        "烧烤"
+      ]
+    },
+    {
+      "constitution_type": "平和质",
+      "solar_term": "小暑",
+      "vulnerability_points": [
+        "平和体质，暑热伤津，注意清热祛湿，防暑"
+      ],
+      "direction_override": "清热祛湿，养心安神，阳极转阴过渡",
+      "intensity_modifier": "强度×1.0",
+      "focus_shift": "遵循节气标准方向",
+      "diet_additions": [
+        "绿豆",
+        "冬瓜",
+        "荷叶",
+        "丝瓜",
+        "百合",
+        "银耳",
+        "梨"
+      ],
+      "diet_restrictions": [
+        "辛辣",
+        "油腻",
+        "羊肉",
+        "烧烤"
+      ]
+    },
+    {
+      "constitution_type": "平和质",
+      "solar_term": "大暑",
+      "vulnerability_points": [
+        "平和体质，一年最热，注意防暑降温，清热祛湿"
+      ],
+      "direction_override": "清热祛湿，养阴护阳，防暑降温",
+      "intensity_modifier": "强度×1.0",
+      "focus_shift": "遵循节气标准方向",
+      "diet_additions": [
+        "绿豆",
+        "冬瓜",
+        "苦瓜",
+        "丝瓜",
+        "百合",
+        "银耳",
+        "荷叶"
+      ],
+      "diet_restrictions": [
+        "辛辣",
+        "油腻",
+        "羊肉",
+        "烧烤"
+      ]
+    },
+    {
+      "constitution_type": "平和质",
+      "solar_term": "立秋",
+      "vulnerability_points": [
+        "平和体质，秋燥初起，注意养肺润燥"
+      ],
+      "direction_override": "养肺润燥，收敛阳气，防秋燥伤津",
+      "intensity_modifier": "强度×1.0",
+      "focus_shift": "遵循节气标准方向",
+      "diet_additions": [
+        "银耳",
+        "百合",
+        "梨",
+        "蜂蜜",
+        "山药",
+        "莲藕",
+        "石榴"
+      ],
+      "diet_restrictions": [
+        "辛辣",
+        "油炸",
+        "羊肉"
+      ]
+    },
+    {
+      "constitution_type": "平和质",
+      "solar_term": "处暑",
+      "vulnerability_points": [
+        "平和体质，秋燥加重，注意养肺润燥，清余热"
+      ],
+      "direction_override": "养肺润燥，收敛阳气，清余热",
+      "intensity_modifier": "强度×1.0",
+      "focus_shift": "遵循节气标准方向",
+      "diet_additions": [
+        "银耳",
+        "百合",
+        "梨",
+        "蜂蜜",
+        "莲藕",
+        "山药",
+        "葡萄"
+      ],
+      "diet_restrictions": [
+        "辛辣",
+        "油炸",
+        "羊肉"
+      ]
+    },
+    {
+      "constitution_type": "平和质",
+      "solar_term": "白露",
+      "vulnerability_points": [
+        "平和体质，秋燥显著，昼夜温差大，注意润肺补肾"
+      ],
+      "direction_override": "养肺润燥，补肾固精，防秋燥伤阴",
+      "intensity_modifier": "强度×1.0",
+      "focus_shift": "遵循节气标准方向",
+      "diet_additions": [
+        "银耳",
+        "百合",
+        "梨",
+        "蜂蜜",
+        "山药",
+        "莲藕",
+        "栗子"
+      ],
+      "diet_restrictions": [
+        "辛辣",
+        "油炸",
+        "羊肉",
+        "寒性水果"
+      ]
+    },
+    {
+      "constitution_type": "平和质",
+      "solar_term": "秋分",
+      "vulnerability_points": [
+        "平和体质，阴阳平衡，注意润燥调和气血"
+      ],
+      "direction_override": "养肺润燥，调和气血，顺应阴阳平衡",
+      "intensity_modifier": "强度×1.0",
+      "focus_shift": "遵循节气标准方向",
+      "diet_additions": [
+        "银耳",
+        "百合",
+        "梨",
+        "蜂蜜",
+        "莲藕",
+        "山药",
+        "板栗"
+      ],
+      "diet_restrictions": [
+        "辛辣",
+        "油炸",
+        "羊肉"
+      ]
+    },
+    {
+      "constitution_type": "平和质",
+      "solar_term": "寒露",
+      "vulnerability_points": [
+        "平和体质，气温下降，注意养肺温阳，防寒邪"
+      ],
+      "direction_override": "养肺润燥，温补肾阳，防寒邪伤阳",
+      "intensity_modifier": "强度×1.0",
+      "focus_shift": "遵循节气标准方向",
+      "diet_additions": [
+        "银耳",
+        "百合",
+        "梨",
+        "桂圆",
+        "山药",
+        "大枣",
+        "核桃"
+      ],
+      "diet_restrictions": [
+        "生冷",
+        "寒性水果",
+        "辛辣"
+      ]
+    },
+    {
+      "constitution_type": "平和质",
+      "solar_term": "霜降",
+      "vulnerability_points": [
+        "平和体质，霜开始出现，注意养肺温阳，防寒邪侵袭"
+      ],
+      "direction_override": "养肺润燥，温补肾阳，防寒邪侵袭",
+      "intensity_modifier": "强度×1.0",
+      "focus_shift": "遵循节气标准方向",
+      "diet_additions": [
+        "银耳",
+        "百合",
+        "梨",
+        "桂圆",
+        "山药",
+        "大枣",
+        "核桃"
+      ],
+      "diet_restrictions": [
+        "生冷",
+        "寒性水果",
+        "油腻"
+      ]
+    },
+    {
+      "constitution_type": "平和质",
+      "solar_term": "立冬",
+      "vulnerability_points": [
+        "平和体质，寒冷天气开始，注意补肾藏精，温阳驱寒"
+      ],
+      "direction_override": "补肾藏精，温阳驱寒，防寒邪侵袭",
+      "intensity_modifier": "强度×1.0",
+      "focus_shift": "遵循节气标准方向",
+      "diet_additions": [
+        "羊肉",
+        "生姜",
+        "桂圆",
+        "大枣",
+        "山药",
+        "核桃",
+        "栗子"
+      ],
+      "diet_restrictions": [
+        "生冷",
+        "寒性水果"
+      ]
+    },
+    {
+      "constitution_type": "平和质",
+      "solar_term": "小雪",
+      "vulnerability_points": [
+        "平和体质，开始降雪，注意补肾温阳，护心火"
+      ],
+      "direction_override": "补肾温阳，护心火，防寒邪深侵",
+      "intensity_modifier": "强度×1.0",
+      "focus_shift": "遵循节气标准方向",
+      "diet_additions": [
+        "羊肉",
+        "生姜",
+        "桂圆",
+        "大枣",
+        "核桃",
+        "山药",
+        "栗子"
+      ],
+      "diet_restrictions": [
+        "生冷",
+        "寒性水果",
+        "油腻"
+      ]
+    },
+    {
+      "constitution_type": "平和质",
+      "solar_term": "大雪",
+      "vulnerability_points": [
+        "平和体质，寒冷干燥，注意温肾助阳，护心火"
+      ],
+      "direction_override": "温肾助阳，护心火，防寒邪深侵",
+      "intensity_modifier": "强度×1.0",
+      "focus_shift": "遵循节气标准方向",
+      "diet_additions": [
+        "羊肉",
+        "生姜",
+        "桂圆",
+        "大枣",
+        "核桃",
+        "山药",
+        "栗子"
+      ],
+      "diet_restrictions": [
+        "生冷",
+        "寒性水果",
+        "油腻"
+      ]
+    },
+    {
+      "constitution_type": "平和质",
+      "solar_term": "冬至",
+      "vulnerability_points": [
+        "平和体质，阴极之时，注意补肾固精，护心阳"
+      ],
+      "direction_override": "补肾固精，护心阳，阴极护阳生",
+      "intensity_modifier": "强度×1.0",
+      "focus_shift": "遵循节气标准方向",
+      "diet_additions": [
+        "羊肉",
+        "生姜",
+        "桂圆",
+        "大枣",
+        "核桃",
+        "山药",
+        "栗子"
+      ],
+      "diet_restrictions": [
+        "生冷",
+        "寒性水果",
+        "油腻"
+      ]
+    },
+    {
+      "constitution_type": "平和质",
+      "solar_term": "小寒",
+      "vulnerability_points": [
+        "平和体质，一年最冷，注意温肾助阳，护心火"
+      ],
+      "direction_override": "温肾助阳，护心火，防寒邪深侵",
+      "intensity_modifier": "强度×1.0",
+      "focus_shift": "遵循节气标准方向",
+      "diet_additions": [
+        "羊肉",
+        "生姜",
+        "桂圆",
+        "大枣",
+        "核桃",
+        "山药",
+        "栗子"
+      ],
+      "diet_restrictions": [
+        "生冷",
+        "寒性水果",
+        "油腻"
+      ]
+    },
+    {
+      "constitution_type": "平和质",
+      "solar_term": "大寒",
+      "vulnerability_points": [
+        "平和体质，极寒期，注意温肾助阳，迎阳气升发"
+      ],
+      "direction_override": "温肾助阳，护心火，迎阳气升发",
+      "intensity_modifier": "强度×1.0",
+      "focus_shift": "遵循节气标准方向",
+      "diet_additions": [
+        "羊肉",
+        "生姜",
+        "桂圆",
+        "大枣",
+        "核桃",
+        "山药",
+        "韭菜"
+      ],
+      "diet_restrictions": [
+        "生冷",
+        "寒性水果",
+        "油腻"
+      ]
+    },
+    {
+      "constitution_type": "气虚质",
+      "solar_term": "立春",
+      "vulnerability_points": [
+        "气虚+春寒→卫外不固，易感冒，疲乏加重，动则出汗，面色苍白"
+      ],
+      "direction_override": "养肝护阳，补气固表为主，疏肝为辅",
+      "intensity_modifier": "强度×1.2",
+      "focus_shift": "补气固表优先于疏肝",
+      "diet_additions": [
+        "黄芪",
+        "大枣",
+        "山药",
+        "党参",
+        "生姜",
+        "桂圆",
+        "蜂蜜"
+      ],
+      "diet_restrictions": [
+        "生冷",
+        "油腻",
+        "寒性水果",
+        "萝卜"
+      ]
+    },
+    {
+      "constitution_type": "气虚质",
+      "solar_term": "雨水",
+      "vulnerability_points": [
+        "气虚+湿困→脾气更虚，腹胀纳差加重，乏力，大便稀溏，头重如裹"
+      ],
+      "direction_override": "疏肝健脾，补气化湿为主",
+      "intensity_modifier": "强度×1.2",
+      "focus_shift": "补气健脾+化湿",
+      "diet_additions": [
+        "黄芪",
+        "茯苓",
+        "山药",
+        "薏米",
+        "大枣",
+        "党参",
+        "白扁豆"
+      ],
+      "diet_restrictions": [
+        "生冷",
+        "油腻",
+        "寒性水果",
+        "萝卜"
+      ]
+    },
+    {
+      "constitution_type": "气虚质",
+      "solar_term": "惊蛰",
+      "vulnerability_points": [
+        "气虚+昼夜温差大→卫外不固，易感冒，疲乏加重，动则汗出"
+      ],
+      "direction_override": "护肝养脾，补气固表，防春燥",
+      "intensity_modifier": "强度×1.2",
+      "focus_shift": "补气固表优先",
+      "diet_additions": [
+        "黄芪",
+        "大枣",
+        "山药",
+        "党参",
+        "生姜",
+        "桂圆",
+        "蜂蜜"
+      ],
+      "diet_restrictions": [
+        "生冷",
+        "油腻",
+        "寒性水果",
+        "萝卜"
+      ]
+    },
+    {
+      "constitution_type": "气虚质",
+      "solar_term": "春分",
+      "vulnerability_points": [
+        "气虚+阴阳平衡→脾气虚，腹胀纳差，乏力，气短懒言"
+      ],
+      "direction_override": "疏肝养脾，补气为主，调和气血",
+      "intensity_modifier": "强度×1.2",
+      "focus_shift": "补气优先",
+      "diet_additions": [
+        "黄芪",
+        "大枣",
+        "山药",
+        "党参",
+        "桂圆",
+        "蜂蜜",
+        "菠菜"
+      ],
+      "diet_restrictions": [
+        "生冷",
+        "油腻",
+        "寒性水果",
+        "萝卜"
+      ]
+    },
+    {
+      "constitution_type": "气虚质",
+      "solar_term": "清明",
+      "vulnerability_points": [
+        "气虚+肝郁化火→脾气虚，腹胀纳差，乏力，易失眠，口苦"
+      ],
+      "direction_override": "疏肝健脾，补气为主，兼清心火",
+      "intensity_modifier": "强度×1.2",
+      "focus_shift": "补气+清心",
+      "diet_additions": [
+        "黄芪",
+        "大枣",
+        "山药",
+        "党参",
+        "菊花",
+        "莲子",
+        "桂圆"
+      ],
+      "diet_restrictions": [
+        "生冷",
+        "油腻",
+        "寒性水果",
+        "萝卜"
+      ]
+    },
+    {
+      "constitution_type": "气虚质",
+      "solar_term": "谷雨",
+      "vulnerability_points": [
+        "气虚+湿热→脾气虚，腹胀纳差，乏力，大便黏腻，口苦"
+      ],
+      "direction_override": "疏肝健脾，补气化湿为主",
+      "intensity_modifier": "强度×1.2",
+      "focus_shift": "补气+利湿",
+      "diet_additions": [
+        "黄芪",
+        "茯苓",
+        "山药",
+        "薏米",
+        "绿豆",
+        "白扁豆",
+        "大枣"
+      ],
+      "diet_restrictions": [
+        "生冷",
+        "油腻",
+        "寒性水果",
+        "萝卜"
+      ]
+    },
+    {
+      "constitution_type": "气虚质",
+      "solar_term": "立夏",
+      "vulnerability_points": [
+        "气虚+心火→心脾气虚，心悸失眠，乏力，气短，动则汗出"
+      ],
+      "direction_override": "养心护阳，补气健脾为主，清心火为辅",
+      "intensity_modifier": "强度×1.2",
+      "focus_shift": "补气健脾优先于清心",
+      "diet_additions": [
+        "黄芪",
+        "莲子",
+        "百合",
+        "大枣",
+        "山药",
+        "党参",
+        "桂圆"
+      ],
+      "diet_restrictions": [
+        "生冷",
+        "油腻",
+        "寒性水果",
+        "萝卜"
+      ]
+    },
+    {
+      "constitution_type": "气虚质",
+      "solar_term": "小满",
+      "vulnerability_points": [
+        "气虚+湿热→心脾气虚，腹胀纳差，乏力，大便溏薄，小便黄"
+      ],
+      "direction_override": "清心健脾，补气化湿为主",
+      "intensity_modifier": "强度×1.2",
+      "focus_shift": "补气健脾+化湿",
+      "diet_additions": [
+        "黄芪",
+        "茯苓",
+        "山药",
+        "薏米",
+        "莲子",
+        "大枣",
+        "白扁豆"
+      ],
+      "diet_restrictions": [
+        "生冷",
+        "油腻",
+        "寒性水果",
+        "萝卜"
+      ]
+    },
+    {
+      "constitution_type": "气虚质",
+      "solar_term": "芒种",
+      "vulnerability_points": [
+        "气虚+暑热→暑热伤气，乏力加重，气短懒言，动则汗出，口渴乏力"
+      ],
+      "direction_override": "养心健脾，补气清热化湿，防暑",
+      "intensity_modifier": "强度×1.2",
+      "focus_shift": "补气+清热",
+      "diet_additions": [
+        "黄芪",
+        "太子参",
+        "山药",
+        "荷叶",
+        "莲子",
+        "大枣",
+        "绿豆"
+      ],
+      "diet_restrictions": [
+        "生冷",
+        "油腻",
+        "寒性水果",
+        "萝卜",
+        "人参"
+      ]
+    },
+    {
+      "constitution_type": "气虚质",
+      "solar_term": "夏至",
+      "vulnerability_points": [
+        "气虚+阳极→暑热伤气最甚，乏力，气短，汗出多气随津脱"
+      ],
+      "direction_override": "养心护阴，补气益气为主，清热祛暑为辅",
+      "intensity_modifier": "强度×1.2",
+      "focus_shift": "补气优先",
+      "diet_additions": [
+        "黄芪",
+        "太子参",
+        "山药",
+        "荷叶",
+        "莲子",
+        "大枣",
+        "西瓜(少量)"
+      ],
+      "diet_restrictions": [
+        "生冷",
+        "油腻",
+        "寒性水果",
+        "萝卜",
+        "人参"
+      ]
+    },
+    {
+      "constitution_type": "气虚质",
+      "solar_term": "小暑",
+      "vulnerability_points": [
+        "气虚+暑热→暑热伤气，乏力，气短，汗出多，暑热伤津气阴两虚"
+      ],
+      "direction_override": "清热祛湿，补气生津，养心安神",
+      "intensity_modifier": "强度×1.2",
+      "focus_shift": "补气+生津",
+      "diet_additions": [
+        "黄芪",
+        "太子参",
+        "山药",
+        "荷叶",
+        "百合",
+        "银耳",
+        "梨"
+      ],
+      "diet_restrictions": [
+        "生冷",
+        "油腻",
+        "寒性水果",
+        "萝卜"
+      ]
+    },
+    {
+      "constitution_type": "气虚质",
+      "solar_term": "大暑",
+      "vulnerability_points": [
+        "气虚+暑热极盛→暑热伤气最甚，乏力气短，汗出多，气阴两虚"
+      ],
+      "direction_override": "清热祛湿，补气益气为主，养阴护阳",
+      "intensity_modifier": "强度×1.2",
+      "focus_shift": "补气+生津",
+      "diet_additions": [
+        "黄芪",
+        "太子参",
+        "山药",
+        "苦瓜",
+        "丝瓜",
+        "百合",
+        "荷叶"
+      ],
+      "diet_restrictions": [
+        "生冷",
+        "油腻",
+        "寒性水果",
+        "萝卜",
+        "人参"
+      ]
+    },
+    {
+      "constitution_type": "气虚质",
+      "solar_term": "立秋",
+      "vulnerability_points": [
+        "气虚+秋燥→肺气虚，咽干，易感冒，乏力，自汗加重"
+      ],
+      "direction_override": "养肺润燥，补气固表为主，收敛阳气为辅",
+      "intensity_modifier": "强度×1.2",
+      "focus_shift": "补气固表优先于润燥",
+      "diet_additions": [
+        "黄芪",
+        "山药",
+        "大枣",
+        "桂圆",
+        "百合",
+        "蜂蜜",
+        "银耳"
+      ],
+      "diet_restrictions": [
+        "生冷",
+        "寒性水果",
+        "萝卜",
+        "辛辣"
+      ]
+    },
+    {
+      "constitution_type": "气虚质",
+      "solar_term": "处暑",
+      "vulnerability_points": [
+        "气虚+秋燥→肺气虚，咽干，易感冒，乏力，自汗加重"
+      ],
+      "direction_override": "养肺润燥，补气固表为主，清余热",
+      "intensity_modifier": "强度×1.2",
+      "focus_shift": "补气固表+润燥",
+      "diet_additions": [
+        "黄芪",
+        "山药",
+        "大枣",
+        "桂圆",
+        "百合",
+        "蜂蜜",
+        "莲藕"
+      ],
+      "diet_restrictions": [
+        "生冷",
+        "寒性水果",
+        "萝卜",
+        "辛辣"
+      ]
+    },
+    {
+      "constitution_type": "气虚质",
+      "solar_term": "白露",
+      "vulnerability_points": [
+        "气虚+秋燥→肺气虚肾气不足，咽干，乏力，腰膝酸软，自汗"
+      ],
+      "direction_override": "养肺润燥，补气固表为主，补肾为辅",
+      "intensity_modifier": "强度×1.2",
+      "focus_shift": "补气固表+补肾",
+      "diet_additions": [
+        "黄芪",
+        "山药",
+        "大枣",
+        "桂圆",
+        "核桃",
+        "百合",
+        "栗子"
+      ],
+      "diet_restrictions": [
+        "生冷",
+        "寒性水果",
+        "萝卜",
+        "辛辣"
+      ]
+    },
+    {
+      "constitution_type": "气虚质",
+      "solar_term": "秋分",
+      "vulnerability_points": [
+        "气虚+阴阳平衡→脾气肺虚，腹胀纳差，乏力，气短懒言，自汗"
+      ],
+      "direction_override": "养肺润燥，补气为主，调和气血",
+      "intensity_modifier": "强度×1.2",
+      "focus_shift": "补气优先",
+      "diet_additions": [
+        "黄芪",
+        "山药",
+        "大枣",
+        "桂圆",
+        "百合",
+        "蜂蜜",
+        "板栗"
+      ],
+      "diet_restrictions": [
+        "生冷",
+        "寒性水果",
+        "萝卜",
+        "辛辣"
+      ]
+    },
+    {
+      "constitution_type": "气虚质",
+      "solar_term": "寒露",
+      "vulnerability_points": [
+        "气虚+寒邪→卫外不固，畏寒，易感冒，乏力，自汗，腰膝酸软"
+      ],
+      "direction_override": "养肺润燥，补气温阳为主，防寒邪",
+      "intensity_modifier": "强度×1.2",
+      "focus_shift": "补气+温阳",
+      "diet_additions": [
+        "黄芪",
+        "山药",
+        "大枣",
+        "桂圆",
+        "核桃",
+        "生姜",
+        "党参"
+      ],
+      "diet_restrictions": [
+        "生冷",
+        "寒性水果",
+        "萝卜",
+        "油腻"
+      ]
+    },
+    {
+      "constitution_type": "气虚质",
+      "solar_term": "霜降",
+      "vulnerability_points": [
+        "气虚+寒邪→卫外不固，畏寒，易感冒，乏力，自汗加重"
+      ],
+      "direction_override": "养肺润燥，补气温阳为主，防寒邪侵袭",
+      "intensity_modifier": "强度×1.2",
+      "focus_shift": "补气+温阳",
+      "diet_additions": [
+        "黄芪",
+        "山药",
+        "大枣",
+        "桂圆",
+        "核桃",
+        "生姜",
+        "党参"
+      ],
+      "diet_restrictions": [
+        "生冷",
+        "寒性水果",
+        "萝卜",
+        "油腻"
+      ]
+    },
+    {
+      "constitution_type": "气虚质",
+      "solar_term": "立冬",
+      "vulnerability_points": [
+        "气虚+寒邪→卫外不固，畏寒，腰膝酸软，夜尿多，乏力加重"
+      ],
+      "direction_override": "补肾藏精，补气为主，温阳为辅",
+      "intensity_modifier": "强度×1.2",
+      "focus_shift": "补气优先于温阳",
+      "diet_additions": [
+        "黄芪",
+        "山药",
+        "大枣",
+        "桂圆",
+        "核桃",
+        "生姜",
+        "羊肉(少量)"
+      ],
+      "diet_restrictions": [
+        "生冷",
+        "寒性水果",
+        "萝卜",
+        "油腻"
+      ]
+    },
+    {
+      "constitution_type": "气虚质",
+      "solar_term": "小雪",
+      "vulnerability_points": [
+        "气虚+寒邪深侵→卫外不固，畏寒，腰膝酸软，夜尿多，心悸乏力"
+      ],
+      "direction_override": "补肾温阳，补气为主，护心火为辅",
+      "intensity_modifier": "强度×1.2",
+      "focus_shift": "补气+温阳",
+      "diet_additions": [
+        "黄芪",
+        "山药",
+        "大枣",
+        "桂圆",
+        "核桃",
+        "生姜",
+        "羊肉(少量)"
+      ],
+      "diet_restrictions": [
+        "生冷",
+        "寒性水果",
+        "萝卜",
+        "油腻"
+      ]
+    },
+    {
+      "constitution_type": "气虚质",
+      "solar_term": "大雪",
+      "vulnerability_points": [
+        "气虚+寒邪极盛→卫外不固，畏寒，腰膝酸软，心悸，乏力加重"
+      ],
+      "direction_override": "温肾助阳，补气为主，护心火",
+      "intensity_modifier": "强度×1.2",
+      "focus_shift": "补气+温阳",
+      "diet_additions": [
+        "黄芪",
+        "山药",
+        "大枣",
+        "桂圆",
+        "核桃",
+        "生姜",
+        "羊肉(少量)"
+      ],
+      "diet_restrictions": [
+        "生冷",
+        "寒性水果",
+        "萝卜",
+        "油腻"
+      ]
+    },
+    {
+      "constitution_type": "气虚质",
+      "solar_term": "冬至",
+      "vulnerability_points": [
+        "气虚+阴极→卫外不固，畏寒，腰膝酸软，心悸，气虚最甚"
+      ],
+      "direction_override": "补肾固精，补气为主，护心阳",
+      "intensity_modifier": "强度×1.2",
+      "focus_shift": "补气优先",
+      "diet_additions": [
+        "黄芪",
+        "山药",
+        "大枣",
+        "桂圆",
+        "核桃",
+        "生姜",
+        "羊肉(少量)"
+      ],
+      "diet_restrictions": [
+        "生冷",
+        "寒性水果",
+        "萝卜",
+        "油腻"
+      ]
+    },
+    {
+      "constitution_type": "气虚质",
+      "solar_term": "小寒",
+      "vulnerability_points": [
+        "气虚+寒邪→卫外不固，畏寒，腰膝酸软，心悸，乏力"
+      ],
+      "direction_override": "温肾助阳，补气为主，护心火",
+      "intensity_modifier": "强度×1.2",
+      "focus_shift": "补气+温阳",
+      "diet_additions": [
+        "黄芪",
+        "山药",
+        "大枣",
+        "桂圆",
+        "核桃",
+        "生姜",
+        "羊肉(少量)"
+      ],
+      "diet_restrictions": [
+        "生冷",
+        "寒性水果",
+        "萝卜",
+        "油腻"
+      ]
+    },
+    {
+      "constitution_type": "气虚质",
+      "solar_term": "大寒",
+      "vulnerability_points": [
+        "气虚+寒邪极盛→卫外不固，畏寒，腰膝酸软，心悸，易感冒"
+      ],
+      "direction_override": "温肾助阳，补气为主，护心火，迎阳气升发",
+      "intensity_modifier": "强度×1.2",
+      "focus_shift": "补气+温阳",
+      "diet_additions": [
+        "黄芪",
+        "山药",
+        "大枣",
+        "桂圆",
+        "核桃",
+        "生姜",
+        "韭菜"
+      ],
+      "diet_restrictions": [
+        "生冷",
+        "寒性水果",
+        "萝卜",
+        "油腻"
+      ]
+    },
+    {
+      "constitution_type": "阳虚质",
+      "solar_term": "立春",
+      "vulnerability_points": [
+        "阳虚+春寒→畏寒肢冷加重，关节冷痛，腰膝冷，春寒料峭不耐寒"
+      ],
+      "direction_override": "养肝护阳，温阳驱寒为主，疏肝为辅",
+      "intensity_modifier": "强度×1.2",
+      "focus_shift": "温阳驱寒优先于疏肝",
+      "diet_additions": [
+        "生姜",
+        "桂圆",
+        "羊肉(少量)",
+        "大枣",
+        "核桃",
+        "韭菜",
+        "茴香"
+      ],
+      "diet_restrictions": [
+        "生冷",
+        "寒性水果",
+        "苦瓜",
+        "绿豆"
+      ]
+    },
+    {
+      "constitution_type": "阳虚质",
+      "solar_term": "雨水",
+      "vulnerability_points": [
+        "阳虚+湿困→阳气不足，湿困加重，腹胀纳差，大便溏薄，关节沉重冷痛"
+      ],
+      "direction_override": "疏肝健脾，温阳化湿为主",
+      "intensity_modifier": "强度×1.2",
+      "focus_shift": "温阳化湿优先",
+      "diet_additions": [
+        "生姜",
+        "桂圆",
+        "山药",
+        "大枣",
+        "核桃",
+        "茴香",
+        "生姜"
+      ],
+      "diet_restrictions": [
+        "生冷",
+        "寒性水果",
+        "苦瓜",
+        "绿豆"
+      ]
+    },
+    {
+      "constitution_type": "阳虚质",
+      "solar_term": "惊蛰",
+      "vulnerability_points": [
+        "阳虚+昼夜温差大→畏寒肢冷，关节冷痛加重，易感冒，阳虚不耐寒"
+      ],
+      "direction_override": "护肝养脾，温阳为主，防春燥为辅",
+      "intensity_modifier": "强度×1.2",
+      "focus_shift": "温阳优先",
+      "diet_additions": [
+        "生姜",
+        "桂圆",
+        "羊肉(少量)",
+        "大枣",
+        "核桃",
+        "韭菜",
+        "茴香"
+      ],
+      "diet_restrictions": [
+        "生冷",
+        "寒性水果",
+        "苦瓜",
+        "绿豆"
+      ]
+    },
+    {
+      "constitution_type": "阳虚质",
+      "solar_term": "春分",
+      "vulnerability_points": [
+        "阳虚+阴阳平衡→阳气仍不足，畏寒，腰膝冷，关节冷痛"
+      ],
+      "direction_override": "疏肝养脾，温阳为主，调和气血为辅",
+      "intensity_modifier": "强度×1.2",
+      "focus_shift": "温阳优先",
+      "diet_additions": [
+        "生姜",
+        "桂圆",
+        "羊肉(少量)",
+        "大枣",
+        "核桃",
+        "韭菜",
+        "茴香"
+      ],
+      "diet_restrictions": [
+        "生冷",
+        "寒性水果",
+        "苦瓜",
+        "绿豆"
+      ]
+    },
+    {
+      "constitution_type": "阳虚质",
+      "solar_term": "清明",
+      "vulnerability_points": [
+        "阳虚+肝郁化火→阳气不足，畏寒，腰膝冷，易失眠，口苦但喜热饮"
+      ],
+      "direction_override": "疏肝健脾，温阳为主，兼疏肝",
+      "intensity_modifier": "强度×1.2",
+      "focus_shift": "温阳+疏肝",
+      "diet_additions": [
+        "生姜",
+        "桂圆",
+        "大枣",
+        "核桃",
+        "韭菜",
+        "茴香",
+        "羊肉(少量)"
+      ],
+      "diet_restrictions": [
+        "生冷",
+        "寒性水果",
+        "苦瓜",
+        "绿豆",
+        "菊花"
+      ]
+    },
+    {
+      "constitution_type": "阳虚质",
+      "solar_term": "谷雨",
+      "vulnerability_points": [
+        "阳虚+湿热→阳气不足，湿困脾，腹胀纳差，大便溏薄，关节沉重"
+      ],
+      "direction_override": "疏肝健脾，温阳化湿为主，清热为辅",
+      "intensity_modifier": "强度×1.2",
+      "focus_shift": "温阳化湿优先",
+      "diet_additions": [
+        "生姜",
+        "桂圆",
+        "山药",
+        "大枣",
+        "核桃",
+        "茴香",
+        "薏米"
+      ],
+      "diet_restrictions": [
+        "生冷",
+        "寒性水果",
+        "苦瓜",
+        "绿豆",
+        "冬瓜"
+      ]
+    },
+    {
+      "constitution_type": "阳虚质",
+      "solar_term": "立夏",
+      "vulnerability_points": [
+        "阳虚+心火→心阳虚，心悸，畏寒肢冷，失眠但喜热，腰膝冷"
+      ],
+      "direction_override": "养心护阳，温阳为主，清心火为辅",
+      "intensity_modifier": "强度×1.2",
+      "focus_shift": "温阳优先于清心",
+      "diet_additions": [
+        "生姜",
+        "桂圆",
+        "大枣",
+        "核桃",
+        "羊肉(少量)",
+        "莲子(少量)",
+        "韭菜"
+      ],
+      "diet_restrictions": [
+        "生冷",
+        "寒性水果",
+        "苦瓜",
+        "绿豆",
+        "西瓜"
+      ]
+    },
+    {
+      "constitution_type": "阳虚质",
+      "solar_term": "小满",
+      "vulnerability_points": [
+        "阳虚+湿热→心阳虚，畏寒，心悸，腹胀纳差，大便溏薄"
+      ],
+      "direction_override": "清心健脾，温阳为主，化湿为辅",
+      "intensity_modifier": "强度×1.2",
+      "focus_shift": "温阳+化湿",
+      "diet_additions": [
+        "生姜",
+        "桂圆",
+        "山药",
+        "大枣",
+        "核桃",
+        "茴香",
+        "莲子(少量)"
+      ],
+      "diet_restrictions": [
+        "生冷",
+        "寒性水果",
+        "苦瓜",
+        "绿豆",
+        "西瓜"
+      ]
+    },
+    {
+      "constitution_type": "阳虚质",
+      "solar_term": "芒种",
+      "vulnerability_points": [
+        "阳虚+暑热→阳虚不耐暑，畏寒肢冷，乏力，汗出但偏凉，口渴喜热饮"
+      ],
+      "direction_override": "养心健脾，温阳为主，防暑为辅",
+      "intensity_modifier": "强度×1.2",
+      "focus_shift": "温阳+防暑",
+      "diet_additions": [
+        "生姜",
+        "桂圆",
+        "山药",
+        "大枣",
+        "核桃",
+        "韭菜",
+        "红豆"
+      ],
+      "diet_restrictions": [
+        "生冷",
+        "寒性水果",
+        "苦瓜",
+        "绿豆",
+        "西瓜"
+      ]
+    },
+    {
+      "constitution_type": "阳虚质",
+      "solar_term": "夏至",
+      "vulnerability_points": [
+        "阳虚+阳极→阳虚最不耐夏，畏寒肢冷，心悸，乏力，汗出偏凉"
+      ],
+      "direction_override": "养心护阴，温阳为主，防阴伤为辅",
+      "intensity_modifier": "强度×1.2",
+      "focus_shift": "温阳优先",
+      "diet_additions": [
+        "生姜",
+        "桂圆",
+        "山药",
+        "大枣",
+        "核桃",
+        "韭菜",
+        "红豆"
+      ],
+      "diet_restrictions": [
+        "生冷",
+        "寒性水果",
+        "苦瓜",
+        "绿豆",
+        "西瓜"
+      ]
+    },
+    {
+      "constitution_type": "阳虚质",
+      "solar_term": "小暑",
+      "vulnerability_points": [
+        "阳虚+暑热→阳虚不耐暑，畏寒，心悸，乏力，汗出偏凉，暑热伤阳"
+      ],
+      "direction_override": "清热祛湿，温阳为主，养心安神为辅",
+      "intensity_modifier": "强度×1.2",
+      "focus_shift": "温阳+安神",
+      "diet_additions": [
+        "生姜",
+        "桂圆",
+        "山药",
+        "大枣",
+        "核桃",
+        "红豆",
+        "莲子(少量)"
+      ],
+      "diet_restrictions": [
+        "生冷",
+        "寒性水果",
+        "苦瓜",
+        "绿豆",
+        "西瓜"
+      ]
+    },
+    {
+      "constitution_type": "阳虚质",
+      "solar_term": "大暑",
+      "vulnerability_points": [
+        "阳虚+暑热极盛→阳虚最不耐暑，畏寒肢冷，心悸，乏力，汗出偏凉"
+      ],
+      "direction_override": "清热祛湿，温阳为主，养阴护阳",
+      "intensity_modifier": "强度×1.2",
+      "focus_shift": "温阳优先",
+      "diet_additions": [
+        "生姜",
+        "桂圆",
+        "山药",
+        "大枣",
+        "核桃",
+        "红豆",
+        "韭菜"
+      ],
+      "diet_restrictions": [
+        "生冷",
+        "寒性水果",
+        "苦瓜",
+        "绿豆",
+        "西瓜",
+        "冬瓜"
+      ]
+    },
+    {
+      "constitution_type": "阳虚质",
+      "solar_term": "立秋",
+      "vulnerability_points": [
+        "阳虚+秋燥→阳虚肺燥，畏寒，咽干但喜热饮，腰膝冷，关节冷痛"
+      ],
+      "direction_override": "养肺润燥，温阳为主，收敛阳气为辅",
+      "intensity_modifier": "强度×1.2",
+      "focus_shift": "温阳优先于润燥",
+      "diet_additions": [
+        "生姜",
+        "桂圆",
+        "核桃",
+        "大枣",
+        "羊肉(少量)",
+        "山药",
+        "栗子"
+      ],
+      "diet_restrictions": [
+        "生冷",
+        "寒性水果",
+        "苦瓜",
+        "绿豆",
+        "西瓜"
+      ]
+    },
+    {
+      "constitution_type": "阳虚质",
+      "solar_term": "处暑",
+      "vulnerability_points": [
+        "阳虚+秋燥→阳虚肺燥，畏寒，咽干，腰膝冷，关节冷痛加重"
+      ],
+      "direction_override": "养肺润燥，温阳为主，清余热为辅",
+      "intensity_modifier": "强度×1.2",
+      "focus_shift": "温阳+润燥",
+      "diet_additions": [
+        "生姜",
+        "桂圆",
+        "核桃",
+        "大枣",
+        "山药",
+        "栗子",
+        "茴香"
+      ],
+      "diet_restrictions": [
+        "生冷",
+        "寒性水果",
+        "苦瓜",
+        "绿豆",
+        "西瓜"
+      ]
+    },
+    {
+      "constitution_type": "阳虚质",
+      "solar_term": "白露",
+      "vulnerability_points": [
+        "阳虚+秋燥→阳虚肾寒，畏寒肢冷，咽干，腰膝冷痛加重，夜尿多"
+      ],
+      "direction_override": "养肺润燥，温阳补肾为主，防秋燥为辅",
+      "intensity_modifier": "强度×1.2",
+      "focus_shift": "温阳补肾优先",
+      "diet_additions": [
+        "生姜",
+        "桂圆",
+        "核桃",
+        "大枣",
+        "羊肉(少量)",
+        "栗子",
+        "山药"
+      ],
+      "diet_restrictions": [
+        "生冷",
+        "寒性水果",
+        "苦瓜",
+        "绿豆",
+        "西瓜"
+      ]
+    },
+    {
+      "constitution_type": "阳虚质",
+      "solar_term": "秋分",
+      "vulnerability_points": [
+        "阳虚+阴阳平衡→阳气仍不足，畏寒，腰膝冷，大便溏薄"
+      ],
+      "direction_override": "养肺润燥，温阳为主，调和气血为辅",
+      "intensity_modifier": "强度×1.2",
+      "focus_shift": "温阳优先",
+      "diet_additions": [
+        "生姜",
+        "桂圆",
+        "核桃",
+        "大枣",
+        "羊肉(少量)",
+        "栗子",
+        "山药"
+      ],
+      "diet_restrictions": [
+        "生冷",
+        "寒性水果",
+        "苦瓜",
+        "绿豆",
+        "西瓜"
+      ]
+    },
+    {
+      "constitution_type": "阳虚质",
+      "solar_term": "寒露",
+      "vulnerability_points": [
+        "阳虚+寒邪→畏寒肢冷最重，腰膝冷痛，关节冷痛加重，夜尿多"
+      ],
+      "direction_override": "养肺润燥，温阳为主，防寒邪伤阳",
+      "intensity_modifier": "强度×1.2",
+      "focus_shift": "温阳防寒优先",
+      "diet_additions": [
+        "生姜",
+        "桂圆",
+        "核桃",
+        "大枣",
+        "羊肉",
+        "栗子",
+        "茴香"
+      ],
+      "diet_restrictions": [
+        "生冷",
+        "寒性水果",
+        "苦瓜",
+        "绿豆",
+        "西瓜"
+      ]
+    },
+    {
+      "constitution_type": "阳虚质",
+      "solar_term": "霜降",
+      "vulnerability_points": [
+        "阳虚+寒邪→畏寒肢冷最重，腰膝冷痛，关节冷痛，夜尿多，大便溏薄"
+      ],
+      "direction_override": "养肺润燥，温阳为主，防寒邪侵袭",
+      "intensity_modifier": "强度×1.3",
+      "focus_shift": "温阳防寒优先",
+      "diet_additions": [
+        "生姜",
+        "桂圆",
+        "核桃",
+        "大枣",
+        "羊肉",
+        "栗子",
+        "茴香"
+      ],
+      "diet_restrictions": [
+        "生冷",
+        "寒性水果",
+        "苦瓜",
+        "绿豆",
+        "西瓜"
+      ]
+    },
+    {
+      "constitution_type": "阳虚质",
+      "solar_term": "立冬",
+      "vulnerability_points": [
+        "阳虚+寒邪→畏寒肢冷最重，腰膝冷痛，夜尿多，关节冷痛，肾阳虚加重"
+      ],
+      "direction_override": "补肾藏精，温阳驱寒为主",
+      "intensity_modifier": "强度×1.3",
+      "focus_shift": "温阳优先",
+      "diet_additions": [
+        "生姜",
+        "桂圆",
+        "核桃",
+        "大枣",
+        "羊肉",
+        "栗子",
+        "茴香"
+      ],
+      "diet_restrictions": [
+        "生冷",
+        "寒性水果",
+        "苦瓜",
+        "绿豆",
+        "西瓜"
+      ]
+    },
+    {
+      "constitution_type": "阳虚质",
+      "solar_term": "小雪",
+      "vulnerability_points": [
+        "阳虚+寒邪深侵→畏寒肢冷极重，腰膝冷痛，夜尿多，关节冷痛，心悸"
+      ],
+      "direction_override": "补肾温阳，护心火为主，防寒邪深侵",
+      "intensity_modifier": "强度×1.3",
+      "focus_shift": "温阳护心优先",
+      "diet_additions": [
+        "生姜",
+        "桂圆",
+        "核桃",
+        "大枣",
+        "羊肉",
+        "栗子",
+        "茴香"
+      ],
+      "diet_restrictions": [
+        "生冷",
+        "寒性水果",
+        "苦瓜",
+        "绿豆",
+        "西瓜"
+      ]
+    },
+    {
+      "constitution_type": "阳虚质",
+      "solar_term": "大雪",
+      "vulnerability_points": [
+        "阳虚+寒邪极盛→畏寒肢冷极重，腰膝冷痛，关节冷痛，心悸，心血管易加重"
+      ],
+      "direction_override": "温肾助阳，护心火为主，防寒邪深侵",
+      "intensity_modifier": "强度×1.3",
+      "focus_shift": "温阳护心优先",
+      "diet_additions": [
+        "生姜",
+        "桂圆",
+        "核桃",
+        "大枣",
+        "羊肉",
+        "栗子",
+        "茴香"
+      ],
+      "diet_restrictions": [
+        "生冷",
+        "寒性水果",
+        "苦瓜",
+        "绿豆",
+        "西瓜"
+      ]
+    },
+    {
+      "constitution_type": "阳虚质",
+      "solar_term": "冬至",
+      "vulnerability_points": [
+        "阳虚+阴极→畏寒肢冷极重，腰膝冷痛，肾阳虚最甚，心悸，阳痿易发"
+      ],
+      "direction_override": "补肾固精，温阳护心阳为主，阴极护阳生",
+      "intensity_modifier": "强度×1.3",
+      "focus_shift": "温阳固精优先",
+      "diet_additions": [
+        "生姜",
+        "桂圆",
+        "核桃",
+        "大枣",
+        "羊肉",
+        "栗子",
+        "茴香"
+      ],
+      "diet_restrictions": [
+        "生冷",
+        "寒性水果",
+        "苦瓜",
+        "绿豆",
+        "西瓜"
+      ]
+    },
+    {
+      "constitution_type": "阳虚质",
+      "solar_term": "小寒",
+      "vulnerability_points": [
+        "阳虚+寒邪→畏寒肢冷极重，腰膝冷痛，关节冷痛，心悸，夜尿多"
+      ],
+      "direction_override": "温肾助阳，护心火为主，防寒邪深侵",
+      "intensity_modifier": "强度×1.3",
+      "focus_shift": "温阳护心优先",
+      "diet_additions": [
+        "生姜",
+        "桂圆",
+        "核桃",
+        "大枣",
+        "羊肉",
+        "栗子",
+        "茴香"
+      ],
+      "diet_restrictions": [
+        "生冷",
+        "寒性水果",
+        "苦瓜",
+        "绿豆",
+        "西瓜"
+      ]
+    },
+    {
+      "constitution_type": "阳虚质",
+      "solar_term": "大寒",
+      "vulnerability_points": [
+        "阳虚+寒邪极盛→畏寒肢冷极重，腰膝冷痛，关节冷痛，心悸，易感冒"
+      ],
+      "direction_override": "温肾助阳，护心火为主，迎阳气升发",
+      "intensity_modifier": "强度×1.3",
+      "focus_shift": "温阳迎阳优先",
+      "diet_additions": [
+        "生姜",
+        "桂圆",
+        "核桃",
+        "大枣",
+        "羊肉",
+        "栗子",
+        "韭菜"
+      ],
+      "diet_restrictions": [
+        "生冷",
+        "寒性水果",
+        "苦瓜",
+        "绿豆",
+        "西瓜"
+      ]
+    }
+  ]
+}

@@ -227,27 +227,39 @@
    Mobile
    ============================================================ */
 @media (max-width: 1023px) {
-  /* Sidebar (RightSidebar) is full-width in vertical layout;
-     prevent overflow by removing fixed heights on content grids */
+  /* Sidebar content: allow flex item to shrink */
+  .sidebar-content {
+    min-height: 0;
+    overflow-y: auto;
+    padding: 1.25rem 1rem;
+  }
+
+  /* DualRing scales down on mobile */
+  .sidebar-content .ring-container {
+    display: flex;
+    justify-content: center;
+  }
+
+  .sidebar-content .ring-container .ring-svg {
+    width: 130px;
+    height: 85px;
+  }
+
+  /* Page content grids: prevent overflow */
   .scrollable > .flex-col > .grid {
     height: auto !important;
     min-height: 0;
-  }
-
-  /* DualRing container becomes smaller */
-  .scrollable > .flex-col > .right-sidebar-dual-ring {
-    width: 140px !important;
   }
 }
 
 @media (max-width: 640px) {
   .ring-svg {
-    width: 140px;
-    height: 90px;
+    width: 110px;
+    height: 70px;
   }
 
   .top-nav {
-    padding: 0.6rem 1rem;
+    padding: 0.5rem 0.75rem;
   }
 
   .nav-links {
@@ -256,6 +268,14 @@
 
   .nav-link {
     font-size: 10px;
-    padding: 0.4rem 0.5rem;
+    padding: 0.4rem 0.3rem;
+  }
+
+  .nav-link .nav-text {
+    display: none;
+  }
+
+  .one-screen {
+    padding: 0.75rem 1rem 1.5rem;
   }
 }

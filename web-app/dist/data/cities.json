@@ -1,0 +1,8665 @@
+{
+  "version": "v2.0",
+  "description": "中国全部地级行政区（地级市+自治州+盟+地区），共293个",
+  "disclaimer": "城市气候数据基于典型气候分类，实际天气可能有偏差",
+  "cities": [
+    {
+      "name": "北京",
+      "region": "华北",
+      "climate_type": "温带季风气候",
+      "province": "北京市",
+      "temp_range": {
+        "summer": [
+          26,
+          30
+        ],
+        "winter": [
+          -5,
+          5
+        ],
+        "spring": [
+          12,
+          22
+        ],
+        "autumn": [
+          8,
+          20
+        ]
+      },
+      "humidity": "dry",
+      "feature": "夏季湿热、冬季干冷，温差大"
+    },
+    {
+      "name": "天津",
+      "region": "华北",
+      "climate_type": "温带季风气候",
+      "province": "天津市",
+      "temp_range": {
+        "summer": [
+          25,
+          29
+        ],
+        "winter": [
+          -3,
+          3
+        ],
+        "spring": [
+          11,
+          21
+        ],
+        "autumn": [
+          7,
+          19
+        ]
+      },
+      "humidity": "dry",
+      "feature": "临海略湿润，整体偏干燥"
+    },
+    {
+      "name": "石家庄",
+      "region": "华北",
+      "climate_type": "温带季风气候",
+      "province": "河北省",
+      "temp_range": {
+        "summer": [
+          26,
+          31
+        ],
+        "winter": [
+          -4,
+          4
+        ],
+        "spring": [
+          13,
+          23
+        ],
+        "autumn": [
+          8,
+          21
+        ]
+      },
+      "humidity": "dry",
+      "feature": "内陆干燥，夏季高温明显"
+    },
+    {
+      "name": "唐山",
+      "region": "华北",
+      "climate_type": "温带季风气候",
+      "province": "河北省",
+      "temp_range": {
+        "summer": [
+          25,
+          29
+        ],
+        "winter": [
+          -4,
+          2
+        ],
+        "spring": [
+          11,
+          20
+        ],
+        "autumn": [
+          7,
+          17
+        ]
+      },
+      "humidity": "dry",
+      "feature": "沿海略湿润"
+    },
+    {
+      "name": "秦皇岛",
+      "region": "华北",
+      "climate_type": "温带海洋性季风气候",
+      "province": "河北省",
+      "temp_range": {
+        "summer": [
+          22,
+          25
+        ],
+        "winter": [
+          -5,
+          0
+        ],
+        "spring": [
+          10,
+          18
+        ],
+        "autumn": [
+          7,
+          15
+        ]
+      },
+      "humidity": "wet",
+      "feature": "沿海湿润"
+    },
+    {
+      "name": "邯郸",
+      "region": "华北",
+      "climate_type": "温带季风气候",
+      "province": "河北省",
+      "temp_range": {
+        "summer": [
+          26,
+          31
+        ],
+        "winter": [
+          -3,
+          3
+        ],
+        "spring": [
+          12,
+          22
+        ],
+        "autumn": [
+          8,
+          19
+        ]
+      },
+      "humidity": "dry",
+      "feature": "内陆干燥"
+    },
+    {
+      "name": "邢台",
+      "region": "华北",
+      "climate_type": "温带季风气候",
+      "province": "河北省",
+      "temp_range": {
+        "summer": [
+          26,
+          31
+        ],
+        "winter": [
+          -3,
+          3
+        ],
+        "spring": [
+          12,
+          22
+        ],
+        "autumn": [
+          8,
+          19
+        ]
+      },
+      "humidity": "dry",
+      "feature": "内陆干燥"
+    },
+    {
+      "name": "保定",
+      "region": "华北",
+      "climate_type": "温带季风气候",
+      "province": "河北省",
+      "temp_range": {
+        "summer": [
+          26,
+          30
+        ],
+        "winter": [
+          -4,
+          4
+        ],
+        "spring": [
+          12,
+          22
+        ],
+        "autumn": [
+          7,
+          19
+        ]
+      },
+      "humidity": "dry",
+      "feature": "内陆干燥"
+    },
+    {
+      "name": "张家口",
+      "region": "华北",
+      "climate_type": "温带大陆性气候",
+      "province": "河北省",
+      "temp_range": {
+        "summer": [
+          19,
+          23
+        ],
+        "winter": [
+          -10,
+          0
+        ],
+        "spring": [
+          6,
+          15
+        ],
+        "autumn": [
+          2,
+          11
+        ]
+      },
+      "humidity": "dry",
+      "feature": "高原寒冷"
+    },
+    {
+      "name": "承德",
+      "region": "华北",
+      "climate_type": "温带季风气候",
+      "province": "河北省",
+      "temp_range": {
+        "summer": [
+          20,
+          24
+        ],
+        "winter": [
+          -8,
+          1
+        ],
+        "spring": [
+          8,
+          17
+        ],
+        "autumn": [
+          3,
+          12
+        ]
+      },
+      "humidity": "dry",
+      "feature": "燕山山区"
+    },
+    {
+      "name": "沧州",
+      "region": "华北",
+      "climate_type": "温带季风气候",
+      "province": "河北省",
+      "temp_range": {
+        "summer": [
+          25,
+          29
+        ],
+        "winter": [
+          -4,
+          4
+        ],
+        "spring": [
+          11,
+          21
+        ],
+        "autumn": [
+          7,
+          18
+        ]
+      },
+      "humidity": "dry",
+      "feature": "沿海略湿润"
+    },
+    {
+      "name": "廊坊",
+      "region": "华北",
+      "climate_type": "温带季风气候",
+      "province": "河北省",
+      "temp_range": {
+        "summer": [
+          25,
+          30
+        ],
+        "winter": [
+          -4,
+          4
+        ],
+        "spring": [
+          12,
+          22
+        ],
+        "autumn": [
+          7,
+          19
+        ]
+      },
+      "humidity": "dry",
+      "feature": "内陆干燥"
+    },
+    {
+      "name": "衡水",
+      "region": "华北",
+      "climate_type": "温带季风气候",
+      "province": "河北省",
+      "temp_range": {
+        "summer": [
+          26,
+          31
+        ],
+        "winter": [
+          -3,
+          3
+        ],
+        "spring": [
+          12,
+          22
+        ],
+        "autumn": [
+          8,
+          19
+        ]
+      },
+      "humidity": "dry",
+      "feature": "内陆干燥"
+    },
+    {
+      "name": "太原",
+      "region": "华北",
+      "climate_type": "温带大陆性气候",
+      "province": "山西省",
+      "temp_range": {
+        "summer": [
+          23,
+          27
+        ],
+        "winter": [
+          -8,
+          0
+        ],
+        "spring": [
+          10,
+          20
+        ],
+        "autumn": [
+          5,
+          17
+        ]
+      },
+      "humidity": "dry",
+      "feature": "高原干燥"
+    },
+    {
+      "name": "大同",
+      "region": "华北",
+      "climate_type": "温带大陆性气候",
+      "province": "山西省",
+      "temp_range": {
+        "summer": [
+          20,
+          24
+        ],
+        "winter": [
+          -12,
+          -3
+        ],
+        "spring": [
+          8,
+          17
+        ],
+        "autumn": [
+          3,
+          13
+        ]
+      },
+      "humidity": "dry",
+      "feature": "高寒干燥"
+    },
+    {
+      "name": "阳泉",
+      "region": "华北",
+      "climate_type": "温带大陆性气候",
+      "province": "山西省",
+      "temp_range": {
+        "summer": [
+          24,
+          28
+        ],
+        "winter": [
+          -6,
+          3
+        ],
+        "spring": [
+          10,
+          20
+        ],
+        "autumn": [
+          5,
+          16
+        ]
+      },
+      "humidity": "dry",
+      "feature": "山区干燥"
+    },
+    {
+      "name": "长治",
+      "region": "华北",
+      "climate_type": "温带季风气候",
+      "province": "山西省",
+      "temp_range": {
+        "summer": [
+          24,
+          28
+        ],
+        "winter": [
+          -5,
+          4
+        ],
+        "spring": [
+          10,
+          20
+        ],
+        "autumn": [
+          5,
+          16
+        ]
+      },
+      "humidity": "dry",
+      "feature": "上党盆地干燥"
+    },
+    {
+      "name": "晋城",
+      "region": "华北",
+      "climate_type": "温带季风气候",
+      "province": "山西省",
+      "temp_range": {
+        "summer": [
+          24,
+          28
+        ],
+        "winter": [
+          -4,
+          3
+        ],
+        "spring": [
+          10,
+          20
+        ],
+        "autumn": [
+          6,
+          16
+        ]
+      },
+      "humidity": "dry",
+      "feature": "晋东南干燥"
+    },
+    {
+      "name": "朔州",
+      "region": "华北",
+      "climate_type": "温带大陆性气候",
+      "province": "山西省",
+      "temp_range": {
+        "summer": [
+          20,
+          25
+        ],
+        "winter": [
+          -9,
+          -1
+        ],
+        "spring": [
+          8,
+          17
+        ],
+        "autumn": [
+          3,
+          12
+        ]
+      },
+      "humidity": "dry",
+      "feature": "北方寒冷"
+    },
+    {
+      "name": "晋中",
+      "region": "华北",
+      "climate_type": "温带大陆性气候",
+      "province": "山西省",
+      "temp_range": {
+        "summer": [
+          23,
+          27
+        ],
+        "winter": [
+          -7,
+          1
+        ],
+        "spring": [
+          10,
+          20
+        ],
+        "autumn": [
+          5,
+          16
+        ]
+      },
+      "humidity": "dry",
+      "feature": "高原干燥"
+    },
+    {
+      "name": "运城",
+      "region": "华北",
+      "climate_type": "温带季风气候",
+      "province": "山西省",
+      "temp_range": {
+        "summer": [
+          25,
+          29
+        ],
+        "winter": [
+          -2,
+          5
+        ],
+        "spring": [
+          11,
+          21
+        ],
+        "autumn": [
+          7,
+          18
+        ]
+      },
+      "humidity": "dry",
+      "feature": "运城盆地"
+    },
+    {
+      "name": "忻州",
+      "region": "华北",
+      "climate_type": "温带大陆性气候",
+      "province": "山西省",
+      "temp_range": {
+        "summer": [
+          21,
+          26
+        ],
+        "winter": [
+          -8,
+          1
+        ],
+        "spring": [
+          8,
+          18
+        ],
+        "autumn": [
+          3,
+          14
+        ]
+      },
+      "humidity": "dry",
+      "feature": "北方干燥"
+    },
+    {
+      "name": "临汾",
+      "region": "华北",
+      "climate_type": "温带季风气候",
+      "province": "山西省",
+      "temp_range": {
+        "summer": [
+          25,
+          29
+        ],
+        "winter": [
+          -3,
+          4
+        ],
+        "spring": [
+          11,
+          21
+        ],
+        "autumn": [
+          7,
+          17
+        ]
+      },
+      "humidity": "dry",
+      "feature": "晋南干燥"
+    },
+    {
+      "name": "吕梁",
+      "region": "华北",
+      "climate_type": "温带大陆性气候",
+      "province": "山西省",
+      "temp_range": {
+        "summer": [
+          22,
+          27
+        ],
+        "winter": [
+          -7,
+          2
+        ],
+        "spring": [
+          9,
+          19
+        ],
+        "autumn": [
+          4,
+          15
+        ]
+      },
+      "humidity": "dry",
+      "feature": "山区干燥"
+    },
+    {
+      "name": "呼和浩特",
+      "region": "华北",
+      "climate_type": "温带大陆性气候",
+      "province": "内蒙古自治区",
+      "temp_range": {
+        "summer": [
+          20,
+          24
+        ],
+        "winter": [
+          -15,
+          -5
+        ],
+        "spring": [
+          5,
+          15
+        ],
+        "autumn": [
+          0,
+          12
+        ]
+      },
+      "humidity": "dry",
+      "feature": "高原气候，冬季严寒"
+    },
+    {
+      "name": "包头",
+      "region": "华北",
+      "climate_type": "温带大陆性气候",
+      "province": "内蒙古自治区",
+      "temp_range": {
+        "summer": [
+          21,
+          25
+        ],
+        "winter": [
+          -10,
+          0
+        ],
+        "spring": [
+          8,
+          17
+        ],
+        "autumn": [
+          3,
+          12
+        ]
+      },
+      "humidity": "dry",
+      "feature": "内蒙古高原干燥"
+    },
+    {
+      "name": "乌海",
+      "region": "华北",
+      "climate_type": "温带大陆性气候",
+      "province": "内蒙古自治区",
+      "temp_range": {
+        "summer": [
+          22,
+          27
+        ],
+        "winter": [
+          -8,
+          2
+        ],
+        "spring": [
+          9,
+          18
+        ],
+        "autumn": [
+          4,
+          13
+        ]
+      },
+      "humidity": "dry",
+      "feature": "河套平原干燥"
+    },
+    {
+      "name": "赤峰",
+      "region": "华北",
+      "climate_type": "温带大陆性气候",
+      "province": "内蒙古自治区",
+      "temp_range": {
+        "summer": [
+          20,
+          25
+        ],
+        "winter": [
+          -12,
+          -2
+        ],
+        "spring": [
+          6,
+          16
+        ],
+        "autumn": [
+          2,
+          11
+        ]
+      },
+      "humidity": "dry",
+      "feature": "内蒙古高原寒冷"
+    },
+    {
+      "name": "通辽",
+      "region": "华北",
+      "climate_type": "温带大陆性气候",
+      "province": "内蒙古自治区",
+      "temp_range": {
+        "summer": [
+          21,
+          25
+        ],
+        "winter": [
+          -15,
+          -5
+        ],
+        "spring": [
+          6,
+          15
+        ],
+        "autumn": [
+          1,
+          10
+        ]
+      },
+      "humidity": "dry",
+      "feature": "内蒙古高原寒冷"
+    },
+    {
+      "name": "鄂尔多斯",
+      "region": "华北",
+      "climate_type": "温带大陆性气候",
+      "province": "内蒙古自治区",
+      "temp_range": {
+        "summer": [
+          22,
+          26
+        ],
+        "winter": [
+          -9,
+          1
+        ],
+        "spring": [
+          9,
+          18
+        ],
+        "autumn": [
+          4,
+          13
+        ]
+      },
+      "humidity": "dry",
+      "feature": "鄂尔多斯高原干燥"
+    },
+    {
+      "name": "呼伦贝尔",
+      "region": "华北",
+      "climate_type": "温带大陆性气候",
+      "province": "内蒙古自治区",
+      "temp_range": {
+        "summer": [
+          18,
+          22
+        ],
+        "winter": [
+          -20,
+          -10
+        ],
+        "spring": [
+          4,
+          13
+        ],
+        "autumn": [
+          0,
+          8
+        ]
+      },
+      "humidity": "dry",
+      "feature": "大兴安岭寒冷"
+    },
+    {
+      "name": "巴彦淖尔",
+      "region": "华北",
+      "climate_type": "温带大陆性气候",
+      "province": "内蒙古自治区",
+      "temp_range": {
+        "summer": [
+          22,
+          27
+        ],
+        "winter": [
+          -8,
+          1
+        ],
+        "spring": [
+          9,
+          18
+        ],
+        "autumn": [
+          4,
+          13
+        ]
+      },
+      "humidity": "dry",
+      "feature": "河套平原干燥"
+    },
+    {
+      "name": "乌兰察布",
+      "region": "华北",
+      "climate_type": "温带大陆性气候",
+      "province": "内蒙古自治区",
+      "temp_range": {
+        "summer": [
+          20,
+          25
+        ],
+        "winter": [
+          -12,
+          -2
+        ],
+        "spring": [
+          7,
+          16
+        ],
+        "autumn": [
+          2,
+          11
+        ]
+      },
+      "humidity": "dry",
+      "feature": "高原寒冷"
+    },
+    {
+      "name": "兴安盟",
+      "region": "华北",
+      "climate_type": "温带大陆性气候",
+      "province": "内蒙古自治区",
+      "temp_range": {
+        "summer": [
+          18,
+          22
+        ],
+        "winter": [
+          -18,
+          -8
+        ],
+        "spring": [
+          5,
+          14
+        ],
+        "autumn": [
+          0,
+          9
+        ]
+      },
+      "humidity": "dry",
+      "feature": "大兴安岭寒冷"
+    },
+    {
+      "name": "锡林郭勒盟",
+      "region": "华北",
+      "climate_type": "温带大陆性气候",
+      "province": "内蒙古自治区",
+      "temp_range": {
+        "summer": [
+          19,
+          23
+        ],
+        "winter": [
+          -18,
+          -8
+        ],
+        "spring": [
+          5,
+          14
+        ],
+        "autumn": [
+          0,
+          8
+        ]
+      },
+      "humidity": "dry",
+      "feature": "内蒙古草原寒冷"
+    },
+    {
+      "name": "阿拉善盟",
+      "region": "华北",
+      "climate_type": "温带大陆性气候",
+      "province": "内蒙古自治区",
+      "temp_range": {
+        "summer": [
+          21,
+          26
+        ],
+        "winter": [
+          -12,
+          -2
+        ],
+        "spring": [
+          8,
+          17
+        ],
+        "autumn": [
+          3,
+          12
+        ]
+      },
+      "humidity": "dry",
+      "feature": "阿拉善沙漠极干"
+    },
+    {
+      "name": "沈阳",
+      "region": "东北",
+      "climate_type": "温带季风气候",
+      "province": "辽宁省",
+      "temp_range": {
+        "summer": [
+          22,
+          26
+        ],
+        "winter": [
+          -12,
+          -2
+        ],
+        "spring": [
+          8,
+          18
+        ],
+        "autumn": [
+          3,
+          14
+        ]
+      },
+      "humidity": "dry",
+      "feature": "冬季寒冷漫长"
+    },
+    {
+      "name": "大连",
+      "region": "东北",
+      "climate_type": "温带海洋性季风气候",
+      "province": "辽宁省",
+      "temp_range": {
+        "summer": [
+          21,
+          25
+        ],
+        "winter": [
+          -3,
+          3
+        ],
+        "spring": [
+          8,
+          17
+        ],
+        "autumn": [
+          7,
+          15
+        ]
+      },
+      "humidity": "wet",
+      "feature": "沿海温和湿润"
+    },
+    {
+      "name": "鞍山",
+      "region": "东北",
+      "climate_type": "温带季风气候",
+      "province": "辽宁省",
+      "temp_range": {
+        "summer": [
+          22,
+          26
+        ],
+        "winter": [
+          -10,
+          -1
+        ],
+        "spring": [
+          8,
+          18
+        ],
+        "autumn": [
+          3,
+          13
+        ]
+      },
+      "humidity": "dry",
+      "feature": "工业城市，冬季寒冷"
+    },
+    {
+      "name": "抚顺",
+      "region": "东北",
+      "climate_type": "温带季风气候",
+      "province": "辽宁省",
+      "temp_range": {
+        "summer": [
+          22,
+          26
+        ],
+        "winter": [
+          -10,
+          0
+        ],
+        "spring": [
+          8,
+          18
+        ],
+        "autumn": [
+          3,
+          13
+        ]
+      },
+      "humidity": "dry",
+      "feature": "冬季寒冷干燥"
+    },
+    {
+      "name": "本溪",
+      "region": "东北",
+      "climate_type": "温带季风气候",
+      "province": "辽宁省",
+      "temp_range": {
+        "summer": [
+          22,
+          26
+        ],
+        "winter": [
+          -10,
+          0
+        ],
+        "spring": [
+          8,
+          18
+        ],
+        "autumn": [
+          3,
+          13
+        ]
+      },
+      "humidity": "dry",
+      "feature": "山区气候，冬季寒冷"
+    },
+    {
+      "name": "丹东",
+      "region": "东北",
+      "climate_type": "温带海洋性季风气候",
+      "province": "辽宁省",
+      "temp_range": {
+        "summer": [
+          21,
+          24
+        ],
+        "winter": [
+          -7,
+          2
+        ],
+        "spring": [
+          7,
+          16
+        ],
+        "autumn": [
+          5,
+          13
+        ]
+      },
+      "humidity": "wet",
+      "feature": "沿海湿润"
+    },
+    {
+      "name": "锦州",
+      "region": "东北",
+      "climate_type": "温带季风气候",
+      "province": "辽宁省",
+      "temp_range": {
+        "summer": [
+          23,
+          27
+        ],
+        "winter": [
+          -8,
+          1
+        ],
+        "spring": [
+          9,
+          18
+        ],
+        "autumn": [
+          4,
+          14
+        ]
+      },
+      "humidity": "dry",
+      "feature": "辽宁西部，冬季较冷"
+    },
+    {
+      "name": "营口",
+      "region": "东北",
+      "climate_type": "温带海洋性季风气候",
+      "province": "辽宁省",
+      "temp_range": {
+        "summer": [
+          22,
+          26
+        ],
+        "winter": [
+          -7,
+          2
+        ],
+        "spring": [
+          8,
+          17
+        ],
+        "autumn": [
+          4,
+          14
+        ]
+      },
+      "humidity": "wet",
+      "feature": "沿海湿润"
+    },
+    {
+      "name": "阜新",
+      "region": "东北",
+      "climate_type": "温带季风气候",
+      "province": "辽宁省",
+      "temp_range": {
+        "summer": [
+          23,
+          27
+        ],
+        "winter": [
+          -11,
+          0
+        ],
+        "spring": [
+          7,
+          17
+        ],
+        "autumn": [
+          3,
+          13
+        ]
+      },
+      "humidity": "dry",
+      "feature": "西部干旱"
+    },
+    {
+      "name": "辽阳",
+      "region": "东北",
+      "climate_type": "温带季风气候",
+      "province": "辽宁省",
+      "temp_range": {
+        "summer": [
+          22,
+          26
+        ],
+        "winter": [
+          -10,
+          -1
+        ],
+        "spring": [
+          8,
+          18
+        ],
+        "autumn": [
+          3,
+          13
+        ]
+      },
+      "humidity": "dry",
+      "feature": "冬季寒冷干燥"
+    },
+    {
+      "name": "盘锦",
+      "region": "东北",
+      "climate_type": "温带季风气候",
+      "province": "辽宁省",
+      "temp_range": {
+        "summer": [
+          22,
+          26
+        ],
+        "winter": [
+          -10,
+          0
+        ],
+        "spring": [
+          8,
+          18
+        ],
+        "autumn": [
+          3,
+          13
+        ]
+      },
+      "humidity": "dry",
+      "feature": "湿地城市"
+    },
+    {
+      "name": "铁岭",
+      "region": "东北",
+      "climate_type": "温带季风气候",
+      "province": "辽宁省",
+      "temp_range": {
+        "summer": [
+          22,
+          26
+        ],
+        "winter": [
+          -12,
+          0
+        ],
+        "spring": [
+          7,
+          17
+        ],
+        "autumn": [
+          3,
+          13
+        ]
+      },
+      "humidity": "dry",
+      "feature": "北部寒冷"
+    },
+    {
+      "name": "朝阳",
+      "region": "东北",
+      "climate_type": "温带季风气候",
+      "province": "辽宁省",
+      "temp_range": {
+        "summer": [
+          23,
+          27
+        ],
+        "winter": [
+          -11,
+          0
+        ],
+        "spring": [
+          7,
+          17
+        ],
+        "autumn": [
+          3,
+          13
+        ]
+      },
+      "humidity": "dry",
+      "feature": "西部干燥"
+    },
+    {
+      "name": "葫芦岛",
+      "region": "东北",
+      "climate_type": "温带海洋性季风气候",
+      "province": "辽宁省",
+      "temp_range": {
+        "summer": [
+          22,
+          25
+        ],
+        "winter": [
+          -9,
+          1
+        ],
+        "spring": [
+          8,
+          17
+        ],
+        "autumn": [
+          4,
+          13
+        ]
+      },
+      "humidity": "wet",
+      "feature": "沿海湿润"
+    },
+    {
+      "name": "长春",
+      "region": "东北",
+      "climate_type": "温带大陆性气候",
+      "province": "吉林省",
+      "temp_range": {
+        "summer": [
+          20,
+          24
+        ],
+        "winter": [
+          -18,
+          -8
+        ],
+        "spring": [
+          6,
+          16
+        ],
+        "autumn": [
+          2,
+          12
+        ]
+      },
+      "humidity": "dry",
+      "feature": "严寒冬季"
+    },
+    {
+      "name": "吉林",
+      "region": "东北",
+      "climate_type": "温带大陆性气候",
+      "province": "吉林省",
+      "temp_range": {
+        "summer": [
+          19,
+          23
+        ],
+        "winter": [
+          -17,
+          -7
+        ],
+        "spring": [
+          5,
+          15
+        ],
+        "autumn": [
+          2,
+          11
+        ]
+      },
+      "humidity": "dry",
+      "feature": "严寒干燥"
+    },
+    {
+      "name": "四平",
+      "region": "东北",
+      "climate_type": "温带大陆性气候",
+      "province": "吉林省",
+      "temp_range": {
+        "summer": [
+          20,
+          24
+        ],
+        "winter": [
+          -15,
+          -6
+        ],
+        "spring": [
+          6,
+          15
+        ],
+        "autumn": [
+          2,
+          11
+        ]
+      },
+      "humidity": "dry",
+      "feature": "严寒干燥"
+    },
+    {
+      "name": "辽源",
+      "region": "东北",
+      "climate_type": "温带大陆性气候",
+      "province": "吉林省",
+      "temp_range": {
+        "summer": [
+          20,
+          24
+        ],
+        "winter": [
+          -15,
+          -6
+        ],
+        "spring": [
+          6,
+          15
+        ],
+        "autumn": [
+          2,
+          11
+        ]
+      },
+      "humidity": "dry",
+      "feature": "严寒干燥"
+    },
+    {
+      "name": "通化",
+      "region": "东北",
+      "climate_type": "温带季风气候",
+      "province": "吉林省",
+      "temp_range": {
+        "summer": [
+          20,
+          24
+        ],
+        "winter": [
+          -14,
+          -5
+        ],
+        "spring": [
+          7,
+          16
+        ],
+        "autumn": [
+          3,
+          12
+        ]
+      },
+      "humidity": "dry",
+      "feature": "山区寒冷"
+    },
+    {
+      "name": "白山",
+      "region": "东北",
+      "climate_type": "温带季风气候",
+      "province": "吉林省",
+      "temp_range": {
+        "summer": [
+          19,
+          23
+        ],
+        "winter": [
+          -14,
+          -5
+        ],
+        "spring": [
+          6,
+          15
+        ],
+        "autumn": [
+          2,
+          11
+        ]
+      },
+      "humidity": "dry",
+      "feature": "长白山地区，寒冷"
+    },
+    {
+      "name": "松原",
+      "region": "东北",
+      "climate_type": "温带大陆性气候",
+      "province": "吉林省",
+      "temp_range": {
+        "summer": [
+          19,
+          23
+        ],
+        "winter": [
+          -17,
+          -7
+        ],
+        "spring": [
+          5,
+          15
+        ],
+        "autumn": [
+          1,
+          10
+        ]
+      },
+      "humidity": "dry",
+      "feature": "松嫩平原寒冷"
+    },
+    {
+      "name": "白城",
+      "region": "东北",
+      "climate_type": "温带大陆性气候",
+      "province": "吉林省",
+      "temp_range": {
+        "summer": [
+          19,
+          23
+        ],
+        "winter": [
+          -18,
+          -8
+        ],
+        "spring": [
+          5,
+          14
+        ],
+        "autumn": [
+          1,
+          10
+        ]
+      },
+      "humidity": "dry",
+      "feature": "西部干旱"
+    },
+    {
+      "name": "哈尔滨",
+      "region": "东北",
+      "climate_type": "温带大陆性气候",
+      "province": "黑龙江省",
+      "temp_range": {
+        "summer": [
+          19,
+          23
+        ],
+        "winter": [
+          -20,
+          -10
+        ],
+        "spring": [
+          5,
+          15
+        ],
+        "autumn": [
+          0,
+          10
+        ]
+      },
+      "humidity": "dry",
+      "feature": "中国最冷省会"
+    },
+    {
+      "name": "齐齐哈尔",
+      "region": "东北",
+      "climate_type": "温带大陆性气候",
+      "province": "黑龙江省",
+      "temp_range": {
+        "summer": [
+          18,
+          22
+        ],
+        "winter": [
+          -22,
+          -12
+        ],
+        "spring": [
+          4,
+          14
+        ],
+        "autumn": [
+          0,
+          9
+        ]
+      },
+      "humidity": "dry",
+      "feature": "严寒干燥"
+    },
+    {
+      "name": "鸡西",
+      "region": "东北",
+      "climate_type": "温带大陆性气候",
+      "province": "黑龙江省",
+      "temp_range": {
+        "summer": [
+          18,
+          22
+        ],
+        "winter": [
+          -20,
+          -10
+        ],
+        "spring": [
+          4,
+          13
+        ],
+        "autumn": [
+          0,
+          9
+        ]
+      },
+      "humidity": "dry",
+      "feature": "严寒干燥"
+    },
+    {
+      "name": "鹤岗",
+      "region": "东北",
+      "climate_type": "温带大陆性气候",
+      "province": "黑龙江省",
+      "temp_range": {
+        "summer": [
+          18,
+          22
+        ],
+        "winter": [
+          -22,
+          -12
+        ],
+        "spring": [
+          4,
+          14
+        ],
+        "autumn": [
+          0,
+          9
+        ]
+      },
+      "humidity": "dry",
+      "feature": "严寒干燥"
+    },
+    {
+      "name": "双鸭山",
+      "region": "东北",
+      "climate_type": "温带大陆性气候",
+      "province": "黑龙江省",
+      "temp_range": {
+        "summer": [
+          19,
+          23
+        ],
+        "winter": [
+          -20,
+          -10
+        ],
+        "spring": [
+          5,
+          15
+        ],
+        "autumn": [
+          1,
+          10
+        ]
+      },
+      "humidity": "dry",
+      "feature": "严寒干燥"
+    },
+    {
+      "name": "大庆",
+      "region": "东北",
+      "climate_type": "温带大陆性气候",
+      "province": "黑龙江省",
+      "temp_range": {
+        "summer": [
+          20,
+          24
+        ],
+        "winter": [
+          -18,
+          -8
+        ],
+        "spring": [
+          6,
+          16
+        ],
+        "autumn": [
+          2,
+          11
+        ]
+      },
+      "humidity": "dry",
+      "feature": "严寒干燥"
+    },
+    {
+      "name": "伊春",
+      "region": "东北",
+      "climate_type": "温带大陆性气候",
+      "province": "黑龙江省",
+      "temp_range": {
+        "summer": [
+          17,
+          21
+        ],
+        "winter": [
+          -24,
+          -14
+        ],
+        "spring": [
+          3,
+          12
+        ],
+        "autumn": [
+          -1,
+          8
+        ]
+      },
+      "humidity": "dry",
+      "feature": "小兴安岭，极寒"
+    },
+    {
+      "name": "佳木斯",
+      "region": "东北",
+      "climate_type": "温带大陆性气候",
+      "province": "黑龙江省",
+      "temp_range": {
+        "summer": [
+          19,
+          23
+        ],
+        "winter": [
+          -22,
+          -12
+        ],
+        "spring": [
+          5,
+          15
+        ],
+        "autumn": [
+          1,
+          10
+        ]
+      },
+      "humidity": "dry",
+      "feature": "严寒干燥"
+    },
+    {
+      "name": "七台河",
+      "region": "东北",
+      "climate_type": "温带大陆性气候",
+      "province": "黑龙江省",
+      "temp_range": {
+        "summer": [
+          18,
+          22
+        ],
+        "winter": [
+          -20,
+          -10
+        ],
+        "spring": [
+          4,
+          14
+        ],
+        "autumn": [
+          0,
+          9
+        ]
+      },
+      "humidity": "dry",
+      "feature": "严寒干燥"
+    },
+    {
+      "name": "牡丹江",
+      "region": "东北",
+      "climate_type": "温带大陆性气候",
+      "province": "黑龙江省",
+      "temp_range": {
+        "summer": [
+          18,
+          22
+        ],
+        "winter": [
+          -18,
+          -8
+        ],
+        "spring": [
+          5,
+          14
+        ],
+        "autumn": [
+          1,
+          9
+        ]
+      },
+      "humidity": "dry",
+      "feature": "严寒湿润"
+    },
+    {
+      "name": "黑河",
+      "region": "东北",
+      "climate_type": "温带大陆性气候",
+      "province": "黑龙江省",
+      "temp_range": {
+        "summer": [
+          18,
+          22
+        ],
+        "winter": [
+          -28,
+          -18
+        ],
+        "spring": [
+          3,
+          12
+        ],
+        "autumn": [
+          0,
+          8
+        ]
+      },
+      "humidity": "dry",
+      "feature": "极寒边境"
+    },
+    {
+      "name": "绥化",
+      "region": "东北",
+      "climate_type": "温带大陆性气候",
+      "province": "黑龙江省",
+      "temp_range": {
+        "summer": [
+          19,
+          23
+        ],
+        "winter": [
+          -20,
+          -10
+        ],
+        "spring": [
+          5,
+          15
+        ],
+        "autumn": [
+          1,
+          10
+        ]
+      },
+      "humidity": "dry",
+      "feature": "严寒干燥"
+    },
+    {
+      "name": "上海",
+      "region": "华东",
+      "climate_type": "亚热带季风气候",
+      "province": "上海市",
+      "temp_range": {
+        "summer": [
+          28,
+          32
+        ],
+        "winter": [
+          2,
+          8
+        ],
+        "spring": [
+          13,
+          22
+        ],
+        "autumn": [
+          10,
+          20
+        ]
+      },
+      "humidity": "wet",
+      "feature": "梅雨季节湿度高，夏季湿热"
+    },
+    {
+      "name": "南京",
+      "region": "华东",
+      "climate_type": "亚热带季风气候",
+      "province": "江苏省",
+      "temp_range": {
+        "summer": [
+          27,
+          33
+        ],
+        "winter": [
+          0,
+          6
+        ],
+        "spring": [
+          12,
+          21
+        ],
+        "autumn": [
+          8,
+          18
+        ]
+      },
+      "humidity": "wet",
+      "feature": "夏季高温闷热，冬季湿冷"
+    },
+    {
+      "name": "无锡",
+      "region": "华东",
+      "climate_type": "亚热带季风气候",
+      "province": "江苏省",
+      "temp_range": {
+        "summer": [
+          27,
+          32
+        ],
+        "winter": [
+          2,
+          7
+        ],
+        "spring": [
+          13,
+          22
+        ],
+        "autumn": [
+          9,
+          19
+        ]
+      },
+      "humidity": "wet",
+      "feature": "江南湿润"
+    },
+    {
+      "name": "徐州",
+      "region": "华东",
+      "climate_type": "温带季风气候",
+      "province": "江苏省",
+      "temp_range": {
+        "summer": [
+          26,
+          31
+        ],
+        "winter": [
+          -2,
+          4
+        ],
+        "spring": [
+          12,
+          22
+        ],
+        "autumn": [
+          7,
+          18
+        ]
+      },
+      "humidity": "dry",
+      "feature": "江淮过渡带"
+    },
+    {
+      "name": "常州",
+      "region": "华东",
+      "climate_type": "亚热带季风气候",
+      "province": "江苏省",
+      "temp_range": {
+        "summer": [
+          27,
+          32
+        ],
+        "winter": [
+          2,
+          7
+        ],
+        "spring": [
+          13,
+          22
+        ],
+        "autumn": [
+          9,
+          19
+        ]
+      },
+      "humidity": "wet",
+      "feature": "江南湿润"
+    },
+    {
+      "name": "苏州",
+      "region": "华东",
+      "climate_type": "亚热带季风气候",
+      "province": "江苏省",
+      "temp_range": {
+        "summer": [
+          27,
+          32
+        ],
+        "winter": [
+          1,
+          7
+        ],
+        "spring": [
+          13,
+          22
+        ],
+        "autumn": [
+          9,
+          19
+        ]
+      },
+      "humidity": "wet",
+      "feature": "江南湿润，梅雨明显"
+    },
+    {
+      "name": "南通",
+      "region": "华东",
+      "climate_type": "亚热带季风气候",
+      "province": "江苏省",
+      "temp_range": {
+        "summer": [
+          27,
+          31
+        ],
+        "winter": [
+          1,
+          7
+        ],
+        "spring": [
+          12,
+          22
+        ],
+        "autumn": [
+          8,
+          18
+        ]
+      },
+      "humidity": "wet",
+      "feature": "沿海湿润"
+    },
+    {
+      "name": "连云港",
+      "region": "华东",
+      "climate_type": "温带季风气候",
+      "province": "江苏省",
+      "temp_range": {
+        "summer": [
+          25,
+          28
+        ],
+        "winter": [
+          -2,
+          4
+        ],
+        "spring": [
+          10,
+          20
+        ],
+        "autumn": [
+          6,
+          17
+        ]
+      },
+      "humidity": "wet",
+      "feature": "沿海湿润"
+    },
+    {
+      "name": "淮安",
+      "region": "华东",
+      "climate_type": "温带季风气候",
+      "province": "江苏省",
+      "temp_range": {
+        "summer": [
+          26,
+          31
+        ],
+        "winter": [
+          -1,
+          5
+        ],
+        "spring": [
+          11,
+          21
+        ],
+        "autumn": [
+          7,
+          18
+        ]
+      },
+      "humidity": "dry",
+      "feature": "江淮过渡带"
+    },
+    {
+      "name": "盐城",
+      "region": "华东",
+      "climate_type": "亚热带季风气候",
+      "province": "江苏省",
+      "temp_range": {
+        "summer": [
+          27,
+          31
+        ],
+        "winter": [
+          0,
+          6
+        ],
+        "spring": [
+          11,
+          21
+        ],
+        "autumn": [
+          7,
+          17
+        ]
+      },
+      "humidity": "wet",
+      "feature": "沿海湿润"
+    },
+    {
+      "name": "扬州",
+      "region": "华东",
+      "climate_type": "亚热带季风气候",
+      "province": "江苏省",
+      "temp_range": {
+        "summer": [
+          27,
+          32
+        ],
+        "winter": [
+          1,
+          7
+        ],
+        "spring": [
+          13,
+          22
+        ],
+        "autumn": [
+          8,
+          19
+        ]
+      },
+      "humidity": "wet",
+      "feature": "江南湿润"
+    },
+    {
+      "name": "镇江",
+      "region": "华东",
+      "climate_type": "亚热带季风气候",
+      "province": "江苏省",
+      "temp_range": {
+        "summer": [
+          27,
+          32
+        ],
+        "winter": [
+          2,
+          7
+        ],
+        "spring": [
+          13,
+          22
+        ],
+        "autumn": [
+          9,
+          19
+        ]
+      },
+      "humidity": "wet",
+      "feature": "江南湿润"
+    },
+    {
+      "name": "泰州",
+      "region": "华东",
+      "climate_type": "亚热带季风气候",
+      "province": "江苏省",
+      "temp_range": {
+        "summer": [
+          27,
+          32
+        ],
+        "winter": [
+          2,
+          7
+        ],
+        "spring": [
+          13,
+          22
+        ],
+        "autumn": [
+          9,
+          18
+        ]
+      },
+      "humidity": "wet",
+      "feature": "江南湿润"
+    },
+    {
+      "name": "宿迁",
+      "region": "华东",
+      "climate_type": "温带季风气候",
+      "province": "江苏省",
+      "temp_range": {
+        "summer": [
+          26,
+          31
+        ],
+        "winter": [
+          0,
+          5
+        ],
+        "spring": [
+          11,
+          21
+        ],
+        "autumn": [
+          7,
+          18
+        ]
+      },
+      "humidity": "dry",
+      "feature": "江淮过渡带"
+    },
+    {
+      "name": "杭州",
+      "region": "华东",
+      "climate_type": "亚热带季风气候",
+      "province": "浙江省",
+      "temp_range": {
+        "summer": [
+          28,
+          33
+        ],
+        "winter": [
+          2,
+          8
+        ],
+        "spring": [
+          13,
+          22
+        ],
+        "autumn": [
+          10,
+          19
+        ]
+      },
+      "humidity": "wet",
+      "feature": "江南湿润气候，梅雨明显"
+    },
+    {
+      "name": "宁波",
+      "region": "华东",
+      "climate_type": "亚热带季风气候",
+      "province": "浙江省",
+      "temp_range": {
+        "summer": [
+          27,
+          32
+        ],
+        "winter": [
+          3,
+          8
+        ],
+        "spring": [
+          14,
+          22
+        ],
+        "autumn": [
+          10,
+          19
+        ]
+      },
+      "humidity": "wet",
+      "feature": "沿海湿润"
+    },
+    {
+      "name": "温州",
+      "region": "华东",
+      "climate_type": "亚热带季风气候",
+      "province": "浙江省",
+      "temp_range": {
+        "summer": [
+          28,
+          33
+        ],
+        "winter": [
+          5,
+          10
+        ],
+        "spring": [
+          15,
+          23
+        ],
+        "autumn": [
+          12,
+          21
+        ]
+      },
+      "humidity": "wet",
+      "feature": "湿润温暖"
+    },
+    {
+      "name": "嘉兴",
+      "region": "华东",
+      "climate_type": "亚热带季风气候",
+      "province": "浙江省",
+      "temp_range": {
+        "summer": [
+          28,
+          32
+        ],
+        "winter": [
+          2,
+          8
+        ],
+        "spring": [
+          13,
+          22
+        ],
+        "autumn": [
+          9,
+          19
+        ]
+      },
+      "humidity": "wet",
+      "feature": "江南湿润"
+    },
+    {
+      "name": "湖州",
+      "region": "华东",
+      "climate_type": "亚热带季风气候",
+      "province": "浙江省",
+      "temp_range": {
+        "summer": [
+          28,
+          32
+        ],
+        "winter": [
+          2,
+          8
+        ],
+        "spring": [
+          13,
+          22
+        ],
+        "autumn": [
+          9,
+          19
+        ]
+      },
+      "humidity": "wet",
+      "feature": "江南湿润"
+    },
+    {
+      "name": "绍兴",
+      "region": "华东",
+      "climate_type": "亚热带季风气候",
+      "province": "浙江省",
+      "temp_range": {
+        "summer": [
+          28,
+          32
+        ],
+        "winter": [
+          3,
+          8
+        ],
+        "spring": [
+          13,
+          22
+        ],
+        "autumn": [
+          10,
+          19
+        ]
+      },
+      "humidity": "wet",
+      "feature": "江南湿润"
+    },
+    {
+      "name": "金华",
+      "region": "华东",
+      "climate_type": "亚热带季风气候",
+      "province": "浙江省",
+      "temp_range": {
+        "summer": [
+          28,
+          33
+        ],
+        "winter": [
+          3,
+          9
+        ],
+        "spring": [
+          14,
+          23
+        ],
+        "autumn": [
+          10,
+          20
+        ]
+      },
+      "humidity": "wet",
+      "feature": "山区湿润"
+    },
+    {
+      "name": "衢州",
+      "region": "华东",
+      "climate_type": "亚热带季风气候",
+      "province": "浙江省",
+      "temp_range": {
+        "summer": [
+          28,
+          33
+        ],
+        "winter": [
+          3,
+          9
+        ],
+        "spring": [
+          14,
+          23
+        ],
+        "autumn": [
+          10,
+          20
+        ]
+      },
+      "humidity": "wet",
+      "feature": "山区湿润"
+    },
+    {
+      "name": "舟山",
+      "region": "华东",
+      "climate_type": "亚热带海洋性季风气候",
+      "province": "浙江省",
+      "temp_range": {
+        "summer": [
+          27,
+          30
+        ],
+        "winter": [
+          5,
+          11
+        ],
+        "spring": [
+          15,
+          22
+        ],
+        "autumn": [
+          12,
+          20
+        ]
+      },
+      "humidity": "wet",
+      "feature": "海岛气候"
+    },
+    {
+      "name": "台州",
+      "region": "华东",
+      "climate_type": "亚热带季风气候",
+      "province": "浙江省",
+      "temp_range": {
+        "summer": [
+          28,
+          32
+        ],
+        "winter": [
+          5,
+          10
+        ],
+        "spring": [
+          15,
+          23
+        ],
+        "autumn": [
+          12,
+          21
+        ]
+      },
+      "humidity": "wet",
+      "feature": "沿海湿润"
+    },
+    {
+      "name": "丽水",
+      "region": "华东",
+      "climate_type": "亚热带季风气候",
+      "province": "浙江省",
+      "temp_range": {
+        "summer": [
+          28,
+          33
+        ],
+        "winter": [
+          4,
+          10
+        ],
+        "spring": [
+          14,
+          23
+        ],
+        "autumn": [
+          11,
+          20
+        ]
+      },
+      "humidity": "wet",
+      "feature": "山区湿润"
+    },
+    {
+      "name": "合肥",
+      "region": "华东",
+      "climate_type": "亚热带季风气候",
+      "province": "安徽省",
+      "temp_range": {
+        "summer": [
+          27,
+          32
+        ],
+        "winter": [
+          -1,
+          5
+        ],
+        "spring": [
+          11,
+          21
+        ],
+        "autumn": [
+          7,
+          18
+        ]
+      },
+      "humidity": "wet",
+      "feature": "江淮之间，夏季湿热"
+    },
+    {
+      "name": "芜湖",
+      "region": "华东",
+      "climate_type": "亚热带季风气候",
+      "province": "安徽省",
+      "temp_range": {
+        "summer": [
+          27,
+          32
+        ],
+        "winter": [
+          1,
+          7
+        ],
+        "spring": [
+          12,
+          22
+        ],
+        "autumn": [
+          8,
+          19
+        ]
+      },
+      "humidity": "wet",
+      "feature": "皖南湿润"
+    },
+    {
+      "name": "蚌埠",
+      "region": "华东",
+      "climate_type": "温带季风气候",
+      "province": "安徽省",
+      "temp_range": {
+        "summer": [
+          26,
+          31
+        ],
+        "winter": [
+          -2,
+          5
+        ],
+        "spring": [
+          11,
+          21
+        ],
+        "autumn": [
+          7,
+          18
+        ]
+      },
+      "humidity": "dry",
+      "feature": "江淮过渡"
+    },
+    {
+      "name": "淮南",
+      "region": "华东",
+      "climate_type": "温带季风气候",
+      "province": "安徽省",
+      "temp_range": {
+        "summer": [
+          26,
+          31
+        ],
+        "winter": [
+          -2,
+          5
+        ],
+        "spring": [
+          11,
+          21
+        ],
+        "autumn": [
+          7,
+          18
+        ]
+      },
+      "humidity": "dry",
+      "feature": "内陆干燥"
+    },
+    {
+      "name": "马鞍山",
+      "region": "华东",
+      "climate_type": "亚热带季风气候",
+      "province": "安徽省",
+      "temp_range": {
+        "summer": [
+          27,
+          32
+        ],
+        "winter": [
+          1,
+          7
+        ],
+        "spring": [
+          12,
+          22
+        ],
+        "autumn": [
+          8,
+          19
+        ]
+      },
+      "humidity": "wet",
+      "feature": "长江湿润"
+    },
+    {
+      "name": "淮北",
+      "region": "华东",
+      "climate_type": "温带季风气候",
+      "province": "安徽省",
+      "temp_range": {
+        "summer": [
+          26,
+          31
+        ],
+        "winter": [
+          -2,
+          4
+        ],
+        "spring": [
+          11,
+          21
+        ],
+        "autumn": [
+          7,
+          17
+        ]
+      },
+      "humidity": "dry",
+      "feature": "皖北干燥"
+    },
+    {
+      "name": "铜陵",
+      "region": "华东",
+      "climate_type": "亚热带季风气候",
+      "province": "安徽省",
+      "temp_range": {
+        "summer": [
+          27,
+          32
+        ],
+        "winter": [
+          1,
+          7
+        ],
+        "spring": [
+          12,
+          22
+        ],
+        "autumn": [
+          8,
+          19
+        ]
+      },
+      "humidity": "wet",
+      "feature": "长江湿润"
+    },
+    {
+      "name": "安庆",
+      "region": "华东",
+      "climate_type": "亚热带季风气候",
+      "province": "安徽省",
+      "temp_range": {
+        "summer": [
+          27,
+          32
+        ],
+        "winter": [
+          1,
+          7
+        ],
+        "spring": [
+          12,
+          22
+        ],
+        "autumn": [
+          8,
+          19
+        ]
+      },
+      "humidity": "wet",
+      "feature": "皖西南湿润"
+    },
+    {
+      "name": "黄山",
+      "region": "华东",
+      "climate_type": "亚热带季风气候",
+      "province": "安徽省",
+      "temp_range": {
+        "summer": [
+          22,
+          28
+        ],
+        "winter": [
+          0,
+          8
+        ],
+        "spring": [
+          10,
+          20
+        ],
+        "autumn": [
+          6,
+          16
+        ]
+      },
+      "humidity": "wet",
+      "feature": "山区凉爽"
+    },
+    {
+      "name": "滁州",
+      "region": "华东",
+      "climate_type": "温带季风气候",
+      "province": "安徽省",
+      "temp_range": {
+        "summer": [
+          26,
+          31
+        ],
+        "winter": [
+          0,
+          5
+        ],
+        "spring": [
+          11,
+          21
+        ],
+        "autumn": [
+          7,
+          18
+        ]
+      },
+      "humidity": "dry",
+      "feature": "皖东干燥"
+    },
+    {
+      "name": "阜阳",
+      "region": "华东",
+      "climate_type": "温带季风气候",
+      "province": "安徽省",
+      "temp_range": {
+        "summer": [
+          26,
+          31
+        ],
+        "winter": [
+          -2,
+          5
+        ],
+        "spring": [
+          11,
+          21
+        ],
+        "autumn": [
+          7,
+          18
+        ]
+      },
+      "humidity": "dry",
+      "feature": "皖北干燥"
+    },
+    {
+      "name": "宿州",
+      "region": "华东",
+      "climate_type": "温带季风气候",
+      "province": "安徽省",
+      "temp_range": {
+        "summer": [
+          26,
+          31
+        ],
+        "winter": [
+          -2,
+          5
+        ],
+        "spring": [
+          11,
+          21
+        ],
+        "autumn": [
+          7,
+          18
+        ]
+      },
+      "humidity": "dry",
+      "feature": "皖北干燥"
+    },
+    {
+      "name": "六安",
+      "region": "华东",
+      "climate_type": "温带季风气候",
+      "province": "安徽省",
+      "temp_range": {
+        "summer": [
+          26,
+          31
+        ],
+        "winter": [
+          0,
+          5
+        ],
+        "spring": [
+          11,
+          21
+        ],
+        "autumn": [
+          7,
+          18
+        ]
+      },
+      "humidity": "dry",
+      "feature": "大别山区"
+    },
+    {
+      "name": "亳州",
+      "region": "华东",
+      "climate_type": "温带季风气候",
+      "province": "安徽省",
+      "temp_range": {
+        "summer": [
+          26,
+          31
+        ],
+        "winter": [
+          -2,
+          5
+        ],
+        "spring": [
+          11,
+          21
+        ],
+        "autumn": [
+          7,
+          18
+        ]
+      },
+      "humidity": "dry",
+      "feature": "皖北干燥"
+    },
+    {
+      "name": "池州",
+      "region": "华东",
+      "climate_type": "亚热带季风气候",
+      "province": "安徽省",
+      "temp_range": {
+        "summer": [
+          27,
+          32
+        ],
+        "winter": [
+          1,
+          7
+        ],
+        "spring": [
+          12,
+          22
+        ],
+        "autumn": [
+          8,
+          19
+        ]
+      },
+      "humidity": "wet",
+      "feature": "皖南湿润"
+    },
+    {
+      "name": "宣城",
+      "region": "华东",
+      "climate_type": "亚热带季风气候",
+      "province": "安徽省",
+      "temp_range": {
+        "summer": [
+          27,
+          32
+        ],
+        "winter": [
+          1,
+          7
+        ],
+        "spring": [
+          12,
+          22
+        ],
+        "autumn": [
+          8,
+          19
+        ]
+      },
+      "humidity": "wet",
+      "feature": "皖南湿润"
+    },
+    {
+      "name": "福州",
+      "region": "华东",
+      "climate_type": "亚热带海洋性季风气候",
+      "province": "福建省",
+      "temp_range": {
+        "summer": [
+          28,
+          32
+        ],
+        "winter": [
+          7,
+          13
+        ],
+        "spring": [
+          15,
+          23
+        ],
+        "autumn": [
+          15,
+          24
+        ]
+      },
+      "humidity": "wet",
+      "feature": "温暖湿润，冬季温和"
+    },
+    {
+      "name": "厦门",
+      "region": "华东",
+      "climate_type": "亚热带海洋性季风气候",
+      "province": "福建省",
+      "temp_range": {
+        "summer": [
+          28,
+          31
+        ],
+        "winter": [
+          10,
+          16
+        ],
+        "spring": [
+          16,
+          24
+        ],
+        "autumn": [
+          16,
+          25
+        ]
+      },
+      "humidity": "wet",
+      "feature": "温暖湿润，冬季最温和"
+    },
+    {
+      "name": "莆田",
+      "region": "华东",
+      "climate_type": "亚热带季风气候",
+      "province": "福建省",
+      "temp_range": {
+        "summer": [
+          28,
+          32
+        ],
+        "winter": [
+          8,
+          13
+        ],
+        "spring": [
+          16,
+          24
+        ],
+        "autumn": [
+          14,
+          23
+        ]
+      },
+      "humidity": "wet",
+      "feature": "沿海湿润"
+    },
+    {
+      "name": "三明",
+      "region": "华东",
+      "climate_type": "亚热带季风气候",
+      "province": "福建省",
+      "temp_range": {
+        "summer": [
+          26,
+          31
+        ],
+        "winter": [
+          6,
+          12
+        ],
+        "spring": [
+          14,
+          22
+        ],
+        "autumn": [
+          11,
+          20
+        ]
+      },
+      "humidity": "wet",
+      "feature": "山区湿润"
+    },
+    {
+      "name": "泉州",
+      "region": "华东",
+      "climate_type": "亚热带海洋性季风气候",
+      "province": "福建省",
+      "temp_range": {
+        "summer": [
+          28,
+          32
+        ],
+        "winter": [
+          10,
+          16
+        ],
+        "spring": [
+          16,
+          25
+        ],
+        "autumn": [
+          16,
+          25
+        ]
+      },
+      "humidity": "wet",
+      "feature": "沿海湿润"
+    },
+    {
+      "name": "漳州",
+      "region": "华东",
+      "climate_type": "亚热带海洋性季风气候",
+      "province": "福建省",
+      "temp_range": {
+        "summer": [
+          28,
+          32
+        ],
+        "winter": [
+          11,
+          17
+        ],
+        "spring": [
+          17,
+          25
+        ],
+        "autumn": [
+          17,
+          26
+        ]
+      },
+      "humidity": "wet",
+      "feature": "沿海湿润"
+    },
+    {
+      "name": "南平",
+      "region": "华东",
+      "climate_type": "亚热带季风气候",
+      "province": "福建省",
+      "temp_range": {
+        "summer": [
+          26,
+          31
+        ],
+        "winter": [
+          5,
+          12
+        ],
+        "spring": [
+          14,
+          22
+        ],
+        "autumn": [
+          10,
+          19
+        ]
+      },
+      "humidity": "wet",
+      "feature": "山区湿润"
+    },
+    {
+      "name": "龙岩",
+      "region": "华东",
+      "climate_type": "亚热带季风气候",
+      "province": "福建省",
+      "temp_range": {
+        "summer": [
+          27,
+          32
+        ],
+        "winter": [
+          7,
+          13
+        ],
+        "spring": [
+          15,
+          23
+        ],
+        "autumn": [
+          13,
+          22
+        ]
+      },
+      "humidity": "wet",
+      "feature": "山区湿润"
+    },
+    {
+      "name": "宁德",
+      "region": "华东",
+      "climate_type": "亚热带海洋性季风气候",
+      "province": "福建省",
+      "temp_range": {
+        "summer": [
+          27,
+          31
+        ],
+        "winter": [
+          7,
+          13
+        ],
+        "spring": [
+          15,
+          23
+        ],
+        "autumn": [
+          13,
+          22
+        ]
+      },
+      "humidity": "wet",
+      "feature": "沿海湿润"
+    },
+    {
+      "name": "南昌",
+      "region": "华东",
+      "climate_type": "亚热带季风气候",
+      "province": "江西省",
+      "temp_range": {
+        "summer": [
+          28,
+          33
+        ],
+        "winter": [
+          1,
+          7
+        ],
+        "spring": [
+          13,
+          22
+        ],
+        "autumn": [
+          8,
+          19
+        ]
+      },
+      "humidity": "wet",
+      "feature": "夏季高温，冬季湿冷"
+    },
+    {
+      "name": "景德镇",
+      "region": "华东",
+      "climate_type": "亚热带季风气候",
+      "province": "江西省",
+      "temp_range": {
+        "summer": [
+          27,
+          32
+        ],
+        "winter": [
+          1,
+          8
+        ],
+        "spring": [
+          13,
+          22
+        ],
+        "autumn": [
+          8,
+          18
+        ]
+      },
+      "humidity": "wet",
+      "feature": "山区湿润"
+    },
+    {
+      "name": "萍乡",
+      "region": "华东",
+      "climate_type": "亚热带季风气候",
+      "province": "江西省",
+      "temp_range": {
+        "summer": [
+          28,
+          33
+        ],
+        "winter": [
+          1,
+          7
+        ],
+        "spring": [
+          13,
+          22
+        ],
+        "autumn": [
+          8,
+          19
+        ]
+      },
+      "humidity": "wet",
+      "feature": "山区湿润"
+    },
+    {
+      "name": "九江",
+      "region": "华东",
+      "climate_type": "亚热带季风气候",
+      "province": "江西省",
+      "temp_range": {
+        "summer": [
+          28,
+          32
+        ],
+        "winter": [
+          1,
+          7
+        ],
+        "spring": [
+          13,
+          22
+        ],
+        "autumn": [
+          8,
+          19
+        ]
+      },
+      "humidity": "wet",
+      "feature": "长江湿润"
+    },
+    {
+      "name": "新余",
+      "region": "华东",
+      "climate_type": "亚热带季风气候",
+      "province": "江西省",
+      "temp_range": {
+        "summer": [
+          28,
+          33
+        ],
+        "winter": [
+          1,
+          7
+        ],
+        "spring": [
+          13,
+          22
+        ],
+        "autumn": [
+          8,
+          19
+        ]
+      },
+      "humidity": "wet",
+      "feature": "夏季高温"
+    },
+    {
+      "name": "鹰潭",
+      "region": "华东",
+      "climate_type": "亚热带季风气候",
+      "province": "江西省",
+      "temp_range": {
+        "summer": [
+          28,
+          32
+        ],
+        "winter": [
+          2,
+          8
+        ],
+        "spring": [
+          13,
+          22
+        ],
+        "autumn": [
+          9,
+          19
+        ]
+      },
+      "humidity": "wet",
+      "feature": "湿润温暖"
+    },
+    {
+      "name": "赣州",
+      "region": "华东",
+      "climate_type": "亚热带季风气候",
+      "province": "江西省",
+      "temp_range": {
+        "summer": [
+          28,
+          33
+        ],
+        "winter": [
+          5,
+          12
+        ],
+        "spring": [
+          15,
+          24
+        ],
+        "autumn": [
+          12,
+          21
+        ]
+      },
+      "humidity": "wet",
+      "feature": "赣南湿润"
+    },
+    {
+      "name": "吉安",
+      "region": "华东",
+      "climate_type": "亚热带季风气候",
+      "province": "江西省",
+      "temp_range": {
+        "summer": [
+          28,
+          33
+        ],
+        "winter": [
+          3,
+          10
+        ],
+        "spring": [
+          14,
+          23
+        ],
+        "autumn": [
+          10,
+          20
+        ]
+      },
+      "humidity": "wet",
+      "feature": "湿润温暖"
+    },
+    {
+      "name": "宜春",
+      "region": "华东",
+      "climate_type": "亚热带季风气候",
+      "province": "江西省",
+      "temp_range": {
+        "summer": [
+          28,
+          33
+        ],
+        "winter": [
+          2,
+          9
+        ],
+        "spring": [
+          13,
+          22
+        ],
+        "autumn": [
+          9,
+          19
+        ]
+      },
+      "humidity": "wet",
+      "feature": "湿润温暖"
+    },
+    {
+      "name": "抚州",
+      "region": "华东",
+      "climate_type": "亚热带季风气候",
+      "province": "江西省",
+      "temp_range": {
+        "summer": [
+          28,
+          33
+        ],
+        "winter": [
+          2,
+          9
+        ],
+        "spring": [
+          13,
+          22
+        ],
+        "autumn": [
+          9,
+          19
+        ]
+      },
+      "humidity": "wet",
+      "feature": "湿润温暖"
+    },
+    {
+      "name": "上饶",
+      "region": "华东",
+      "climate_type": "亚热带季风气候",
+      "province": "江西省",
+      "temp_range": {
+        "summer": [
+          28,
+          33
+        ],
+        "winter": [
+          2,
+          9
+        ],
+        "spring": [
+          13,
+          22
+        ],
+        "autumn": [
+          9,
+          19
+        ]
+      },
+      "humidity": "wet",
+      "feature": "皖浙赣山区"
+    },
+    {
+      "name": "济南",
+      "region": "华东",
+      "climate_type": "温带季风气候",
+      "province": "山东省",
+      "temp_range": {
+        "summer": [
+          25,
+          28
+        ],
+        "winter": [
+          -3,
+          3
+        ],
+        "spring": [
+          12,
+          22
+        ],
+        "autumn": [
+          7,
+          18
+        ]
+      },
+      "humidity": "dry",
+      "feature": "内陆干燥，夏季干热"
+    },
+    {
+      "name": "青岛",
+      "region": "华东",
+      "climate_type": "温带海洋性季风气候",
+      "province": "山东省",
+      "temp_range": {
+        "summer": [
+          23,
+          26
+        ],
+        "winter": [
+          -2,
+          2
+        ],
+        "spring": [
+          10,
+          18
+        ],
+        "autumn": [
+          8,
+          16
+        ]
+      },
+      "humidity": "wet",
+      "feature": "海洋调节，夏季凉爽"
+    },
+    {
+      "name": "淄博",
+      "region": "华东",
+      "climate_type": "温带季风气候",
+      "province": "山东省",
+      "temp_range": {
+        "summer": [
+          25,
+          28
+        ],
+        "winter": [
+          -3,
+          3
+        ],
+        "spring": [
+          11,
+          21
+        ],
+        "autumn": [
+          7,
+          17
+        ]
+      },
+      "humidity": "dry",
+      "feature": "内陆干燥"
+    },
+    {
+      "name": "枣庄",
+      "region": "华东",
+      "climate_type": "温带季风气候",
+      "province": "山东省",
+      "temp_range": {
+        "summer": [
+          26,
+          30
+        ],
+        "winter": [
+          -2,
+          4
+        ],
+        "spring": [
+          11,
+          21
+        ],
+        "autumn": [
+          7,
+          18
+        ]
+      },
+      "humidity": "dry",
+      "feature": "内陆干燥"
+    },
+    {
+      "name": "东营",
+      "region": "华东",
+      "climate_type": "温带季风气候",
+      "province": "山东省",
+      "temp_range": {
+        "summer": [
+          24,
+          27
+        ],
+        "winter": [
+          -4,
+          2
+        ],
+        "spring": [
+          10,
+          19
+        ],
+        "autumn": [
+          6,
+          16
+        ]
+      },
+      "humidity": "dry",
+      "feature": "临海略湿润"
+    },
+    {
+      "name": "烟台",
+      "region": "华东",
+      "climate_type": "温带海洋性季风气候",
+      "province": "山东省",
+      "temp_range": {
+        "summer": [
+          23,
+          26
+        ],
+        "winter": [
+          -2,
+          3
+        ],
+        "spring": [
+          10,
+          18
+        ],
+        "autumn": [
+          7,
+          16
+        ]
+      },
+      "humidity": "wet",
+      "feature": "海洋调节"
+    },
+    {
+      "name": "潍坊",
+      "region": "华东",
+      "climate_type": "温带季风气候",
+      "province": "山东省",
+      "temp_range": {
+        "summer": [
+          24,
+          28
+        ],
+        "winter": [
+          -3,
+          3
+        ],
+        "spring": [
+          11,
+          20
+        ],
+        "autumn": [
+          7,
+          17
+        ]
+      },
+      "humidity": "dry",
+      "feature": "沿海略湿润"
+    },
+    {
+      "name": "济宁",
+      "region": "华东",
+      "climate_type": "温带季风气候",
+      "province": "山东省",
+      "temp_range": {
+        "summer": [
+          26,
+          30
+        ],
+        "winter": [
+          -2,
+          4
+        ],
+        "spring": [
+          11,
+          21
+        ],
+        "autumn": [
+          7,
+          18
+        ]
+      },
+      "humidity": "dry",
+      "feature": "内陆干燥"
+    },
+    {
+      "name": "泰安",
+      "region": "华东",
+      "climate_type": "温带季风气候",
+      "province": "山东省",
+      "temp_range": {
+        "summer": [
+          25,
+          29
+        ],
+        "winter": [
+          -3,
+          3
+        ],
+        "spring": [
+          11,
+          21
+        ],
+        "autumn": [
+          7,
+          17
+        ]
+      },
+      "humidity": "dry",
+      "feature": "内陆干燥"
+    },
+    {
+      "name": "威海",
+      "region": "华东",
+      "climate_type": "温带海洋性季风气候",
+      "province": "山东省",
+      "temp_range": {
+        "summer": [
+          23,
+          25
+        ],
+        "winter": [
+          -2,
+          2
+        ],
+        "spring": [
+          9,
+          17
+        ],
+        "autumn": [
+          7,
+          15
+        ]
+      },
+      "humidity": "wet",
+      "feature": "海洋气候"
+    },
+    {
+      "name": "日照",
+      "region": "华东",
+      "climate_type": "温带海洋性季风气候",
+      "province": "山东省",
+      "temp_range": {
+        "summer": [
+          24,
+          27
+        ],
+        "winter": [
+          -1,
+          3
+        ],
+        "spring": [
+          10,
+          18
+        ],
+        "autumn": [
+          7,
+          16
+        ]
+      },
+      "humidity": "wet",
+      "feature": "海洋调节"
+    },
+    {
+      "name": "临沂",
+      "region": "华东",
+      "climate_type": "温带季风气候",
+      "province": "山东省",
+      "temp_range": {
+        "summer": [
+          25,
+          29
+        ],
+        "winter": [
+          -3,
+          3
+        ],
+        "spring": [
+          11,
+          21
+        ],
+        "autumn": [
+          7,
+          18
+        ]
+      },
+      "humidity": "dry",
+      "feature": "内陆干燥"
+    },
+    {
+      "name": "德州",
+      "region": "华东",
+      "climate_type": "温带季风气候",
+      "province": "山东省",
+      "temp_range": {
+        "summer": [
+          25,
+          30
+        ],
+        "winter": [
+          -3,
+          4
+        ],
+        "spring": [
+          11,
+          21
+        ],
+        "autumn": [
+          7,
+          18
+        ]
+      },
+      "humidity": "dry",
+      "feature": "内陆干燥"
+    },
+    {
+      "name": "聊城",
+      "region": "华东",
+      "climate_type": "温带季风气候",
+      "province": "山东省",
+      "temp_range": {
+        "summer": [
+          26,
+          30
+        ],
+        "winter": [
+          -3,
+          4
+        ],
+        "spring": [
+          11,
+          21
+        ],
+        "autumn": [
+          7,
+          18
+        ]
+      },
+      "humidity": "dry",
+      "feature": "内陆干燥"
+    },
+    {
+      "name": "滨州",
+      "region": "华东",
+      "climate_type": "温带季风气候",
+      "province": "山东省",
+      "temp_range": {
+        "summer": [
+          24,
+          28
+        ],
+        "winter": [
+          -4,
+          3
+        ],
+        "spring": [
+          10,
+          20
+        ],
+        "autumn": [
+          6,
+          17
+        ]
+      },
+      "humidity": "dry",
+      "feature": "临海略湿润"
+    },
+    {
+      "name": "菏泽",
+      "region": "华东",
+      "climate_type": "温带季风气候",
+      "province": "山东省",
+      "temp_range": {
+        "summer": [
+          26,
+          31
+        ],
+        "winter": [
+          -2,
+          5
+        ],
+        "spring": [
+          11,
+          22
+        ],
+        "autumn": [
+          7,
+          19
+        ]
+      },
+      "humidity": "dry",
+      "feature": "内陆干燥"
+    },
+    {
+      "name": "郑州",
+      "region": "华中",
+      "climate_type": "温带季风气候",
+      "province": "河南省",
+      "temp_range": {
+        "summer": [
+          27,
+          31
+        ],
+        "winter": [
+          -2,
+          4
+        ],
+        "spring": [
+          12,
+          22
+        ],
+        "autumn": [
+          8,
+          19
+        ]
+      },
+      "humidity": "dry",
+      "feature": "内陆干燥，夏热冬冷"
+    },
+    {
+      "name": "开封",
+      "region": "华中",
+      "climate_type": "温带季风气候",
+      "province": "河南省",
+      "temp_range": {
+        "summer": [
+          27,
+          31
+        ],
+        "winter": [
+          -2,
+          4
+        ],
+        "spring": [
+          12,
+          22
+        ],
+        "autumn": [
+          8,
+          19
+        ]
+      },
+      "humidity": "dry",
+      "feature": "内陆干燥"
+    },
+    {
+      "name": "洛阳",
+      "region": "华中",
+      "climate_type": "温带季风气候",
+      "province": "河南省",
+      "temp_range": {
+        "summer": [
+          27,
+          31
+        ],
+        "winter": [
+          -3,
+          4
+        ],
+        "spring": [
+          12,
+          21
+        ],
+        "autumn": [
+          8,
+          18
+        ]
+      },
+      "humidity": "dry",
+      "feature": "内陆干燥"
+    },
+    {
+      "name": "平顶山",
+      "region": "华中",
+      "climate_type": "温带季风气候",
+      "province": "河南省",
+      "temp_range": {
+        "summer": [
+          27,
+          31
+        ],
+        "winter": [
+          -2,
+          5
+        ],
+        "spring": [
+          12,
+          22
+        ],
+        "autumn": [
+          8,
+          19
+        ]
+      },
+      "humidity": "dry",
+      "feature": "内陆干燥"
+    },
+    {
+      "name": "安阳",
+      "region": "华中",
+      "climate_type": "温带季风气候",
+      "province": "河南省",
+      "temp_range": {
+        "summer": [
+          27,
+          31
+        ],
+        "winter": [
+          -3,
+          4
+        ],
+        "spring": [
+          12,
+          21
+        ],
+        "autumn": [
+          8,
+          18
+        ]
+      },
+      "humidity": "dry",
+      "feature": "内陆干燥"
+    },
+    {
+      "name": "鹤壁",
+      "region": "华中",
+      "climate_type": "温带季风气候",
+      "province": "河南省",
+      "temp_range": {
+        "summer": [
+          27,
+          31
+        ],
+        "winter": [
+          -3,
+          4
+        ],
+        "spring": [
+          12,
+          21
+        ],
+        "autumn": [
+          8,
+          18
+        ]
+      },
+      "humidity": "dry",
+      "feature": "内陆干燥"
+    },
+    {
+      "name": "新乡",
+      "region": "华中",
+      "climate_type": "温带季风气候",
+      "province": "河南省",
+      "temp_range": {
+        "summer": [
+          27,
+          31
+        ],
+        "winter": [
+          -2,
+          4
+        ],
+        "spring": [
+          12,
+          22
+        ],
+        "autumn": [
+          8,
+          19
+        ]
+      },
+      "humidity": "dry",
+      "feature": "内陆干燥"
+    },
+    {
+      "name": "焦作",
+      "region": "华中",
+      "climate_type": "温带季风气候",
+      "province": "河南省",
+      "temp_range": {
+        "summer": [
+          27,
+          31
+        ],
+        "winter": [
+          -3,
+          4
+        ],
+        "spring": [
+          12,
+          21
+        ],
+        "autumn": [
+          8,
+          18
+        ]
+      },
+      "humidity": "dry",
+      "feature": "内陆干燥"
+    },
+    {
+      "name": "濮阳",
+      "region": "华中",
+      "climate_type": "温带季风气候",
+      "province": "河南省",
+      "temp_range": {
+        "summer": [
+          27,
+          31
+        ],
+        "winter": [
+          -3,
+          4
+        ],
+        "spring": [
+          12,
+          21
+        ],
+        "autumn": [
+          8,
+          18
+        ]
+      },
+      "humidity": "dry",
+      "feature": "内陆干燥"
+    },
+    {
+      "name": "许昌",
+      "region": "华中",
+      "climate_type": "温带季风气候",
+      "province": "河南省",
+      "temp_range": {
+        "summer": [
+          27,
+          31
+        ],
+        "winter": [
+          -1,
+          5
+        ],
+        "spring": [
+          12,
+          22
+        ],
+        "autumn": [
+          8,
+          19
+        ]
+      },
+      "humidity": "dry",
+      "feature": "内陆干燥"
+    },
+    {
+      "name": "漯河",
+      "region": "华中",
+      "climate_type": "温带季风气候",
+      "province": "河南省",
+      "temp_range": {
+        "summer": [
+          27,
+          31
+        ],
+        "winter": [
+          -2,
+          5
+        ],
+        "spring": [
+          12,
+          22
+        ],
+        "autumn": [
+          8,
+          19
+        ]
+      },
+      "humidity": "dry",
+      "feature": "内陆干燥"
+    },
+    {
+      "name": "三门峡",
+      "region": "华中",
+      "climate_type": "温带季风气候",
+      "province": "河南省",
+      "temp_range": {
+        "summer": [
+          27,
+          31
+        ],
+        "winter": [
+          -3,
+          4
+        ],
+        "spring": [
+          12,
+          21
+        ],
+        "autumn": [
+          8,
+          18
+        ]
+      },
+      "humidity": "dry",
+      "feature": "内陆干燥"
+    },
+    {
+      "name": "南阳",
+      "region": "华中",
+      "climate_type": "亚热带季风气候",
+      "province": "河南省",
+      "temp_range": {
+        "summer": [
+          27,
+          32
+        ],
+        "winter": [
+          0,
+          6
+        ],
+        "spring": [
+          13,
+          22
+        ],
+        "autumn": [
+          8,
+          20
+        ]
+      },
+      "humidity": "wet",
+      "feature": "南方湿润"
+    },
+    {
+      "name": "商丘",
+      "region": "华中",
+      "climate_type": "温带季风气候",
+      "province": "河南省",
+      "temp_range": {
+        "summer": [
+          27,
+          31
+        ],
+        "winter": [
+          -2,
+          4
+        ],
+        "spring": [
+          12,
+          22
+        ],
+        "autumn": [
+          8,
+          19
+        ]
+      },
+      "humidity": "dry",
+      "feature": "内陆干燥"
+    },
+    {
+      "name": "信阳",
+      "region": "华中",
+      "climate_type": "亚热带季风气候",
+      "province": "河南省",
+      "temp_range": {
+        "summer": [
+          27,
+          32
+        ],
+        "winter": [
+          0,
+          7
+        ],
+        "spring": [
+          13,
+          22
+        ],
+        "autumn": [
+          8,
+          20
+        ]
+      },
+      "humidity": "wet",
+      "feature": "南方湿润"
+    },
+    {
+      "name": "周口",
+      "region": "华中",
+      "climate_type": "温带季风气候",
+      "province": "河南省",
+      "temp_range": {
+        "summer": [
+          27,
+          31
+        ],
+        "winter": [
+          -2,
+          5
+        ],
+        "spring": [
+          12,
+          22
+        ],
+        "autumn": [
+          8,
+          19
+        ]
+      },
+      "humidity": "dry",
+      "feature": "内陆干燥"
+    },
+    {
+      "name": "驻马店",
+      "region": "华中",
+      "climate_type": "温带季风气候",
+      "province": "河南省",
+      "temp_range": {
+        "summer": [
+          27,
+          31
+        ],
+        "winter": [
+          -1,
+          5
+        ],
+        "spring": [
+          12,
+          22
+        ],
+        "autumn": [
+          8,
+          19
+        ]
+      },
+      "humidity": "dry",
+      "feature": "内陆干燥"
+    },
+    {
+      "name": "武汉",
+      "region": "华中",
+      "climate_type": "亚热带季风气候",
+      "province": "湖北省",
+      "temp_range": {
+        "summer": [
+          28,
+          35
+        ],
+        "winter": [
+          1,
+          7
+        ],
+        "spring": [
+          13,
+          22
+        ],
+        "autumn": [
+          9,
+          19
+        ]
+      },
+      "humidity": "wet",
+      "feature": "夏季全国最热之一，湿热严重"
+    },
+    {
+      "name": "黄石",
+      "region": "华中",
+      "climate_type": "亚热带季风气候",
+      "province": "湖北省",
+      "temp_range": {
+        "summer": [
+          28,
+          33
+        ],
+        "winter": [
+          1,
+          7
+        ],
+        "spring": [
+          13,
+          22
+        ],
+        "autumn": [
+          8,
+          19
+        ]
+      },
+      "humidity": "wet",
+      "feature": "夏季湿热"
+    },
+    {
+      "name": "十堰",
+      "region": "华中",
+      "climate_type": "亚热带季风气候",
+      "province": "湖北省",
+      "temp_range": {
+        "summer": [
+          26,
+          32
+        ],
+        "winter": [
+          -1,
+          6
+        ],
+        "spring": [
+          12,
+          21
+        ],
+        "autumn": [
+          7,
+          19
+        ]
+      },
+      "humidity": "wet",
+      "feature": "山区湿润"
+    },
+    {
+      "name": "宜昌",
+      "region": "华中",
+      "climate_type": "亚热带季风气候",
+      "province": "湖北省",
+      "temp_range": {
+        "summer": [
+          27,
+          33
+        ],
+        "winter": [
+          2,
+          8
+        ],
+        "spring": [
+          14,
+          23
+        ],
+        "autumn": [
+          10,
+          20
+        ]
+      },
+      "humidity": "wet",
+      "feature": "南方湿润"
+    },
+    {
+      "name": "襄阳",
+      "region": "华中",
+      "climate_type": "亚热带季风气候",
+      "province": "湖北省",
+      "temp_range": {
+        "summer": [
+          27,
+          33
+        ],
+        "winter": [
+          0,
+          7
+        ],
+        "spring": [
+          13,
+          22
+        ],
+        "autumn": [
+          8,
+          20
+        ]
+      },
+      "humidity": "wet",
+      "feature": "南方湿润"
+    },
+    {
+      "name": "鄂州",
+      "region": "华中",
+      "climate_type": "亚热带季风气候",
+      "province": "湖北省",
+      "temp_range": {
+        "summer": [
+          28,
+          33
+        ],
+        "winter": [
+          1,
+          7
+        ],
+        "spring": [
+          13,
+          22
+        ],
+        "autumn": [
+          9,
+          19
+        ]
+      },
+      "humidity": "wet",
+      "feature": "夏季湿热"
+    },
+    {
+      "name": "荆门",
+      "region": "华中",
+      "climate_type": "亚热带季风气候",
+      "province": "湖北省",
+      "temp_range": {
+        "summer": [
+          27,
+          33
+        ],
+        "winter": [
+          1,
+          7
+        ],
+        "spring": [
+          13,
+          22
+        ],
+        "autumn": [
+          8,
+          19
+        ]
+      },
+      "humidity": "wet",
+      "feature": "南方湿润"
+    },
+    {
+      "name": "孝感",
+      "region": "华中",
+      "climate_type": "亚热带季风气候",
+      "province": "湖北省",
+      "temp_range": {
+        "summer": [
+          28,
+          33
+        ],
+        "winter": [
+          0,
+          7
+        ],
+        "spring": [
+          13,
+          22
+        ],
+        "autumn": [
+          8,
+          19
+        ]
+      },
+      "humidity": "wet",
+      "feature": "夏季湿热"
+    },
+    {
+      "name": "荆州",
+      "region": "华中",
+      "climate_type": "亚热带季风气候",
+      "province": "湖北省",
+      "temp_range": {
+        "summer": [
+          28,
+          33
+        ],
+        "winter": [
+          1,
+          7
+        ],
+        "spring": [
+          13,
+          22
+        ],
+        "autumn": [
+          9,
+          19
+        ]
+      },
+      "humidity": "wet",
+      "feature": "江汉平原"
+    },
+    {
+      "name": "黄冈",
+      "region": "华中",
+      "climate_type": "亚热带季风气候",
+      "province": "湖北省",
+      "temp_range": {
+        "summer": [
+          28,
+          33
+        ],
+        "winter": [
+          0,
+          7
+        ],
+        "spring": [
+          13,
+          22
+        ],
+        "autumn": [
+          8,
+          19
+        ]
+      },
+      "humidity": "wet",
+      "feature": "夏季湿热"
+    },
+    {
+      "name": "咸宁",
+      "region": "华中",
+      "climate_type": "亚热带季风气候",
+      "province": "湖北省",
+      "temp_range": {
+        "summer": [
+          28,
+          33
+        ],
+        "winter": [
+          2,
+          8
+        ],
+        "spring": [
+          14,
+          23
+        ],
+        "autumn": [
+          10,
+          20
+        ]
+      },
+      "humidity": "wet",
+      "feature": "南方湿润"
+    },
+    {
+      "name": "随州",
+      "region": "华中",
+      "climate_type": "亚热带季风气候",
+      "province": "湖北省",
+      "temp_range": {
+        "summer": [
+          27,
+          33
+        ],
+        "winter": [
+          0,
+          7
+        ],
+        "spring": [
+          13,
+          22
+        ],
+        "autumn": [
+          8,
+          20
+        ]
+      },
+      "humidity": "wet",
+      "feature": "南方湿润"
+    },
+    {
+      "name": "长沙",
+      "region": "华中",
+      "climate_type": "亚热带季风气候",
+      "province": "湖南省",
+      "temp_range": {
+        "summer": [
+          28,
+          34
+        ],
+        "winter": [
+          2,
+          8
+        ],
+        "spring": [
+          13,
+          22
+        ],
+        "autumn": [
+          9,
+          19
+        ]
+      },
+      "humidity": "wet",
+      "feature": "夏季高温，冬季湿冷"
+    },
+    {
+      "name": "株洲",
+      "region": "华中",
+      "climate_type": "亚热带季风气候",
+      "province": "湖南省",
+      "temp_range": {
+        "summer": [
+          28,
+          33
+        ],
+        "winter": [
+          3,
+          9
+        ],
+        "spring": [
+          14,
+          23
+        ],
+        "autumn": [
+          10,
+          20
+        ]
+      },
+      "humidity": "wet",
+      "feature": "南方湿润"
+    },
+    {
+      "name": "湘潭",
+      "region": "华中",
+      "climate_type": "亚热带季风气候",
+      "province": "湖南省",
+      "temp_range": {
+        "summer": [
+          28,
+          33
+        ],
+        "winter": [
+          3,
+          9
+        ],
+        "spring": [
+          14,
+          23
+        ],
+        "autumn": [
+          10,
+          20
+        ]
+      },
+      "humidity": "wet",
+      "feature": "南方湿润"
+    },
+    {
+      "name": "衡阳",
+      "region": "华中",
+      "climate_type": "亚热带季风气候",
+      "province": "湖南省",
+      "temp_range": {
+        "summer": [
+          28,
+          33
+        ],
+        "winter": [
+          3,
+          9
+        ],
+        "spring": [
+          14,
+          23
+        ],
+        "autumn": [
+          10,
+          20
+        ]
+      },
+      "humidity": "wet",
+      "feature": "南方湿润"
+    },
+    {
+      "name": "邵阳",
+      "region": "华中",
+      "climate_type": "亚热带季风气候",
+      "province": "湖南省",
+      "temp_range": {
+        "summer": [
+          28,
+          33
+        ],
+        "winter": [
+          2,
+          9
+        ],
+        "spring": [
+          14,
+          23
+        ],
+        "autumn": [
+          10,
+          20
+        ]
+      },
+      "humidity": "wet",
+      "feature": "山区湿润"
+    },
+    {
+      "name": "岳阳",
+      "region": "华中",
+      "climate_type": "亚热带季风气候",
+      "province": "湖南省",
+      "temp_range": {
+        "summer": [
+          28,
+          33
+        ],
+        "winter": [
+          2,
+          9
+        ],
+        "spring": [
+          14,
+          23
+        ],
+        "autumn": [
+          10,
+          20
+        ]
+      },
+      "humidity": "wet",
+      "feature": "临湖湿润"
+    },
+    {
+      "name": "常德",
+      "region": "华中",
+      "climate_type": "亚热带季风气候",
+      "province": "湖南省",
+      "temp_range": {
+        "summer": [
+          28,
+          33
+        ],
+        "winter": [
+          2,
+          9
+        ],
+        "spring": [
+          14,
+          23
+        ],
+        "autumn": [
+          10,
+          20
+        ]
+      },
+      "humidity": "wet",
+      "feature": "南方湿润"
+    },
+    {
+      "name": "张家界",
+      "region": "华中",
+      "climate_type": "亚热带季风气候",
+      "province": "湖南省",
+      "temp_range": {
+        "summer": [
+          27,
+          32
+        ],
+        "winter": [
+          2,
+          9
+        ],
+        "spring": [
+          13,
+          22
+        ],
+        "autumn": [
+          9,
+          19
+        ]
+      },
+      "humidity": "wet",
+      "feature": "山区湿润"
+    },
+    {
+      "name": "益阳",
+      "region": "华中",
+      "climate_type": "亚热带季风气候",
+      "province": "湖南省",
+      "temp_range": {
+        "summer": [
+          28,
+          33
+        ],
+        "winter": [
+          2,
+          9
+        ],
+        "spring": [
+          14,
+          23
+        ],
+        "autumn": [
+          10,
+          20
+        ]
+      },
+      "humidity": "wet",
+      "feature": "南方湿润"
+    },
+    {
+      "name": "郴州",
+      "region": "华中",
+      "climate_type": "亚热带季风气候",
+      "province": "湖南省",
+      "temp_range": {
+        "summer": [
+          28,
+          33
+        ],
+        "winter": [
+          5,
+          12
+        ],
+        "spring": [
+          15,
+          24
+        ],
+        "autumn": [
+          12,
+          21
+        ]
+      },
+      "humidity": "wet",
+      "feature": "湘南湿润"
+    },
+    {
+      "name": "永州",
+      "region": "华中",
+      "climate_type": "亚热带季风气候",
+      "province": "湖南省",
+      "temp_range": {
+        "summer": [
+          28,
+          33
+        ],
+        "winter": [
+          5,
+          12
+        ],
+        "spring": [
+          15,
+          24
+        ],
+        "autumn": [
+          12,
+          21
+        ]
+      },
+      "humidity": "wet",
+      "feature": "湘南湿润"
+    },
+    {
+      "name": "怀化",
+      "region": "华中",
+      "climate_type": "亚热带季风气候",
+      "province": "湖南省",
+      "temp_range": {
+        "summer": [
+          27,
+          32
+        ],
+        "winter": [
+          4,
+          11
+        ],
+        "spring": [
+          14,
+          23
+        ],
+        "autumn": [
+          11,
+          20
+        ]
+      },
+      "humidity": "wet",
+      "feature": "湘西湿润"
+    },
+    {
+      "name": "娄底",
+      "region": "华中",
+      "climate_type": "亚热带季风气候",
+      "province": "湖南省",
+      "temp_range": {
+        "summer": [
+          28,
+          33
+        ],
+        "winter": [
+          2,
+          9
+        ],
+        "spring": [
+          14,
+          23
+        ],
+        "autumn": [
+          10,
+          20
+        ]
+      },
+      "humidity": "wet",
+      "feature": "南方湿润"
+    },
+    {
+      "name": "广州",
+      "region": "华南",
+      "climate_type": "亚热带季风气候",
+      "province": "广东省",
+      "temp_range": {
+        "summer": [
+          29,
+          33
+        ],
+        "winter": [
+          12,
+          18
+        ],
+        "spring": [
+          18,
+          26
+        ],
+        "autumn": [
+          18,
+          28
+        ]
+      },
+      "humidity": "wet",
+      "feature": "长夏无冬，常年温暖湿润"
+    },
+    {
+      "name": "韶关",
+      "region": "华南",
+      "climate_type": "亚热带季风气候",
+      "province": "广东省",
+      "temp_range": {
+        "summer": [
+          28,
+          32
+        ],
+        "winter": [
+          8,
+          15
+        ],
+        "spring": [
+          16,
+          25
+        ],
+        "autumn": [
+          14,
+          24
+        ]
+      },
+      "humidity": "wet",
+      "feature": "温暖湿润"
+    },
+    {
+      "name": "深圳",
+      "region": "华南",
+      "climate_type": "亚热带海洋性季风气候",
+      "province": "广东省",
+      "temp_range": {
+        "summer": [
+          29,
+          33
+        ],
+        "winter": [
+          13,
+          19
+        ],
+        "spring": [
+          18,
+          26
+        ],
+        "autumn": [
+          18,
+          27
+        ]
+      },
+      "humidity": "wet",
+      "feature": "海洋气候，全年温暖"
+    },
+    {
+      "name": "珠海",
+      "region": "华南",
+      "climate_type": "亚热带海洋性季风气候",
+      "province": "广东省",
+      "temp_range": {
+        "summer": [
+          28,
+          32
+        ],
+        "winter": [
+          13,
+          19
+        ],
+        "spring": [
+          18,
+          26
+        ],
+        "autumn": [
+          18,
+          27
+        ]
+      },
+      "humidity": "wet",
+      "feature": "沿海湿润"
+    },
+    {
+      "name": "汕头",
+      "region": "华南",
+      "climate_type": "亚热带海洋性季风气候",
+      "province": "广东省",
+      "temp_range": {
+        "summer": [
+          28,
+          32
+        ],
+        "winter": [
+          13,
+          19
+        ],
+        "spring": [
+          18,
+          27
+        ],
+        "autumn": [
+          18,
+          27
+        ]
+      },
+      "humidity": "wet",
+      "feature": "沿海湿润"
+    },
+    {
+      "name": "佛山",
+      "region": "华南",
+      "climate_type": "亚热带季风气候",
+      "province": "广东省",
+      "temp_range": {
+        "summer": [
+          28,
+          33
+        ],
+        "winter": [
+          12,
+          18
+        ],
+        "spring": [
+          18,
+          26
+        ],
+        "autumn": [
+          18,
+          28
+        ]
+      },
+      "humidity": "wet",
+      "feature": "温暖湿润"
+    },
+    {
+      "name": "江门",
+      "region": "华南",
+      "climate_type": "亚热带季风气候",
+      "province": "广东省",
+      "temp_range": {
+        "summer": [
+          28,
+          32
+        ],
+        "winter": [
+          13,
+          19
+        ],
+        "spring": [
+          18,
+          26
+        ],
+        "autumn": [
+          18,
+          27
+        ]
+      },
+      "humidity": "wet",
+      "feature": "沿海湿润"
+    },
+    {
+      "name": "湛江",
+      "region": "华南",
+      "climate_type": "热带季风气候",
+      "province": "广东省",
+      "temp_range": {
+        "summer": [
+          29,
+          33
+        ],
+        "winter": [
+          14,
+          21
+        ],
+        "spring": [
+          19,
+          28
+        ],
+        "autumn": [
+          19,
+          28
+        ]
+      },
+      "humidity": "wet",
+      "feature": "热带沿海"
+    },
+    {
+      "name": "茂名",
+      "region": "华南",
+      "climate_type": "热带季风气候",
+      "province": "广东省",
+      "temp_range": {
+        "summer": [
+          29,
+          33
+        ],
+        "winter": [
+          14,
+          21
+        ],
+        "spring": [
+          19,
+          28
+        ],
+        "autumn": [
+          19,
+          28
+        ]
+      },
+      "humidity": "wet",
+      "feature": "热带沿海"
+    },
+    {
+      "name": "肇庆",
+      "region": "华南",
+      "climate_type": "亚热带季风气候",
+      "province": "广东省",
+      "temp_range": {
+        "summer": [
+          28,
+          32
+        ],
+        "winter": [
+          12,
+          19
+        ],
+        "spring": [
+          18,
+          26
+        ],
+        "autumn": [
+          17,
+          27
+        ]
+      },
+      "humidity": "wet",
+      "feature": "温暖湿润"
+    },
+    {
+      "name": "惠州",
+      "region": "华南",
+      "climate_type": "亚热带季风气候",
+      "province": "广东省",
+      "temp_range": {
+        "summer": [
+          28,
+          33
+        ],
+        "winter": [
+          12,
+          19
+        ],
+        "spring": [
+          18,
+          27
+        ],
+        "autumn": [
+          18,
+          28
+        ]
+      },
+      "humidity": "wet",
+      "feature": "沿海湿润"
+    },
+    {
+      "name": "梅州",
+      "region": "华南",
+      "climate_type": "亚热带季风气候",
+      "province": "广东省",
+      "temp_range": {
+        "summer": [
+          28,
+          32
+        ],
+        "winter": [
+          10,
+          16
+        ],
+        "spring": [
+          17,
+          25
+        ],
+        "autumn": [
+          15,
+          24
+        ]
+      },
+      "humidity": "wet",
+      "feature": "客家山区湿润"
+    },
+    {
+      "name": "汕尾",
+      "region": "华南",
+      "climate_type": "亚热带海洋性季风气候",
+      "province": "广东省",
+      "temp_range": {
+        "summer": [
+          28,
+          32
+        ],
+        "winter": [
+          14,
+          20
+        ],
+        "spring": [
+          19,
+          27
+        ],
+        "autumn": [
+          18,
+          27
+        ]
+      },
+      "humidity": "wet",
+      "feature": "沿海湿润"
+    },
+    {
+      "name": "河源",
+      "region": "华南",
+      "climate_type": "亚热带季风气候",
+      "province": "广东省",
+      "temp_range": {
+        "summer": [
+          28,
+          32
+        ],
+        "winter": [
+          11,
+          17
+        ],
+        "spring": [
+          18,
+          26
+        ],
+        "autumn": [
+          16,
+          25
+        ]
+      },
+      "humidity": "wet",
+      "feature": "山区湿润"
+    },
+    {
+      "name": "阳江",
+      "region": "华南",
+      "climate_type": "亚热带季风气候",
+      "province": "广东省",
+      "temp_range": {
+        "summer": [
+          28,
+          32
+        ],
+        "winter": [
+          14,
+          20
+        ],
+        "spring": [
+          19,
+          27
+        ],
+        "autumn": [
+          18,
+          27
+        ]
+      },
+      "humidity": "wet",
+      "feature": "沿海湿润"
+    },
+    {
+      "name": "清远",
+      "region": "华南",
+      "climate_type": "亚热带季风气候",
+      "province": "广东省",
+      "temp_range": {
+        "summer": [
+          28,
+          32
+        ],
+        "winter": [
+          11,
+          18
+        ],
+        "spring": [
+          18,
+          26
+        ],
+        "autumn": [
+          16,
+          26
+        ]
+      },
+      "humidity": "wet",
+      "feature": "山区湿润"
+    },
+    {
+      "name": "东莞",
+      "region": "华南",
+      "climate_type": "亚热带季风气候",
+      "province": "广东省",
+      "temp_range": {
+        "summer": [
+          28,
+          33
+        ],
+        "winter": [
+          12,
+          18
+        ],
+        "spring": [
+          18,
+          26
+        ],
+        "autumn": [
+          18,
+          28
+        ]
+      },
+      "humidity": "wet",
+      "feature": "温暖湿润"
+    },
+    {
+      "name": "中山",
+      "region": "华南",
+      "climate_type": "亚热带季风气候",
+      "province": "广东省",
+      "temp_range": {
+        "summer": [
+          28,
+          33
+        ],
+        "winter": [
+          13,
+          19
+        ],
+        "spring": [
+          18,
+          26
+        ],
+        "autumn": [
+          18,
+          28
+        ]
+      },
+      "humidity": "wet",
+      "feature": "温暖湿润"
+    },
+    {
+      "name": "潮州",
+      "region": "华南",
+      "climate_type": "亚热带海洋性季风气候",
+      "province": "广东省",
+      "temp_range": {
+        "summer": [
+          28,
+          32
+        ],
+        "winter": [
+          13,
+          20
+        ],
+        "spring": [
+          18,
+          27
+        ],
+        "autumn": [
+          18,
+          27
+        ]
+      },
+      "humidity": "wet",
+      "feature": "沿海湿润"
+    },
+    {
+      "name": "揭阳",
+      "region": "华南",
+      "climate_type": "亚热带海洋性季风气候",
+      "province": "广东省",
+      "temp_range": {
+        "summer": [
+          28,
+          32
+        ],
+        "winter": [
+          14,
+          20
+        ],
+        "spring": [
+          19,
+          27
+        ],
+        "autumn": [
+          18,
+          27
+        ]
+      },
+      "humidity": "wet",
+      "feature": "沿海湿润"
+    },
+    {
+      "name": "云浮",
+      "region": "华南",
+      "climate_type": "亚热带季风气候",
+      "province": "广东省",
+      "temp_range": {
+        "summer": [
+          28,
+          32
+        ],
+        "winter": [
+          11,
+          18
+        ],
+        "spring": [
+          18,
+          26
+        ],
+        "autumn": [
+          16,
+          26
+        ]
+      },
+      "humidity": "wet",
+      "feature": "山区湿润"
+    },
+    {
+      "name": "南宁",
+      "region": "华南",
+      "climate_type": "亚热带季风气候",
+      "province": "广西壮族自治区",
+      "temp_range": {
+        "summer": [
+          29,
+          34
+        ],
+        "winter": [
+          11,
+          17
+        ],
+        "spring": [
+          18,
+          27
+        ],
+        "autumn": [
+          17,
+          26
+        ]
+      },
+      "humidity": "wet",
+      "feature": "亚热带湿润，冬季温和"
+    },
+    {
+      "name": "柳州",
+      "region": "华南",
+      "climate_type": "亚热带季风气候",
+      "province": "广西壮族自治区",
+      "temp_range": {
+        "summer": [
+          28,
+          34
+        ],
+        "winter": [
+          8,
+          16
+        ],
+        "spring": [
+          16,
+          26
+        ],
+        "autumn": [
+          14,
+          25
+        ]
+      },
+      "humidity": "wet",
+      "feature": "温暖湿润"
+    },
+    {
+      "name": "桂林",
+      "region": "华南",
+      "climate_type": "亚热带季风气候",
+      "province": "广西壮族自治区",
+      "temp_range": {
+        "summer": [
+          28,
+          33
+        ],
+        "winter": [
+          8,
+          15
+        ],
+        "spring": [
+          16,
+          25
+        ],
+        "autumn": [
+          14,
+          24
+        ]
+      },
+      "humidity": "wet",
+      "feature": "温暖湿润"
+    },
+    {
+      "name": "梧州",
+      "region": "华南",
+      "climate_type": "亚热带季风气候",
+      "province": "广西壮族自治区",
+      "temp_range": {
+        "summer": [
+          28,
+          33
+        ],
+        "winter": [
+          8,
+          15
+        ],
+        "spring": [
+          16,
+          25
+        ],
+        "autumn": [
+          14,
+          24
+        ]
+      },
+      "humidity": "wet",
+      "feature": "温暖湿润"
+    },
+    {
+      "name": "北海",
+      "region": "华南",
+      "climate_type": "热带海洋性季风气候",
+      "province": "广西壮族自治区",
+      "temp_range": {
+        "summer": [
+          28,
+          33
+        ],
+        "winter": [
+          13,
+          20
+        ],
+        "spring": [
+          18,
+          27
+        ],
+        "autumn": [
+          18,
+          28
+        ]
+      },
+      "humidity": "wet",
+      "feature": "沿海温暖"
+    },
+    {
+      "name": "防城港",
+      "region": "华南",
+      "climate_type": "热带海洋性季风气候",
+      "province": "广西壮族自治区",
+      "temp_range": {
+        "summer": [
+          28,
+          33
+        ],
+        "winter": [
+          13,
+          20
+        ],
+        "spring": [
+          18,
+          27
+        ],
+        "autumn": [
+          18,
+          28
+        ]
+      },
+      "humidity": "wet",
+      "feature": "沿海温暖"
+    },
+    {
+      "name": "钦州",
+      "region": "华南",
+      "climate_type": "热带海洋性季风气候",
+      "province": "广西壮族自治区",
+      "temp_range": {
+        "summer": [
+          28,
+          33
+        ],
+        "winter": [
+          13,
+          20
+        ],
+        "spring": [
+          18,
+          27
+        ],
+        "autumn": [
+          18,
+          28
+        ]
+      },
+      "humidity": "wet",
+      "feature": "沿海温暖"
+    },
+    {
+      "name": "贵港",
+      "region": "华南",
+      "climate_type": "亚热带季风气候",
+      "province": "广西壮族自治区",
+      "temp_range": {
+        "summer": [
+          28,
+          33
+        ],
+        "winter": [
+          9,
+          16
+        ],
+        "spring": [
+          17,
+          26
+        ],
+        "autumn": [
+          15,
+          25
+        ]
+      },
+      "humidity": "wet",
+      "feature": "温暖湿润"
+    },
+    {
+      "name": "玉林",
+      "region": "华南",
+      "climate_type": "亚热带季风气候",
+      "province": "广西壮族自治区",
+      "temp_range": {
+        "summer": [
+          28,
+          33
+        ],
+        "winter": [
+          9,
+          16
+        ],
+        "spring": [
+          17,
+          26
+        ],
+        "autumn": [
+          15,
+          25
+        ]
+      },
+      "humidity": "wet",
+      "feature": "温暖湿润"
+    },
+    {
+      "name": "百色",
+      "region": "华南",
+      "climate_type": "亚热带季风气候",
+      "province": "广西壮族自治区",
+      "temp_range": {
+        "summer": [
+          27,
+          33
+        ],
+        "winter": [
+          6,
+          14
+        ],
+        "spring": [
+          15,
+          24
+        ],
+        "autumn": [
+          12,
+          23
+        ]
+      },
+      "humidity": "wet",
+      "feature": "山区湿润"
+    },
+    {
+      "name": "贺州",
+      "region": "华南",
+      "climate_type": "亚热带季风气候",
+      "province": "广西壮族自治区",
+      "temp_range": {
+        "summer": [
+          28,
+          33
+        ],
+        "winter": [
+          8,
+          15
+        ],
+        "spring": [
+          16,
+          25
+        ],
+        "autumn": [
+          14,
+          24
+        ]
+      },
+      "humidity": "wet",
+      "feature": "温暖湿润"
+    },
+    {
+      "name": "河池",
+      "region": "华南",
+      "climate_type": "亚热带季风气候",
+      "province": "广西壮族自治区",
+      "temp_range": {
+        "summer": [
+          26,
+          32
+        ],
+        "winter": [
+          7,
+          14
+        ],
+        "spring": [
+          14,
+          24
+        ],
+        "autumn": [
+          12,
+          22
+        ]
+      },
+      "humidity": "wet",
+      "feature": "山区湿润"
+    },
+    {
+      "name": "来宾",
+      "region": "华南",
+      "climate_type": "亚热带季风气候",
+      "province": "广西壮族自治区",
+      "temp_range": {
+        "summer": [
+          28,
+          33
+        ],
+        "winter": [
+          9,
+          16
+        ],
+        "spring": [
+          17,
+          26
+        ],
+        "autumn": [
+          15,
+          25
+        ]
+      },
+      "humidity": "wet",
+      "feature": "温暖湿润"
+    },
+    {
+      "name": "崇左",
+      "region": "华南",
+      "climate_type": "亚热带季风气候",
+      "province": "广西壮族自治区",
+      "temp_range": {
+        "summer": [
+          28,
+          33
+        ],
+        "winter": [
+          8,
+          16
+        ],
+        "spring": [
+          16,
+          26
+        ],
+        "autumn": [
+          14,
+          26
+        ]
+      },
+      "humidity": "wet",
+      "feature": "热带边缘湿润"
+    },
+    {
+      "name": "海口",
+      "region": "华南",
+      "climate_type": "热带海洋性季风气候",
+      "province": "海南省",
+      "temp_range": {
+        "summer": [
+          29,
+          33
+        ],
+        "winter": [
+          16,
+          22
+        ],
+        "spring": [
+          20,
+          28
+        ],
+        "autumn": [
+          19,
+          28
+        ]
+      },
+      "humidity": "wet",
+      "feature": "热带气候，全年温暖"
+    },
+    {
+      "name": "三亚",
+      "region": "华南",
+      "climate_type": "热带海洋性季风气候",
+      "province": "海南省",
+      "temp_range": {
+        "summer": [
+          29,
+          32
+        ],
+        "winter": [
+          18,
+          24
+        ],
+        "spring": [
+          22,
+          30
+        ],
+        "autumn": [
+          20,
+          30
+        ]
+      },
+      "humidity": "wet",
+      "feature": "全年温暖，无明显冬季"
+    },
+    {
+      "name": "三沙",
+      "region": "华南",
+      "climate_type": "热带海洋性季风气候",
+      "province": "海南省",
+      "temp_range": {
+        "summer": [
+          27,
+          30
+        ],
+        "winter": [
+          20,
+          26
+        ],
+        "spring": [
+          22,
+          28
+        ],
+        "autumn": [
+          21,
+          28
+        ]
+      },
+      "humidity": "wet",
+      "feature": "海岛热带"
+    },
+    {
+      "name": "儋州",
+      "region": "华南",
+      "climate_type": "热带季风气候",
+      "province": "海南省",
+      "temp_range": {
+        "summer": [
+          28,
+          33
+        ],
+        "winter": [
+          16,
+          22
+        ],
+        "spring": [
+          19,
+          28
+        ],
+        "autumn": [
+          18,
+          28
+        ]
+      },
+      "humidity": "wet",
+      "feature": "热带湿润"
+    },
+    {
+      "name": "重庆",
+      "region": "西南",
+      "climate_type": "亚热带湿润气候",
+      "province": "重庆市",
+      "temp_range": {
+        "summer": [
+          28,
+          37
+        ],
+        "winter": [
+          4,
+          10
+        ],
+        "spring": [
+          13,
+          23
+        ],
+        "autumn": [
+          10,
+          19
+        ]
+      },
+      "humidity": "wet",
+      "feature": "夏季全国最热的火炉城市之一"
+    },
+    {
+      "name": "成都",
+      "region": "西南",
+      "climate_type": "亚热带湿润气候",
+      "province": "四川省",
+      "temp_range": {
+        "summer": [
+          26,
+          30
+        ],
+        "winter": [
+          4,
+          10
+        ],
+        "spring": [
+          13,
+          22
+        ],
+        "autumn": [
+          10,
+          18
+        ]
+      },
+      "humidity": "wet",
+      "feature": "盆地气候，多雾少阳，温润"
+    },
+    {
+      "name": "自贡",
+      "region": "西南",
+      "climate_type": "亚热带湿润气候",
+      "province": "四川省",
+      "temp_range": {
+        "summer": [
+          26,
+          32
+        ],
+        "winter": [
+          4,
+          11
+        ],
+        "spring": [
+          13,
+          22
+        ],
+        "autumn": [
+          10,
+          19
+        ]
+      },
+      "humidity": "wet",
+      "feature": "盆地湿润"
+    },
+    {
+      "name": "攀枝花",
+      "region": "西南",
+      "climate_type": "亚热带高原气候",
+      "province": "四川省",
+      "temp_range": {
+        "summer": [
+          22,
+          28
+        ],
+        "winter": [
+          8,
+          18
+        ],
+        "spring": [
+          10,
+          20
+        ],
+        "autumn": [
+          8,
+          18
+        ]
+      },
+      "humidity": "dry",
+      "feature": "干热河谷"
+    },
+    {
+      "name": "泸州",
+      "region": "西南",
+      "climate_type": "亚热带湿润气候",
+      "province": "四川省",
+      "temp_range": {
+        "summer": [
+          26,
+          32
+        ],
+        "winter": [
+          5,
+          11
+        ],
+        "spring": [
+          13,
+          23
+        ],
+        "autumn": [
+          10,
+          20
+        ]
+      },
+      "humidity": "wet",
+      "feature": "盆地湿润"
+    },
+    {
+      "name": "德阳",
+      "region": "西南",
+      "climate_type": "亚热带湿润气候",
+      "province": "四川省",
+      "temp_range": {
+        "summer": [
+          26,
+          30
+        ],
+        "winter": [
+          3,
+          9
+        ],
+        "spring": [
+          12,
+          21
+        ],
+        "autumn": [
+          9,
+          17
+        ]
+      },
+      "humidity": "wet",
+      "feature": "盆地湿润"
+    },
+    {
+      "name": "绵阳",
+      "region": "西南",
+      "climate_type": "亚热带湿润气候",
+      "province": "四川省",
+      "temp_range": {
+        "summer": [
+          26,
+          30
+        ],
+        "winter": [
+          3,
+          9
+        ],
+        "spring": [
+          12,
+          21
+        ],
+        "autumn": [
+          9,
+          17
+        ]
+      },
+      "humidity": "wet",
+      "feature": "盆地湿润"
+    },
+    {
+      "name": "广元",
+      "region": "西南",
+      "climate_type": "亚热带湿润气候",
+      "province": "四川省",
+      "temp_range": {
+        "summer": [
+          24,
+          29
+        ],
+        "winter": [
+          3,
+          9
+        ],
+        "spring": [
+          11,
+          20
+        ],
+        "autumn": [
+          8,
+          17
+        ]
+      },
+      "humidity": "wet",
+      "feature": "川北湿润"
+    },
+    {
+      "name": "遂宁",
+      "region": "西南",
+      "climate_type": "亚热带湿润气候",
+      "province": "四川省",
+      "temp_range": {
+        "summer": [
+          27,
+          32
+        ],
+        "winter": [
+          4,
+          11
+        ],
+        "spring": [
+          13,
+          22
+        ],
+        "autumn": [
+          10,
+          19
+        ]
+      },
+      "humidity": "wet",
+      "feature": "盆地湿润"
+    },
+    {
+      "name": "内江",
+      "region": "西南",
+      "climate_type": "亚热带湿润气候",
+      "province": "四川省",
+      "temp_range": {
+        "summer": [
+          27,
+          33
+        ],
+        "winter": [
+          4,
+          11
+        ],
+        "spring": [
+          13,
+          22
+        ],
+        "autumn": [
+          10,
+          19
+        ]
+      },
+      "humidity": "wet",
+      "feature": "盆地湿润"
+    },
+    {
+      "name": "乐山",
+      "region": "西南",
+      "climate_type": "亚热带湿润气候",
+      "province": "四川省",
+      "temp_range": {
+        "summer": [
+          26,
+          32
+        ],
+        "winter": [
+          5,
+          11
+        ],
+        "spring": [
+          13,
+          23
+        ],
+        "autumn": [
+          10,
+          20
+        ]
+      },
+      "humidity": "wet",
+      "feature": "盆地湿润"
+    },
+    {
+      "name": "南充",
+      "region": "西南",
+      "climate_type": "亚热带湿润气候",
+      "province": "四川省",
+      "temp_range": {
+        "summer": [
+          27,
+          32
+        ],
+        "winter": [
+          4,
+          10
+        ],
+        "spring": [
+          12,
+          22
+        ],
+        "autumn": [
+          9,
+          18
+        ]
+      },
+      "humidity": "wet",
+      "feature": "盆地湿润"
+    },
+    {
+      "name": "眉山",
+      "region": "西南",
+      "climate_type": "亚热带湿润气候",
+      "province": "四川省",
+      "temp_range": {
+        "summer": [
+          26,
+          32
+        ],
+        "winter": [
+          5,
+          11
+        ],
+        "spring": [
+          13,
+          22
+        ],
+        "autumn": [
+          10,
+          19
+        ]
+      },
+      "humidity": "wet",
+      "feature": "盆地湿润"
+    },
+    {
+      "name": "宜宾",
+      "region": "西南",
+      "climate_type": "亚热带湿润气候",
+      "province": "四川省",
+      "temp_range": {
+        "summer": [
+          26,
+          32
+        ],
+        "winter": [
+          5,
+          11
+        ],
+        "spring": [
+          13,
+          23
+        ],
+        "autumn": [
+          10,
+          20
+        ]
+      },
+      "humidity": "wet",
+      "feature": "盆地湿润"
+    },
+    {
+      "name": "广安",
+      "region": "西南",
+      "climate_type": "亚热带湿润气候",
+      "province": "四川省",
+      "temp_range": {
+        "summer": [
+          26,
+          32
+        ],
+        "winter": [
+          4,
+          10
+        ],
+        "spring": [
+          12,
+          22
+        ],
+        "autumn": [
+          9,
+          18
+        ]
+      },
+      "humidity": "wet",
+      "feature": "盆地湿润"
+    },
+    {
+      "name": "达州",
+      "region": "西南",
+      "climate_type": "亚热带湿润气候",
+      "province": "四川省",
+      "temp_range": {
+        "summer": [
+          27,
+          32
+        ],
+        "winter": [
+          4,
+          10
+        ],
+        "spring": [
+          12,
+          22
+        ],
+        "autumn": [
+          9,
+          18
+        ]
+      },
+      "humidity": "wet",
+      "feature": "盆地湿润"
+    },
+    {
+      "name": "雅安",
+      "region": "西南",
+      "climate_type": "亚热带湿润气候",
+      "province": "四川省",
+      "temp_range": {
+        "summer": [
+          23,
+          28
+        ],
+        "winter": [
+          5,
+          12
+        ],
+        "spring": [
+          12,
+          20
+        ],
+        "autumn": [
+          8,
+          17
+        ]
+      },
+      "humidity": "wet",
+      "feature": "多雨湿润"
+    },
+    {
+      "name": "巴中",
+      "region": "西南",
+      "climate_type": "亚热带湿润气候",
+      "province": "四川省",
+      "temp_range": {
+        "summer": [
+          25,
+          30
+        ],
+        "winter": [
+          4,
+          10
+        ],
+        "spring": [
+          12,
+          21
+        ],
+        "autumn": [
+          9,
+          18
+        ]
+      },
+      "humidity": "wet",
+      "feature": "山区湿润"
+    },
+    {
+      "name": "资阳",
+      "region": "西南",
+      "climate_type": "亚热带湿润气候",
+      "province": "四川省",
+      "temp_range": {
+        "summer": [
+          26,
+          32
+        ],
+        "winter": [
+          5,
+          11
+        ],
+        "spring": [
+          13,
+          22
+        ],
+        "autumn": [
+          10,
+          19
+        ]
+      },
+      "humidity": "wet",
+      "feature": "盆地湿润"
+    },
+    {
+      "name": "贵阳",
+      "region": "西南",
+      "climate_type": "亚热带季风气候",
+      "province": "贵州省",
+      "temp_range": {
+        "summer": [
+          21,
+          25
+        ],
+        "winter": [
+          3,
+          9
+        ],
+        "spring": [
+          10,
+          20
+        ],
+        "autumn": [
+          7,
+          16
+        ]
+      },
+      "humidity": "wet",
+      "feature": "夏凉多雨"
+    },
+    {
+      "name": "六盘水",
+      "region": "西南",
+      "climate_type": "亚热带季风气候",
+      "province": "贵州省",
+      "temp_range": {
+        "summer": [
+          21,
+          25
+        ],
+        "winter": [
+          2,
+          9
+        ],
+        "spring": [
+          9,
+          19
+        ],
+        "autumn": [
+          6,
+          15
+        ]
+      },
+      "humidity": "wet",
+      "feature": "高原夏季凉爽"
+    },
+    {
+      "name": "遵义",
+      "region": "西南",
+      "climate_type": "亚热带季风气候",
+      "province": "贵州省",
+      "temp_range": {
+        "summer": [
+          24,
+          28
+        ],
+        "winter": [
+          3,
+          10
+        ],
+        "spring": [
+          10,
+          20
+        ],
+        "autumn": [
+          7,
+          17
+        ]
+      },
+      "humidity": "wet",
+      "feature": "温暖湿润"
+    },
+    {
+      "name": "安顺",
+      "region": "西南",
+      "climate_type": "亚热带季风气候",
+      "province": "贵州省",
+      "temp_range": {
+        "summer": [
+          22,
+          26
+        ],
+        "winter": [
+          3,
+          10
+        ],
+        "spring": [
+          10,
+          20
+        ],
+        "autumn": [
+          7,
+          16
+        ]
+      },
+      "humidity": "wet",
+      "feature": "喀斯特山区"
+    },
+    {
+      "name": "毕节",
+      "region": "西南",
+      "climate_type": "亚热带季风气候",
+      "province": "贵州省",
+      "temp_range": {
+        "summer": [
+          21,
+          25
+        ],
+        "winter": [
+          2,
+          9
+        ],
+        "spring": [
+          8,
+          18
+        ],
+        "autumn": [
+          6,
+          15
+        ]
+      },
+      "humidity": "wet",
+      "feature": "高原湿润"
+    },
+    {
+      "name": "铜仁",
+      "region": "西南",
+      "climate_type": "亚热带季风气候",
+      "province": "贵州省",
+      "temp_range": {
+        "summer": [
+          24,
+          28
+        ],
+        "winter": [
+          4,
+          11
+        ],
+        "spring": [
+          11,
+          21
+        ],
+        "autumn": [
+          8,
+          17
+        ]
+      },
+      "humidity": "wet",
+      "feature": "山区湿润"
+    },
+    {
+      "name": "昆明",
+      "region": "西南",
+      "climate_type": "亚热带高原气候",
+      "province": "云南省",
+      "temp_range": {
+        "summer": [
+          19,
+          23
+        ],
+        "winter": [
+          5,
+          15
+        ],
+        "spring": [
+          8,
+          18
+        ],
+        "autumn": [
+          6,
+          16
+        ]
+      },
+      "humidity": "dry",
+      "feature": "四季如春"
+    },
+    {
+      "name": "曲靖",
+      "region": "西南",
+      "climate_type": "亚热带高原气候",
+      "province": "云南省",
+      "temp_range": {
+        "summer": [
+          20,
+          25
+        ],
+        "winter": [
+          4,
+          14
+        ],
+        "spring": [
+          7,
+          17
+        ],
+        "autumn": [
+          5,
+          15
+        ]
+      },
+      "humidity": "dry",
+      "feature": "高原温和"
+    },
+    {
+      "name": "玉溪",
+      "region": "西南",
+      "climate_type": "亚热带高原气候",
+      "province": "云南省",
+      "temp_range": {
+        "summer": [
+          21,
+          26
+        ],
+        "winter": [
+          6,
+          16
+        ],
+        "spring": [
+          9,
+          19
+        ],
+        "autumn": [
+          7,
+          17
+        ]
+      },
+      "humidity": "dry",
+      "feature": "高原温和"
+    },
+    {
+      "name": "保山",
+      "region": "西南",
+      "climate_type": "亚热带高原气候",
+      "province": "云南省",
+      "temp_range": {
+        "summer": [
+          22,
+          27
+        ],
+        "winter": [
+          7,
+          17
+        ],
+        "spring": [
+          10,
+          20
+        ],
+        "autumn": [
+          8,
+          18
+        ]
+      },
+      "humidity": "dry",
+      "feature": "滇西干燥"
+    },
+    {
+      "name": "昭通",
+      "region": "西南",
+      "climate_type": "亚热带高原气候",
+      "province": "云南省",
+      "temp_range": {
+        "summer": [
+          19,
+          24
+        ],
+        "winter": [
+          2,
+          12
+        ],
+        "spring": [
+          5,
+          15
+        ],
+        "autumn": [
+          3,
+          13
+        ]
+      },
+      "humidity": "dry",
+      "feature": "高寒山区"
+    },
+    {
+      "name": "丽江",
+      "region": "西南",
+      "climate_type": "亚热带高原气候",
+      "province": "云南省",
+      "temp_range": {
+        "summer": [
+          19,
+          24
+        ],
+        "winter": [
+          4,
+          14
+        ],
+        "spring": [
+          8,
+          18
+        ],
+        "autumn": [
+          5,
+          15
+        ]
+      },
+      "humidity": "dry",
+      "feature": "高原温和"
+    },
+    {
+      "name": "普洱",
+      "region": "西南",
+      "climate_type": "亚热带高原气候",
+      "province": "云南省",
+      "temp_range": {
+        "summer": [
+          23,
+          28
+        ],
+        "winter": [
+          10,
+          20
+        ],
+        "spring": [
+          12,
+          22
+        ],
+        "autumn": [
+          10,
+          20
+        ]
+      },
+      "humidity": "wet",
+      "feature": "滇南湿润"
+    },
+    {
+      "name": "临沧",
+      "region": "西南",
+      "climate_type": "亚热带高原气候",
+      "province": "云南省",
+      "temp_range": {
+        "summer": [
+          23,
+          28
+        ],
+        "winter": [
+          8,
+          18
+        ],
+        "spring": [
+          11,
+          21
+        ],
+        "autumn": [
+          9,
+          19
+        ]
+      },
+      "humidity": "wet",
+      "feature": "滇西南湿润"
+    },
+    {
+      "name": "拉萨",
+      "region": "西南",
+      "climate_type": "高原山地气候",
+      "province": "西藏自治区",
+      "temp_range": {
+        "summer": [
+          15,
+          20
+        ],
+        "winter": [
+          -5,
+          5
+        ],
+        "spring": [
+          0,
+          12
+        ],
+        "autumn": [
+          -2,
+          10
+        ]
+      },
+      "humidity": "dry",
+      "feature": "高寒缺氧，日照充足"
+    },
+    {
+      "name": "日喀则",
+      "region": "西南",
+      "climate_type": "高原山地气候",
+      "province": "西藏自治区",
+      "temp_range": {
+        "summer": [
+          14,
+          19
+        ],
+        "winter": [
+          -6,
+          4
+        ],
+        "spring": [
+          -2,
+          11
+        ],
+        "autumn": [
+          -3,
+          9
+        ]
+      },
+      "humidity": "dry",
+      "feature": "高原高寒"
+    },
+    {
+      "name": "昌都",
+      "region": "西南",
+      "climate_type": "高原山地气候",
+      "province": "西藏自治区",
+      "temp_range": {
+        "summer": [
+          13,
+          18
+        ],
+        "winter": [
+          -8,
+          2
+        ],
+        "spring": [
+          -4,
+          9
+        ],
+        "autumn": [
+          -5,
+          7
+        ]
+      },
+      "humidity": "dry",
+      "feature": "高原高寒"
+    },
+    {
+      "name": "林芝",
+      "region": "西南",
+      "climate_type": "高原山地气候",
+      "province": "西藏自治区",
+      "temp_range": {
+        "summer": [
+          16,
+          21
+        ],
+        "winter": [
+          -2,
+          7
+        ],
+        "spring": [
+          2,
+          13
+        ],
+        "autumn": [
+          0,
+          10
+        ]
+      },
+      "humidity": "wet",
+      "feature": "藏东南湿润"
+    },
+    {
+      "name": "山南",
+      "region": "西南",
+      "climate_type": "高原山地气候",
+      "province": "西藏自治区",
+      "temp_range": {
+        "summer": [
+          14,
+          19
+        ],
+        "winter": [
+          -5,
+          5
+        ],
+        "spring": [
+          0,
+          11
+        ],
+        "autumn": [
+          -2,
+          9
+        ]
+      },
+      "humidity": "dry",
+      "feature": "高原高寒"
+    },
+    {
+      "name": "那曲",
+      "region": "西南",
+      "climate_type": "高原山地气候",
+      "province": "西藏自治区",
+      "temp_range": {
+        "summer": [
+          10,
+          15
+        ],
+        "winter": [
+          -12,
+          -2
+        ],
+        "spring": [
+          -5,
+          5
+        ],
+        "autumn": [
+          -7,
+          3
+        ]
+      },
+      "humidity": "dry",
+      "feature": "高原极寒"
+    },
+    {
+      "name": "阿里",
+      "region": "西南",
+      "climate_type": "高原山地气候",
+      "province": "西藏自治区",
+      "temp_range": {
+        "summer": [
+          8,
+          13
+        ],
+        "winter": [
+          -15,
+          0
+        ],
+        "spring": [
+          -5,
+          5
+        ],
+        "autumn": [
+          -8,
+          3
+        ]
+      },
+      "humidity": "dry",
+      "feature": "高原极寒"
+    },
+    {
+      "name": "西安",
+      "region": "西北",
+      "climate_type": "温带半干旱气候",
+      "province": "陕西省",
+      "temp_range": {
+        "summer": [
+          27,
+          31
+        ],
+        "winter": [
+          -2,
+          5
+        ],
+        "spring": [
+          12,
+          22
+        ],
+        "autumn": [
+          8,
+          18
+        ]
+      },
+      "humidity": "dry",
+      "feature": "内陆干燥，夏热冬冷"
+    },
+    {
+      "name": "铜川",
+      "region": "西北",
+      "climate_type": "温带半干旱气候",
+      "province": "陕西省",
+      "temp_range": {
+        "summer": [
+          26,
+          30
+        ],
+        "winter": [
+          -3,
+          3
+        ],
+        "spring": [
+          10,
+          20
+        ],
+        "autumn": [
+          6,
+          16
+        ]
+      },
+      "humidity": "dry",
+      "feature": "山区干燥"
+    },
+    {
+      "name": "宝鸡",
+      "region": "西北",
+      "climate_type": "温带半干旱气候",
+      "province": "陕西省",
+      "temp_range": {
+        "summer": [
+          25,
+          30
+        ],
+        "winter": [
+          -3,
+          4
+        ],
+        "spring": [
+          11,
+          20
+        ],
+        "autumn": [
+          7,
+          17
+        ]
+      },
+      "humidity": "dry",
+      "feature": "内陆干燥"
+    },
+    {
+      "name": "咸阳",
+      "region": "西北",
+      "climate_type": "温带半干旱气候",
+      "province": "陕西省",
+      "temp_range": {
+        "summer": [
+          27,
+          31
+        ],
+        "winter": [
+          -2,
+          5
+        ],
+        "spring": [
+          12,
+          22
+        ],
+        "autumn": [
+          8,
+          18
+        ]
+      },
+      "humidity": "dry",
+      "feature": "关中干燥"
+    },
+    {
+      "name": "渭南",
+      "region": "西北",
+      "climate_type": "温带半干旱气候",
+      "province": "陕西省",
+      "temp_range": {
+        "summer": [
+          26,
+          30
+        ],
+        "winter": [
+          -1,
+          4
+        ],
+        "spring": [
+          11,
+          21
+        ],
+        "autumn": [
+          7,
+          17
+        ]
+      },
+      "humidity": "dry",
+      "feature": "关中平原干燥"
+    },
+    {
+      "name": "延安",
+      "region": "西北",
+      "climate_type": "温带大陆性气候",
+      "province": "陕西省",
+      "temp_range": {
+        "summer": [
+          22,
+          26
+        ],
+        "winter": [
+          -6,
+          0
+        ],
+        "spring": [
+          8,
+          18
+        ],
+        "autumn": [
+          3,
+          13
+        ]
+      },
+      "humidity": "dry",
+      "feature": "陕北干燥"
+    },
+    {
+      "name": "汉中",
+      "region": "西北",
+      "climate_type": "亚热带湿润气候",
+      "province": "陕西省",
+      "temp_range": {
+        "summer": [
+          25,
+          30
+        ],
+        "winter": [
+          0,
+          8
+        ],
+        "spring": [
+          10,
+          20
+        ],
+        "autumn": [
+          6,
+          16
+        ]
+      },
+      "humidity": "wet",
+      "feature": "南方湿润"
+    },
+    {
+      "name": "榆林",
+      "region": "西北",
+      "climate_type": "温带大陆性气候",
+      "province": "陕西省",
+      "temp_range": {
+        "summer": [
+          22,
+          27
+        ],
+        "winter": [
+          -5,
+          5
+        ],
+        "spring": [
+          9,
+          18
+        ],
+        "autumn": [
+          4,
+          14
+        ]
+      },
+      "humidity": "dry",
+      "feature": "陕北干燥"
+    },
+    {
+      "name": "安康",
+      "region": "西北",
+      "climate_type": "亚热带湿润气候",
+      "province": "陕西省",
+      "temp_range": {
+        "summer": [
+          25,
+          31
+        ],
+        "winter": [
+          1,
+          8
+        ],
+        "spring": [
+          10,
+          21
+        ],
+        "autumn": [
+          7,
+          16
+        ]
+      },
+      "humidity": "wet",
+      "feature": "秦巴山区湿润"
+    },
+    {
+      "name": "商洛",
+      "region": "西北",
+      "climate_type": "亚热带湿润气候",
+      "province": "陕西省",
+      "temp_range": {
+        "summer": [
+          25,
+          30
+        ],
+        "winter": [
+          0,
+          8
+        ],
+        "spring": [
+          10,
+          20
+        ],
+        "autumn": [
+          6,
+          15
+        ]
+      },
+      "humidity": "wet",
+      "feature": "秦岭山区湿润"
+    },
+    {
+      "name": "兰州",
+      "region": "西北",
+      "climate_type": "温带大陆性气候",
+      "province": "甘肃省",
+      "temp_range": {
+        "summer": [
+          20,
+          25
+        ],
+        "winter": [
+          -5,
+          0
+        ],
+        "spring": [
+          8,
+          18
+        ],
+        "autumn": [
+          3,
+          13
+        ]
+      },
+      "humidity": "dry",
+      "feature": "高原干燥"
+    },
+    {
+      "name": "嘉峪关",
+      "region": "西北",
+      "climate_type": "温带大陆性气候",
+      "province": "甘肃省",
+      "temp_range": {
+        "summer": [
+          18,
+          23
+        ],
+        "winter": [
+          -8,
+          -2
+        ],
+        "spring": [
+          7,
+          15
+        ],
+        "autumn": [
+          2,
+          11
+        ]
+      },
+      "humidity": "dry",
+      "feature": "戈壁干燥"
+    },
+    {
+      "name": "金昌",
+      "region": "西北",
+      "climate_type": "温带大陆性气候",
+      "province": "甘肃省",
+      "temp_range": {
+        "summer": [
+          18,
+          23
+        ],
+        "winter": [
+          -7,
+          -1
+        ],
+        "spring": [
+          7,
+          15
+        ],
+        "autumn": [
+          2,
+          11
+        ]
+      },
+      "humidity": "dry",
+      "feature": "戈壁干燥"
+    },
+    {
+      "name": "白银",
+      "region": "西北",
+      "climate_type": "温带大陆性气候",
+      "province": "甘肃省",
+      "temp_range": {
+        "summer": [
+          19,
+          24
+        ],
+        "winter": [
+          -5,
+          1
+        ],
+        "spring": [
+          8,
+          16
+        ],
+        "autumn": [
+          3,
+          12
+        ]
+      },
+      "humidity": "dry",
+      "feature": "干旱少雨"
+    },
+    {
+      "name": "天水",
+      "region": "西北",
+      "climate_type": "温带半干旱气候",
+      "province": "甘肃省",
+      "temp_range": {
+        "summer": [
+          20,
+          25
+        ],
+        "winter": [
+          -2,
+          4
+        ],
+        "spring": [
+          10,
+          18
+        ],
+        "autumn": [
+          4,
+          13
+        ]
+      },
+      "humidity": "dry",
+      "feature": "陇东南干燥"
+    },
+    {
+      "name": "武威",
+      "region": "西北",
+      "climate_type": "温带大陆性气候",
+      "province": "甘肃省",
+      "temp_range": {
+        "summer": [
+          19,
+          24
+        ],
+        "winter": [
+          -5,
+          1
+        ],
+        "spring": [
+          8,
+          16
+        ],
+        "autumn": [
+          3,
+          12
+        ]
+      },
+      "humidity": "dry",
+      "feature": "河西走廊干燥"
+    },
+    {
+      "name": "张掖",
+      "region": "西北",
+      "climate_type": "温带大陆性气候",
+      "province": "甘肃省",
+      "temp_range": {
+        "summer": [
+          18,
+          23
+        ],
+        "winter": [
+          -7,
+          -1
+        ],
+        "spring": [
+          7,
+          15
+        ],
+        "autumn": [
+          2,
+          11
+        ]
+      },
+      "humidity": "dry",
+      "feature": "河西走廊干燥"
+    },
+    {
+      "name": "平凉",
+      "region": "西北",
+      "climate_type": "温带半干旱气候",
+      "province": "甘肃省",
+      "temp_range": {
+        "summer": [
+          19,
+          24
+        ],
+        "winter": [
+          -3,
+          3
+        ],
+        "spring": [
+          9,
+          17
+        ],
+        "autumn": [
+          4,
+          12
+        ]
+      },
+      "humidity": "dry",
+      "feature": "陇东干燥"
+    },
+    {
+      "name": "酒泉",
+      "region": "西北",
+      "climate_type": "温带大陆性气候",
+      "province": "甘肃省",
+      "temp_range": {
+        "summer": [
+          17,
+          22
+        ],
+        "winter": [
+          -8,
+          -2
+        ],
+        "spring": [
+          6,
+          14
+        ],
+        "autumn": [
+          1,
+          10
+        ]
+      },
+      "humidity": "dry",
+      "feature": "戈壁干燥"
+    },
+    {
+      "name": "庆阳",
+      "region": "西北",
+      "climate_type": "温带半干旱气候",
+      "province": "甘肃省",
+      "temp_range": {
+        "summer": [
+          20,
+          25
+        ],
+        "winter": [
+          -3,
+          3
+        ],
+        "spring": [
+          10,
+          18
+        ],
+        "autumn": [
+          4,
+          13
+        ]
+      },
+      "humidity": "dry",
+      "feature": "陇东干燥"
+    },
+    {
+      "name": "定西",
+      "region": "西北",
+      "climate_type": "温带半干旱气候",
+      "province": "甘肃省",
+      "temp_range": {
+        "summer": [
+          18,
+          23
+        ],
+        "winter": [
+          -4,
+          3
+        ],
+        "spring": [
+          8,
+          16
+        ],
+        "autumn": [
+          3,
+          11
+        ]
+      },
+      "humidity": "dry",
+      "feature": "陇中干燥"
+    },
+    {
+      "name": "陇南",
+      "region": "西北",
+      "climate_type": "亚热带湿润气候",
+      "province": "甘肃省",
+      "temp_range": {
+        "summer": [
+          22,
+          28
+        ],
+        "winter": [
+          1,
+          9
+        ],
+        "spring": [
+          10,
+          20
+        ],
+        "autumn": [
+          5,
+          15
+        ]
+      },
+      "humidity": "wet",
+      "feature": "陇南山地湿润"
+    },
+    {
+      "name": "西宁",
+      "region": "西北",
+      "climate_type": "高原山地气候",
+      "province": "青海省",
+      "temp_range": {
+        "summer": [
+          17,
+          21
+        ],
+        "winter": [
+          -10,
+          -2
+        ],
+        "spring": [
+          2,
+          12
+        ],
+        "autumn": [
+          -3,
+          9
+        ]
+      },
+      "humidity": "dry",
+      "feature": "高原干燥"
+    },
+    {
+      "name": "银川",
+      "region": "西北",
+      "climate_type": "温带大陆性气候",
+      "province": "宁夏回族自治区",
+      "temp_range": {
+        "summer": [
+          22,
+          26
+        ],
+        "winter": [
+          -8,
+          0
+        ],
+        "spring": [
+          8,
+          18
+        ],
+        "autumn": [
+          3,
+          13
+        ]
+      },
+      "humidity": "dry",
+      "feature": "干旱少雨"
+    },
+    {
+      "name": "石嘴山",
+      "region": "西北",
+      "climate_type": "温带大陆性气候",
+      "province": "宁夏回族自治区",
+      "temp_range": {
+        "summer": [
+          20,
+          25
+        ],
+        "winter": [
+          -7,
+          -1
+        ],
+        "spring": [
+          8,
+          16
+        ],
+        "autumn": [
+          3,
+          12
+        ]
+      },
+      "humidity": "dry",
+      "feature": "干旱少雨"
+    },
+    {
+      "name": "吴忠",
+      "region": "西北",
+      "climate_type": "温带大陆性气候",
+      "province": "宁夏回族自治区",
+      "temp_range": {
+        "summer": [
+          21,
+          26
+        ],
+        "winter": [
+          -7,
+          -1
+        ],
+        "spring": [
+          8,
+          17
+        ],
+        "autumn": [
+          3,
+          13
+        ]
+      },
+      "humidity": "dry",
+      "feature": "干旱少雨"
+    },
+    {
+      "name": "固原",
+      "region": "西北",
+      "climate_type": "温带大陆性气候",
+      "province": "宁夏回族自治区",
+      "temp_range": {
+        "summer": [
+          19,
+          24
+        ],
+        "winter": [
+          -5,
+          1
+        ],
+        "spring": [
+          8,
+          15
+        ],
+        "autumn": [
+          3,
+          11
+        ]
+      },
+      "humidity": "dry",
+      "feature": "南部山区干燥"
+    },
+    {
+      "name": "中卫",
+      "region": "西北",
+      "climate_type": "温带大陆性气候",
+      "province": "宁夏回族自治区",
+      "temp_range": {
+        "summer": [
+          21,
+          26
+        ],
+        "winter": [
+          -6,
+          0
+        ],
+        "spring": [
+          8,
+          16
+        ],
+        "autumn": [
+          3,
+          12
+        ]
+      },
+      "humidity": "dry",
+      "feature": "干旱少雨"
+    },
+    {
+      "name": "乌鲁木齐",
+      "region": "西北",
+      "climate_type": "温带大陆性气候",
+      "province": "新疆维吾尔自治区",
+      "temp_range": {
+        "summer": [
+          22,
+          26
+        ],
+        "winter": [
+          -15,
+          -5
+        ],
+        "spring": [
+          10,
+          20
+        ],
+        "autumn": [
+          2,
+          14
+        ]
+      },
+      "humidity": "dry",
+      "feature": "极端干燥，冬严寒夏凉爽"
+    },
+    {
+      "name": "克拉玛依",
+      "region": "西北",
+      "climate_type": "温带大陆性气候",
+      "province": "新疆维吾尔自治区",
+      "temp_range": {
+        "summer": [
+          19,
+          24
+        ],
+        "winter": [
+          -12,
+          -3
+        ],
+        "spring": [
+          8,
+          17
+        ],
+        "autumn": [
+          2,
+          12
+        ]
+      },
+      "humidity": "dry",
+      "feature": "戈壁干燥"
+    },
+    {
+      "name": "吐鲁番",
+      "region": "西北",
+      "climate_type": "温带大陆性气候",
+      "province": "新疆维吾尔自治区",
+      "temp_range": {
+        "summer": [
+          24,
+          29
+        ],
+        "winter": [
+          -8,
+          -1
+        ],
+        "spring": [
+          10,
+          19
+        ],
+        "autumn": [
+          3,
+          13
+        ]
+      },
+      "humidity": "dry",
+      "feature": "极干极热"
+    },
+    {
+      "name": "哈密",
+      "region": "西北",
+      "climate_type": "温带大陆性气候",
+      "province": "新疆维吾尔自治区",
+      "temp_range": {
+        "summer": [
+          22,
+          27
+        ],
+        "winter": [
+          -10,
+          -2
+        ],
+        "spring": [
+          9,
+          18
+        ],
+        "autumn": [
+          3,
+          13
+        ]
+      },
+      "humidity": "dry",
+      "feature": "戈壁干燥"
+    },
+    {
+      "name": "延边",
+      "region": "东北",
+      "climate_type": "温带季风气候",
+      "province": "吉林省",
+      "temp_range": {
+        "summer": [
+          18,
+          22
+        ],
+        "winter": [
+          -17,
+          -7
+        ],
+        "spring": [
+          5,
+          14
+        ],
+        "autumn": [
+          0,
+          9
+        ]
+      },
+      "humidity": "dry",
+      "feature": "长白山地区，寒冷"
+    },
+    {
+      "name": "大兴安岭",
+      "region": "东北",
+      "climate_type": "温带大陆性气候",
+      "province": "黑龙江省",
+      "temp_range": {
+        "summer": [
+          16,
+          20
+        ],
+        "winter": [
+          -24,
+          -14
+        ],
+        "spring": [
+          3,
+          12
+        ],
+        "autumn": [
+          -1,
+          8
+        ]
+      },
+      "humidity": "dry",
+      "feature": "极寒干燥"
+    },
+    {
+      "name": "恩施",
+      "region": "华中",
+      "climate_type": "亚热带湿润气候",
+      "province": "湖北省",
+      "temp_range": {
+        "summer": [
+          22,
+          28
+        ],
+        "winter": [
+          3,
+          10
+        ],
+        "spring": [
+          11,
+          21
+        ],
+        "autumn": [
+          8,
+          17
+        ]
+      },
+      "humidity": "wet",
+      "feature": "山区湿润"
+    },
+    {
+      "name": "湘西",
+      "region": "华中",
+      "climate_type": "亚热带湿润气候",
+      "province": "湖南省",
+      "temp_range": {
+        "summer": [
+          24,
+          28
+        ],
+        "winter": [
+          4,
+          11
+        ],
+        "spring": [
+          11,
+          21
+        ],
+        "autumn": [
+          8,
+          17
+        ]
+      },
+      "humidity": "wet",
+      "feature": "山区湿润"
+    },
+    {
+      "name": "楚雄",
+      "region": "西南",
+      "climate_type": "亚热带高原气候",
+      "province": "云南省",
+      "temp_range": {
+        "summer": [
+          22,
+          27
+        ],
+        "winter": [
+          5,
+          15
+        ],
+        "spring": [
+          8,
+          18
+        ],
+        "autumn": [
+          6,
+          16
+        ]
+      },
+      "humidity": "dry",
+      "feature": "高原干燥"
+    },
+    {
+      "name": "红河",
+      "region": "西南",
+      "climate_type": "亚热带高原气候",
+      "province": "云南省",
+      "temp_range": {
+        "summer": [
+          24,
+          29
+        ],
+        "winter": [
+          8,
+          18
+        ],
+        "spring": [
+          10,
+          20
+        ],
+        "autumn": [
+          8,
+          18
+        ]
+      },
+      "humidity": "wet",
+      "feature": "滇南湿润"
+    },
+    {
+      "name": "文山",
+      "region": "西南",
+      "climate_type": "亚热带季风气候",
+      "province": "云南省",
+      "temp_range": {
+        "summer": [
+          25,
+          30
+        ],
+        "winter": [
+          9,
+          19
+        ],
+        "spring": [
+          12,
+          22
+        ],
+        "autumn": [
+          10,
+          20
+        ]
+      },
+      "humidity": "wet",
+      "feature": "滇东南湿润"
+    },
+    {
+      "name": "西双版纳",
+      "region": "西南",
+      "climate_type": "热带季风气候",
+      "province": "云南省",
+      "temp_range": {
+        "summer": [
+          27,
+          32
+        ],
+        "winter": [
+          14,
+          24
+        ],
+        "spring": [
+          20,
+          30
+        ],
+        "autumn": [
+          18,
+          28
+        ]
+      },
+      "humidity": "wet",
+      "feature": "热带雨林"
+    },
+    {
+      "name": "大理",
+      "region": "西南",
+      "climate_type": "亚热带高原气候",
+      "province": "云南省",
+      "temp_range": {
+        "summer": [
+          19,
+          24
+        ],
+        "winter": [
+          4,
+          14
+        ],
+        "spring": [
+          8,
+          18
+        ],
+        "autumn": [
+          5,
+          15
+        ]
+      },
+      "humidity": "dry",
+      "feature": "高原温和"
+    },
+    {
+      "name": "德宏",
+      "region": "西南",
+      "climate_type": "热带季风气候",
+      "province": "云南省",
+      "temp_range": {
+        "summer": [
+          26,
+          31
+        ],
+        "winter": [
+          12,
+          22
+        ],
+        "spring": [
+          16,
+          26
+        ],
+        "autumn": [
+          14,
+          26
+        ]
+      },
+      "humidity": "wet",
+      "feature": "边境热带湿润"
+    },
+    {
+      "name": "怒江",
+      "region": "西南",
+      "climate_type": "高原山地气候",
+      "province": "云南省",
+      "temp_range": {
+        "summer": [
+          20,
+          25
+        ],
+        "winter": [
+          5,
+          15
+        ],
+        "spring": [
+          8,
+          18
+        ],
+        "autumn": [
+          6,
+          16
+        ]
+      },
+      "humidity": "wet",
+      "feature": "峡谷山区"
+    },
+    {
+      "name": "迪庆",
+      "region": "西南",
+      "climate_type": "高原山地气候",
+      "province": "云南省",
+      "temp_range": {
+        "summer": [
+          15,
+          20
+        ],
+        "winter": [
+          -3,
+          8
+        ],
+        "spring": [
+          0,
+          12
+        ],
+        "autumn": [
+          -1,
+          7
+        ]
+      },
+      "humidity": "dry",
+      "feature": "香格里拉高原"
+    },
+    {
+      "name": "临夏",
+      "region": "西北",
+      "climate_type": "温带大陆性气候",
+      "province": "甘肃省",
+      "temp_range": {
+        "summer": [
+          19,
+          24
+        ],
+        "winter": [
+          -3,
+          3
+        ],
+        "spring": [
+          8,
+          17
+        ],
+        "autumn": [
+          4,
+          12
+        ]
+      },
+      "humidity": "dry",
+      "feature": "陇西南干燥"
+    },
+    {
+      "name": "甘南",
+      "region": "西北",
+      "climate_type": "高原山地气候",
+      "province": "甘肃省",
+      "temp_range": {
+        "summer": [
+          14,
+          19
+        ],
+        "winter": [
+          -7,
+          -1
+        ],
+        "spring": [
+          2,
+          11
+        ],
+        "autumn": [
+          -2,
+          8
+        ]
+      },
+      "humidity": "dry",
+      "feature": "高原高寒"
+    },
+    {
+      "name": "昌吉",
+      "region": "西北",
+      "climate_type": "温带大陆性气候",
+      "province": "新疆维吾尔自治区",
+      "temp_range": {
+        "summer": [
+          20,
+          25
+        ],
+        "winter": [
+          -12,
+          -3
+        ],
+        "spring": [
+          7,
+          16
+        ],
+        "autumn": [
+          2,
+          11
+        ]
+      },
+      "humidity": "dry",
+      "feature": "准噶尔盆地干燥"
+    },
+    {
+      "name": "博尔塔拉",
+      "region": "西北",
+      "climate_type": "温带大陆性气候",
+      "province": "新疆维吾尔自治区",
+      "temp_range": {
+        "summer": [
+          19,
+          24
+        ],
+        "winter": [
+          -13,
+          -4
+        ],
+        "spring": [
+          7,
+          15
+        ],
+        "autumn": [
+          1,
+          10
+        ]
+      },
+      "humidity": "dry",
+      "feature": "戈壁干燥"
+    },
+    {
+      "name": "巴音郭楞",
+      "region": "西北",
+      "climate_type": "温带大陆性气候",
+      "province": "新疆维吾尔自治区",
+      "temp_range": {
+        "summer": [
+          19,
+          24
+        ],
+        "winter": [
+          -10,
+          -1
+        ],
+        "spring": [
+          6,
+          15
+        ],
+        "autumn": [
+          1,
+          10
+        ]
+      },
+      "humidity": "dry",
+      "feature": "南疆干燥"
+    },
+    {
+      "name": "克孜勒苏",
+      "region": "西北",
+      "climate_type": "温带大陆性气候",
+      "province": "新疆维吾尔自治区",
+      "temp_range": {
+        "summer": [
+          20,
+          25
+        ],
+        "winter": [
+          -9,
+          0
+        ],
+        "spring": [
+          7,
+          16
+        ],
+        "autumn": [
+          2,
+          11
+        ]
+      },
+      "humidity": "dry",
+      "feature": "南疆干燥"
+    },
+    {
+      "name": "阿克苏",
+      "region": "西北",
+      "climate_type": "温带大陆性气候",
+      "province": "新疆维吾尔自治区",
+      "temp_range": {
+        "summer": [
+          20,
+          25
+        ],
+        "winter": [
+          -9,
+          0
+        ],
+        "spring": [
+          7,
+          16
+        ],
+        "autumn": [
+          2,
+          11
+        ]
+      },
+      "humidity": "dry",
+      "feature": "南疆干燥"
+    },
+    {
+      "name": "喀什",
+      "region": "西北",
+      "climate_type": "温带大陆性气候",
+      "province": "新疆维吾尔自治区",
+      "temp_range": {
+        "summer": [
+          20,
+          26
+        ],
+        "winter": [
+          -8,
+          0
+        ],
+        "spring": [
+          8,
+          17
+        ],
+        "autumn": [
+          3,
+          12
+        ]
+      },
+      "humidity": "dry",
+      "feature": "南疆干燥"
+    },
+    {
+      "name": "和田",
+      "region": "西北",
+      "climate_type": "温带大陆性气候",
+      "province": "新疆维吾尔自治区",
+      "temp_range": {
+        "summer": [
+          21,
+          27
+        ],
+        "winter": [
+          -8,
+          0
+        ],
+        "spring": [
+          8,
+          17
+        ],
+        "autumn": [
+          3,
+          12
+        ]
+      },
+      "humidity": "dry",
+      "feature": "沙漠干燥"
+    },
+    {
+      "name": "伊犁",
+      "region": "西北",
+      "climate_type": "温带大陆性气候",
+      "province": "新疆维吾尔自治区",
+      "temp_range": {
+        "summer": [
+          19,
+          24
+        ],
+        "winter": [
+          -12,
+          -3
+        ],
+        "spring": [
+          7,
+          16
+        ],
+        "autumn": [
+          2,
+          11
+        ]
+      },
+      "humidity": "wet",
+      "feature": "河谷湿润"
+    },
+    {
+      "name": "塔城",
+      "region": "西北",
+      "climate_type": "温带大陆性气候",
+      "province": "新疆维吾尔自治区",
+      "temp_range": {
+        "summer": [
+          18,
+          23
+        ],
+        "winter": [
+          -14,
+          -5
+        ],
+        "spring": [
+          6,
+          15
+        ],
+        "autumn": [
+          1,
+          10
+        ]
+      },
+      "humidity": "dry",
+      "feature": "戈壁干燥"
+    },
+    {
+      "name": "阿勒泰",
+      "region": "西北",
+      "climate_type": "温带大陆性气候",
+      "province": "新疆维吾尔自治区",
+      "temp_range": {
+        "summer": [
+          17,
+          22
+        ],
+        "winter": [
+          -18,
+          -8
+        ],
+        "spring": [
+          5,
+          13
+        ],
+        "autumn": [
+          0,
+          8
+        ]
+      },
+      "humidity": "dry",
+      "feature": "阿勒泰山区极寒"
+    },
+    {
+      "name": "海北",
+      "region": "西北",
+      "climate_type": "高原大陆性气候",
+      "province": "青海省",
+      "temp_range": {
+        "summer": [
+          12,
+          17
+        ],
+        "winter": [
+          -8,
+          -2
+        ],
+        "spring": [
+          1,
+          10
+        ],
+        "autumn": [
+          -2,
+          6
+        ]
+      },
+      "humidity": "dry",
+      "feature": "高原高寒"
+    },
+    {
+      "name": "黄南",
+      "region": "西北",
+      "climate_type": "高原大陆性气候",
+      "province": "青海省",
+      "temp_range": {
+        "summer": [
+          14,
+          19
+        ],
+        "winter": [
+          -6,
+          -1
+        ],
+        "spring": [
+          2,
+          11
+        ],
+        "autumn": [
+          -1,
+          7
+        ]
+      },
+      "humidity": "dry",
+      "feature": "高原高寒"
+    },
+    {
+      "name": "海南",
+      "region": "西北",
+      "climate_type": "高原大陆性气候",
+      "province": "青海省",
+      "temp_range": {
+        "summer": [
+          15,
+          20
+        ],
+        "winter": [
+          -5,
+          1
+        ],
+        "spring": [
+          3,
+          12
+        ],
+        "autumn": [
+          0,
+          8
+        ]
+      },
+      "humidity": "dry",
+      "feature": "高原高寒"
+    },
+    {
+      "name": "果洛",
+      "region": "西北",
+      "climate_type": "高原山地气候",
+      "province": "青海省",
+      "temp_range": {
+        "summer": [
+          8,
+          13
+        ],
+        "winter": [
+          -10,
+          -3
+        ],
+        "spring": [
+          -3,
+          5
+        ],
+        "autumn": [
+          -5,
+          2
+        ]
+      },
+      "humidity": "dry",
+      "feature": "高原极寒"
+    },
+    {
+      "name": "玉树",
+      "region": "西北",
+      "climate_type": "高原山地气候",
+      "province": "青海省",
+      "temp_range": {
+        "summer": [
+          10,
+          15
+        ],
+        "winter": [
+          -12,
+          -4
+        ],
+        "spring": [
+          -4,
+          4
+        ],
+        "autumn": [
+          -6,
+          1
+        ]
+      },
+      "humidity": "dry",
+      "feature": "高原极寒"
+    },
+    {
+      "name": "海西",
+      "region": "西北",
+      "climate_type": "高原大陆性气候",
+      "province": "青海省",
+      "temp_range": {
+        "summer": [
+          18,
+          23
+        ],
+        "winter": [
+          -8,
+          -1
+        ],
+        "spring": [
+          6,
+          15
+        ],
+        "autumn": [
+          2,
+          10
+        ]
+      },
+      "humidity": "dry",
+      "feature": "柴达木盆地干燥"
+    },
+    {
+      "name": "阿坝",
+      "region": "西南",
+      "climate_type": "高原山地气候",
+      "province": "四川省",
+      "temp_range": {
+        "summer": [
+          14,
+          19
+        ],
+        "winter": [
+          -5,
+          3
+        ],
+        "spring": [
+          2,
+          12
+        ],
+        "autumn": [
+          -2,
+          8
+        ]
+      },
+      "humidity": "dry",
+      "feature": "川西高原高寒"
+    },
+    {
+      "name": "甘孜",
+      "region": "西南",
+      "climate_type": "高原山地气候",
+      "province": "四川省",
+      "temp_range": {
+        "summer": [
+          13,
+          18
+        ],
+        "winter": [
+          -8,
+          1
+        ],
+        "spring": [
+          0,
+          10
+        ],
+        "autumn": [
+          -3,
+          7
+        ]
+      },
+      "humidity": "dry",
+      "feature": "川西高原高寒"
+    },
+    {
+      "name": "凉山",
+      "region": "西南",
+      "climate_type": "亚热带高原气候",
+      "province": "四川省",
+      "temp_range": {
+        "summer": [
+          22,
+          27
+        ],
+        "winter": [
+          3,
+          13
+        ],
+        "spring": [
+          6,
+          16
+        ],
+        "autumn": [
+          3,
+          13
+        ]
+      },
+      "humidity": "dry",
+      "feature": "凉山高原温和"
+    }
+  ]
+}

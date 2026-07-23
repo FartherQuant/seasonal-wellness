@@ -99,7 +99,7 @@ export class RecipeService {
     recipeCache = pools
     const poolsForTerm = constitution ? pools.filter(p => p.solar_term === term && p.constitution_type === constitution) : pools.filter(p => p.solar_term === term)
     const additions = new Set<string>()
-    for (const pool of poolsForTerm) { const fp = pool.food_pool || {}; ([fp.breakfast, fp.lunch, fp.dinner, fp.soup] as any[]).flat().forEach(f => additions.add(f)) }
+    for (const pool of poolsForTerm) { const fp = (pool.food_pool || {}) as any; ([fp.breakfast, fp.lunch, fp.dinner, fp.soup] as any[]).flat().forEach((f: string) => additions.add(f)) }
     return { additions: [...additions], total_options: additions.size }
   }
 

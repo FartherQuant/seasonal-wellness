@@ -1,18 +1,20 @@
 #!/usr/bin/env node
 /**
- * Post-build: copy data/ to dist/data/ for Vercel Serverless
+ * Post-build: compile server code to api/server/ for Vercel function bundling
  */
-import { cpSync, mkdirSync, readdirSync, readFileSync, writeFileSync } from 'node:fs'
+import { cpSync, mkdirSync, readdirSync, rmSync } from 'node:fs'
 import { resolve } from 'node:path'
 
-const src = resolve(process.cwd(), 'data')
-const dest = resolve(process.cwd(), 'dist', 'data')
+const src = resolve(process.cwd(), 'dist/api/server')
+const dest = resolve(process.cwd(), 'api/server')
 
 try {
+  // Remove old compiled files
+  rmSync(dest, { recursive: true, force: true })
   mkdirSync(dest, { recursive: true })
   cpSync(src, dest, { recursive: true, force: true })
-  console.log(`✓ Copied data/ → dist/data/ (${readdirSync(dest).length} files)`)
+  console.log(`✓ Compiled server → api/server/ (${readdirSync(dest).length} files)`)
 } catch (err) {
-  console.error('✗ Failed to copy data directory:', err.message)
+  console.error('✗ Failed to compile server to api/server/:', err.message)
   process.exit(1)
 }

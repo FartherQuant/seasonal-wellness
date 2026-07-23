@@ -2,30 +2,17 @@
  * RecipeService v2.0 — 节气级食谱服务
  */
 
-import { readFileSync } from 'node:fs'
-import { resolve } from 'node:path'
-const DATA_DIR = resolve(process.cwd(), 'data')
+import { recipePools } from '../data/index.js'
 
 const TERM_ORDER = ['立春', '雨水', '惊蛰', '春分', '清明', '谷雨', '立夏', '小满', '芒种', '夏至', '小暑', '大暑', '立秋', '处暑', '白露', '秋分', '寒露', '霜降', '立冬', '小雪', '大雪', '冬至', '小寒', '大寒']
 
-function loadRecipePools() {
-  const poolFile = resolve(DATA_DIR, 'recipe_pool_v2.json')
-  try {
-    const data = JSON.parse(readFileSync(poolFile, 'utf-8'))
-    return data.entries || []
-  } catch (err) {
-    console.error(`Error loading recipe_pool_v2.json: ${err.message}`)
-    return []
-  }
-}
-
 const termLRU = new Map<string, { used: Set<string>; lastTerm: string }>()
 const MAX_LRU_SIZE = 200
-let recipeCache: any[] = []
+let recipeCache: typeof recipePools = []
 
 export class RecipeService {
   static getDailyRecipe(term: string, constitution: string, weather: string | null = null, date: string | null = null, opts: { bypassLRU?: boolean } = {}) {
-    const pools = recipeCache.length ? recipeCache : loadRecipePools()
+    const pools = recipeCache.length ? recipeCache : recipePools
     recipeCache = pools
     const pool = pools.find(p => p.solar_term === term && p.constitution_type === constitution)
     if (!pool) return this.getDefaultRecipe(term)
@@ -108,7 +95,7 @@ export class RecipeService {
   }
 
   static getIngredients(term: string, constitution: string | null = null) {
-    const pools = recipeCache.length ? recipeCache : loadRecipePools()
+    const pools = recipeCache.length ? recipeCache : recipePools
     recipeCache = pools
     const poolsForTerm = constitution ? pools.filter(p => p.solar_term === term && p.constitution_type === constitution) : pools.filter(p => p.solar_term === term)
     const additions = new Set<string>()

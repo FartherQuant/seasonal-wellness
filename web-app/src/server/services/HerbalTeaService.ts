@@ -2,9 +2,7 @@
  * HerbalTeaService v2.0 — 花草茶服务
  */
 
-import { readFileSync } from 'node:fs'
-import { resolve } from 'node:path'
-const DATA_DIR = resolve(process.cwd(), 'data')
+import { teaPools } from '../data/index.js'
 
 const WEATHER_WEIGHT_MAP: Record<string, { cool: number; warm: number; moist: number }> = {
   '晴天':   { cool: 1.2, warm: 1.0, moist: 0.8 },
@@ -34,22 +32,11 @@ function classifyTea(ingredients: string[]) {
   return { coolScore, warmScore, moistScore }
 }
 
-function loadTeaPools() {
-  const poolFile = resolve(DATA_DIR, 'herbal_tea_pool_v2.json')
-  try {
-    const data = JSON.parse(readFileSync(poolFile, 'utf-8'))
-    return data.entries || []
-  } catch (err) {
-    console.error(`Error loading herbal_tea_pool_v2.json: ${err.message}`)
-    return []
-  }
-}
-
-let teaCache: any[] = []
+let teaCache: typeof teaPools = []
 
 export class HerbalTeaService {
   static getTeaRecommendation(term: string, constitution: string, weather: string | null = null, date: string | null = null) {
-    const pools = teaCache.length ? teaCache : loadTeaPools()
+    const pools = teaCache.length ? teaCache : teaPools
     teaCache = pools
     const pool = pools.find(p => p.solar_term === term && p.constitution_type === constitution)
     if (!pool) {
@@ -121,7 +108,7 @@ export class HerbalTeaService {
   }
 
   static getTeaByTerm(term: string) {
-    const pools = teaCache.length ? teaCache : loadTeaPools()
+    const pools = teaCache.length ? teaCache : teaPools
     teaCache = pools
     const poolsForTerm = pools.filter(p => p.solar_term === term)
     const recommendations: Record<string, any> = {}

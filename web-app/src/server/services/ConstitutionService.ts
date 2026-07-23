@@ -2,36 +2,13 @@
  * ConstitutionService — 体质服务
  */
 
-import { readFileSync } from 'node:fs'
-import { resolve } from 'node:path'
-const DATA_DIR = resolve(process.cwd(), 'data')
+import { constitutions, questionnaire } from '../data/index.js'
 
-function loadConstitutionData() {
-  const poolFile = resolve(DATA_DIR, 'constitutions-v2.json')
-  try {
-    const data = JSON.parse(readFileSync(poolFile, 'utf-8'))
-    return data.entries || []
-  } catch (err) {
-    console.error(`Error loading constitutions-v2.json: ${err.message}`)
-    return []
-  }
-}
-
-let constitutionCache: any[] = []
-
-function loadQuestionnaireData() {
-  const questionnaireFile = resolve(DATA_DIR, 'constitution_questionnaire.json')
-  try {
-    return JSON.parse(readFileSync(questionnaireFile, 'utf-8'))
-  } catch (err) {
-    console.error(`Error loading constitution_questionnaire.json: ${err.message}`)
-    return { questions: [] }
-  }
-}
+let constitutionCache: typeof constitutions = []
 
 export class ConstitutionService {
   static getConstitutionInfo(constitution: string, term: string | null = null) {
-    const pools = constitutionCache.length ? constitutionCache : loadConstitutionData()
+    const pools = constitutionCache.length ? constitutionCache : constitutions
     constitutionCache = pools
 
     if (term) {
@@ -69,7 +46,7 @@ export class ConstitutionService {
   }
 
   static getAdaptation(term: string, constitution: string) {
-    const pools = constitutionCache.length ? constitutionCache : loadConstitutionData()
+    const pools = constitutionCache.length ? constitutionCache : constitutions
     constitutionCache = pools
     return pools.find(p => p.constitution_type === constitution && p.solar_term === term) || null
   }
@@ -79,18 +56,11 @@ export class ConstitutionService {
   }
 
   static getQuestionnaire() {
-    try {
-      const data = loadQuestionnaireData()
-      return { questions: data.questions || [], constitution_info: data.constitution_info || {} }
-    } catch (err) {
-      console.error(`Error loading constitution_questionnaire.json: ${err.message}`)
-      return { questions: [], constitution_info: {} }
-    }
+    return { questions: questionnaire.questions || [], constitution_info: questionnaire.constitution_info || {} }
   }
 
   static assess(userId: string, answers: any[]) {
-    const questionnaireData = loadQuestionnaireData()
-    const questions = questionnaireData.questions || []
+    const questions = questionnaire.questions || []
     if (!answers || !Array.isArray(answers) || answers.length !== 8) {
       return { error: '答案不完整，需要8题答案', constitution: '平和质' }
     }

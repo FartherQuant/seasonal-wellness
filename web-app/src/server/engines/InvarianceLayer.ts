@@ -2,37 +2,13 @@
  * CM1: 节气不变层 (Solar Term Invariance)
  */
 
-import { readFileSync } from 'node:fs'
-import { resolve } from 'node:path'
-const DATA_DIR = resolve(process.cwd(), 'data')
+import { solarTerms } from '../data/index.js'
 
-interface SolarTermEntry {
-  term_name: string
-  solar_longitude: string
-  climate_trend: string
-  yinyang_attribute: string
-  tcm_organ_command: string
-  wellness_direction: string
-  vulnerability_points: string[]
-  season: string
-}
-
-function loadSolarTermsData() {
-  const poolFile = resolve(DATA_DIR, 'solar_terms.json')
-  try {
-    const data = JSON.parse(readFileSync(poolFile, 'utf-8'))
-    return data.solar_terms || []
-  } catch (err) {
-    console.error(`Error loading solar_terms.json: ${err.message}`)
-    return []
-  }
-}
-
-let solarTermsCache: SolarTermEntry[] = []
+let solarTermsCache: typeof solarTerms = []
 
 export class InvarianceLayer {
   static getInvariance(term: string) {
-    const data = solarTermsCache.length ? solarTermsCache : loadSolarTermsData()
+    const data = solarTermsCache.length ? solarTermsCache : solarTerms
     solarTermsCache = data
     const entry = data.find(t => t.term_name === term)
     if (!entry) {

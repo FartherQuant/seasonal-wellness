@@ -1,0 +1,36 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="512" height="512" rx="64" fill="#0E1318"/>
+<!-- Outer decorative ring -->
+<circle cx="256" cy="256" r="200" fill="none" stroke="#3A4654" stroke-width="2"/>
+<circle cx="256" cy="256" r="170" fill="none" stroke="#3A4654" stroke-width="1.5"/>
+<circle cx="256" cy="256" r="140" fill="none" stroke="#3A4654" stroke-width="1"/>
+<!-- Center 顺 character -->
+<text x="256" y="320" font-family="serif" font-size="180" font-weight="700" fill="#D4A843" text-anchor="middle">顺</text>
+<!-- Subtitle -->
+<text x="256" y="370" font-family="serif" font-size="28" fill="#C8C0B0" text-anchor="middle" letter-spacing="8">时 · 养 · 生</text>
+<!-- 24 solar term dots around the outer ring -->
+<circle cx="256" cy="56" r="6" fill="#D4A843"/>
+<circle cx="305" cy="68" r="4" fill="#7D8B99"/>
+<circle cx="352" cy="90" r="4" fill="#7D8B99"/>
+<circle cx="390" cy="122" r="4" fill="#7D8B99"/>
+<circle cx="412" cy="162" r="4" fill="#7D8B99"/>
+<circle cx="425" cy="205" r="4" fill="#7D8B99"/>
+<circle cx="428" cy="256" r="6" fill="#D4A843"/>
+<circle cx="425" cy="307" r="4" fill="#7D8B99"/>
+<circle cx="412" cy="350" r="4" fill="#7D8B99"/>
+<circle cx="390" cy="390" r="4" fill="#7D8B99"/>
+<circle cx="352" cy="422" r="4" fill="#7D8B99"/>
+<circle cx="305" cy="444" r="4" fill="#7D8B99"/>
+<circle cx="256" cy="456" r="6" fill="#D4A843"/>
+<circle cx="207" cy="444" r="4" fill="#7D8B99"/>
+<circle cx="160" cy="422" r="4" fill="#7D8B99"/>
+<circle cx="122" cy="390" r="4" fill="#7D8B99"/>
+<circle cx="100" cy="350" r="4" fill="#7D8B99"/>
+<circle cx="87" cy="307" r="4" fill="#7D8B99"/>
+<circle cx="84" cy="256" r="6" fill="#D4A843"/>
+<circle cx="87" cy="205" r="4" fill="#7D8B99"/>
+<circle cx="100" cy="162" r="4" fill="#7D8B99"/>
+<circle cx="122" cy="122" r="4" fill="#7D8B99"/>
+<circle cx="160" cy="90" r="4" fill="#7D8B99"/>
+<circle cx="207" cy="68" r="4" fill="#7D8B99"/>
+</svg>

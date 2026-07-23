@@ -1,0 +1,25 @@
+{
+  "name": "顺时生活",
+  "short_name": "顺时生活",
+  "description": "顺时养生，因时制宜、因地制宜、因人制宜",
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "theme_color": "#2F4554",
+  "background_color": "#2F4554",
+  "icons": [
+    {
+      "src": "/icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "categories": ["health", "lifestyle"],
+  "lang": "zh-CN",
+  "scope": "/"
+}

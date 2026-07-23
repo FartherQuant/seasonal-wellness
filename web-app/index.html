@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>顺时生活 - 顺时养生，天人合一</title>
+    <meta name="description" content="基于二十四节气、地域气候、个人体质的个性化养生方案。因时制宜，因地制宜，因人制宜。" />
+    <meta name="keywords" content="顺时生活，养生，节气，体质，食疗，花草茶，中医养生，二十四节气" />
+    <meta property="og:title" content="顺时生活 - 顺时养生，天人合一" />
+    <meta property="og:description" content="基于二十四节气、地域气候、个人体质的个性化养生方案" />
+    <meta property="og:type" content="website" />
+    <meta name="theme-color" content="#2F4554" />
+    <link rel="manifest" href="/manifest.json" />
+    <script type="module">
+      if (import.meta.hot?.on) {
+        import.meta.hot.on('vite:error', (error) => {
+          if (error.err) {
+            console.error(
+              [error.err.message, error.err.frame].filter(Boolean).join('\n'),
+            )
+          }
+        })
+      }
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

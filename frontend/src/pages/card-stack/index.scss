@@ -1,0 +1,650 @@
+/* ============================================================
+   顺时生活 — 视觉重铸版
+   设计系统：四季色彩 + 节气环 + 无 Emoji 极简风格
+   ============================================================ */
+
+/* ============================================================
+   全局 / 容器
+   ============================================================ */
+.card-stack-container {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  background: #1A1F2E;
+  position: relative;
+  font-family: -apple-system, BlinkMacSystemFont, 'Inter', 'Helvetica Neue', Arial, sans-serif;
+  color: #F5F0E6;
+}
+
+/* ============================================================
+   卡片 Swiper
+   ============================================================ */
+.card-swiper {
+  width: 100%;
+  height: 100%;
+}
+
+/* ============================================================
+   通用卡片
+   ============================================================ */
+.card {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 60px 40px 80px;
+  box-sizing: border-box;
+  position: relative;
+}
+
+/* 卡片头部 */
+.card-header {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.eyebrow {
+  font-size: 11px;
+  letter-spacing: 3px;
+  color: rgba(245, 240, 230, 0.5);
+  font-family: 'JetBrains Mono', monospace;
+  text-transform: uppercase;
+}
+
+.card-title {
+  font-size: 28px;
+  font-weight: 600;
+  color: #F5F0E6;
+  letter-spacing: 2px;
+}
+
+/* 卡片主体 */
+.card-body {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.card-loading {
+  font-size: 16px;
+  color: rgba(245, 240, 230, 0.4);
+  text-align: center;
+  font-family: 'JetBrains Mono', monospace;
+}
+
+/* 卡片底部 */
+.card-footer {
+  position: absolute;
+  bottom: 20px;
+  left: 40px;
+  right: 40px;
+}
+
+.footer-text {
+  font-size: 12px;
+  color: rgba(245, 240, 230, 0.3);
+  font-family: 'JetBrains Mono', monospace;
+  letter-spacing: 1px;
+}
+
+/* 分割线 */
+.divider {
+  height: 1px;
+  background: rgba(245, 240, 230, 0.15);
+  margin: 20px 0;
+}
+
+/* ============================================================
+   节气卡片
+   ============================================================ */
+.solar-term-content {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+.term-name {
+  font-size: 96px;
+  font-weight: 700;
+  color: #F5F0E6;
+  letter-spacing: 8px;
+  line-height: 1;
+  margin-bottom: 8px;
+}
+
+.term-date {
+  font-size: 14px;
+  color: rgba(245, 240, 230, 0.6);
+  font-family: 'JetBrains Mono', monospace;
+  letter-spacing: 1px;
+}
+
+.term-info-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.term-info-item {
+  display: flex;
+  align-items: baseline;
+  gap: 16px;
+}
+
+.term-info-label {
+  font-size: 12px;
+  color: rgba(245, 240, 230, 0.4);
+  font-family: 'JetBrains Mono', monospace;
+  width: 50px;
+  flex-shrink: 0;
+}
+
+.term-info-value {
+  font-size: 15px;
+  color: #F5F0E6;
+  flex: 1;
+  line-height: 1.6;
+}
+
+/* ============================================================
+   养生方案卡片
+   ============================================================ */
+.plan-content {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.plan-direction {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.direction-label {
+  font-size: 12px;
+  color: rgba(245, 240, 230, 0.4);
+  font-family: 'JetBrains Mono', monospace;
+  letter-spacing: 2px;
+}
+
+.direction-text {
+  font-size: 24px;
+  font-weight: 500;
+  color: #D4A843;
+  line-height: 1.4;
+}
+
+.plan-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+}
+
+.plan-cell {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.cell-label {
+  font-size: 11px;
+  color: rgba(245, 240, 230, 0.4);
+  font-family: 'JetBrains Mono', monospace;
+  letter-spacing: 1px;
+}
+
+.cell-value {
+  font-size: 14px;
+  color: #F5F0E6;
+}
+
+.plan-warnings {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.warnings-label {
+  font-size: 12px;
+  color: rgba(245, 240, 230, 0.4);
+  font-family: 'JetBrains Mono', monospace;
+  letter-spacing: 2px;
+}
+
+.warning-item {
+  font-size: 14px;
+  color: #F5F0E6;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.warning-dot {
+  width: 4px;
+  height: 4px;
+  background: #D4A843;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+/* ============================================================
+   食谱卡片
+   ============================================================ */
+.recipe-content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.meal-section {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.meal-header {
+  display: flex;
+  align-items: baseline;
+  gap: 12px;
+}
+
+.meal-time {
+  font-size: 11px;
+  color: rgba(245, 240, 230, 0.4);
+  font-family: 'JetBrains Mono', monospace;
+  letter-spacing: 1px;
+  width: 50px;
+}
+
+.meal-label {
+  font-size: 12px;
+  color: rgba(245, 240, 230, 0.5);
+  font-family: 'JetBrains Mono', monospace;
+  letter-spacing: 2px;
+}
+
+.meal-item {
+  font-size: 16px;
+  color: #F5F0E6;
+  padding-left: 62px;
+  font-weight: 500;
+}
+
+/* ============================================================
+   花草茶卡片
+   ============================================================ */
+.tea-content {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+.tea-name {
+  font-size: 32px;
+  font-weight: 600;
+  color: #F5F0E6;
+  margin-bottom: 4px;
+  letter-spacing: 1px;
+}
+
+.tea-direction {
+  font-size: 14px;
+  color: #D4A843;
+  font-family: 'JetBrains Mono', monospace;
+  letter-spacing: 1px;
+}
+
+.tea-ingredients {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.ingredients-label {
+  font-size: 11px;
+  color: rgba(245, 240, 230, 0.4);
+  font-family: 'JetBrains Mono', monospace;
+  letter-spacing: 2px;
+  margin-bottom: 4px;
+}
+
+.ingredient-item {
+  font-size: 14px;
+  color: #F5F0E6;
+  padding-left: 12px;
+  position: relative;
+}
+
+.tea-prep {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.prep-label {
+  font-size: 11px;
+  color: rgba(245, 240, 230, 0.4);
+  font-family: 'JetBrains Mono', monospace;
+  letter-spacing: 2px;
+}
+
+.prep-value {
+  font-size: 14px;
+  color: #F5F0E6;
+  line-height: 1.6;
+}
+
+.tea-note-box {
+  padding: 12px 16px;
+  background: rgba(245, 240, 230, 0.08);
+  border-left: 2px solid #D4A843;
+  border-radius: 0 4px 4px 0;
+}
+
+.note-text {
+  font-size: 13px;
+  color: rgba(245, 240, 230, 0.7);
+  line-height: 1.5;
+}
+
+.tea-alternative {
+  display: flex;
+  align-items: baseline;
+  gap: 12px;
+}
+
+.alternative-label {
+  font-size: 11px;
+  color: rgba(245, 240, 230, 0.4);
+  font-family: 'JetBrains Mono', monospace;
+  letter-spacing: 2px;
+}
+
+.alternative-name {
+  font-size: 14px;
+  color: rgba(245, 240, 230, 0.6);
+}
+
+/* ============================================================
+   体质卡片
+   ============================================================ */
+.constitution-content {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+.constitution-badge {
+  align-self: flex-start;
+  padding: 6px 16px;
+  border-radius: 20px;
+  border: 1px solid #4A6FA5;
+  margin-bottom: 16px;
+}
+
+.badge-label {
+  font-size: 11px;
+  color: rgba(245, 240, 230, 0.6);
+  font-family: 'JetBrains Mono', monospace;
+  letter-spacing: 1px;
+}
+
+.constitution-type {
+  font-size: 48px;
+  font-weight: 600;
+  color: #F5F0E6;
+  margin-bottom: 8px;
+  letter-spacing: 2px;
+}
+
+.constitution-desc {
+  font-size: 15px;
+  color: rgba(245, 240, 230, 0.7);
+  line-height: 1.6;
+}
+
+.constitution-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 16px;
+}
+
+.tag {
+  padding: 4px 12px;
+  background: rgba(245, 240, 230, 0.1);
+  border-radius: 12px;
+  font-size: 12px;
+  color: rgba(245, 240, 230, 0.8);
+}
+
+.constitution-tip-box {
+  padding: 12px 16px;
+  background: rgba(245, 240, 230, 0.05);
+  border-radius: 4px;
+}
+
+.tip-label {
+  font-size: 11px;
+  color: rgba(245, 240, 230, 0.4);
+  font-family: 'JetBrains Mono', monospace;
+  letter-spacing: 2px;
+  margin-bottom: 4px;
+}
+
+.tip-text {
+  font-size: 13px;
+  color: #F5F0E6;
+  line-height: 1.6;
+}
+
+/* ============================================================
+   倒计时卡片
+   ============================================================ */
+.countdown-content {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+.countdown-current {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.current-label {
+  font-size: 11px;
+  color: rgba(245, 240, 230, 0.4);
+  font-family: 'JetBrains Mono', monospace;
+  letter-spacing: 2px;
+}
+
+.current-name {
+  font-size: 56px;
+  font-weight: 600;
+  color: #F5F0E6;
+  letter-spacing: 4px;
+}
+
+.current-day {
+  font-size: 14px;
+  color: #D4A843;
+  font-family: 'JetBrains Mono', monospace;
+  letter-spacing: 1px;
+}
+
+.countdown-next {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.next-label {
+  font-size: 11px;
+  color: rgba(245, 240, 230, 0.4);
+  font-family: 'JetBrains Mono', monospace;
+  letter-spacing: 2px;
+}
+
+.next-name {
+  font-size: 20px;
+  color: rgba(245, 240, 230, 0.6);
+  letter-spacing: 1px;
+}
+
+.countdown-days {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+}
+
+.days-number {
+  font-size: 80px;
+  font-weight: 700;
+  color: #D4A843;
+  font-family: 'JetBrains Mono', monospace;
+  line-height: 1;
+}
+
+.days-label {
+  font-size: 18px;
+  color: rgba(245, 240, 230, 0.6);
+}
+
+.countdown-note {
+  font-size: 14px;
+  color: rgba(245, 240, 230, 0.4);
+  margin-top: 16px;
+  letter-spacing: 1px;
+}
+
+/* ============================================================
+   日期选择器
+   ============================================================ */
+.date-picker-wrapper {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  z-index: 10;
+}
+
+.date-picker {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 14px;
+  background: rgba(26, 31, 46, 0.8);
+  border-radius: 20px;
+  border: 1px solid rgba(245, 240, 230, 0.15);
+  backdrop-filter: blur(8px);
+}
+
+.date-label {
+  font-size: 13px;
+  color: #F5F0E6;
+  font-family: 'JetBrains Mono', monospace;
+  font-weight: 500;
+}
+
+.date-icon {
+  font-size: 10px;
+  color: rgba(245, 240, 230, 0.5);
+}
+
+/* ============================================================
+   24 节气环（Signature 元素）
+   ============================================================ */
+.solar-term-ring {
+  position: absolute;
+  bottom: 40px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  z-index: 5;
+}
+
+.ring-svg {
+  width: 160px;
+  height: 100px;
+  position: relative;
+}
+
+.ring-dot {
+  position: absolute;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: rgba(245, 240, 230, 0.2);
+  transform: translate(-50%, -50%);
+  transition: all 0.3s ease;
+}
+
+.ring-dot.season-active {
+  background: rgba(212, 168, 67, 0.3);
+  width: 7px;
+  height: 7px;
+}
+
+.ring-dot.active {
+  background: #D4A843;
+  width: 10px;
+  height: 10px;
+  box-shadow: 0 0 12px rgba(212, 168, 67, 0.6);
+}
+
+.ring-label {
+  font-size: 12px;
+  color: #D4A843;
+  font-family: 'JetBrains Mono', monospace;
+  letter-spacing: 2px;
+}
+
+/* ============================================================
+   卡片索引提示
+   ============================================================ */
+.card-hint {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  z-index: 10;
+}
+
+.hint-text {
+  font-size: 11px;
+  color: rgba(245, 240, 230, 0.4);
+  font-family: 'JetBrains Mono', monospace;
+  letter-spacing: 1px;
+}
+
+/* ============================================================
+   响应式调整
+   ============================================================ */
+@media screen and (max-height: 600px) {
+  .card {
+    padding: 40px 24px 60px;
+  }
+  .term-name {
+    font-size: 64px;
+  }
+  .constitution-type {
+    font-size: 36px;
+  }
+  .current-name {
+    font-size: 40px;
+  }
+  .days-number {
+    font-size: 60px;
+  }
+  .ring-svg {
+    width: 120px;
+    height: 75px;
+  }
+}

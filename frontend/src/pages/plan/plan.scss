@@ -1,0 +1,162 @@
+.plan {
+  padding: 16px;
+  background-color: #f5f5f5;
+}
+
+.loading {
+  text-align: center;
+  padding: 40px 0;
+  color: #666;
+}
+
+.term-info {
+  background: linear-gradient(135deg, #2F4554 0%, #1a252f 100%);
+  border-radius: 12px;
+  padding: 20px;
+  margin-bottom: 16px;
+  color: #fff;
+}
+
+.term-name {
+  display: block;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 4px;
+}
+
+.term-meta {
+  display: block;
+  font-size: 14px;
+  opacity: 0.8;
+}
+
+.section {
+  background: #fff;
+  border-radius: 12px;
+  padding: 16px;
+  margin-bottom: 16px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+}
+
+.section-title {
+  display: block;
+  font-size: 18px;
+  font-weight: bold;
+  color: #2F4554;
+  margin-bottom: 12px;
+  padding-bottom: 8px;
+  border-bottom: 2px solid #2F4554;
+}
+
+.health-section .direction {
+  display: block;
+  font-size: 16px;
+  color: #2F4554;
+  margin-bottom: 12px;
+  padding: 8px;
+  background: #f0f4f8;
+  border-radius: 6px;
+}
+
+.sub-title {
+  display: block;
+  font-size: 14px;
+  font-weight: bold;
+  color: #333;
+  margin-top: 12px;
+  margin-bottom: 8px;
+}
+
+.risk-item,
+.suggestion-item {
+  display: block;
+  font-size: 14px;
+  color: #555;
+  line-height: 1.8;
+  margin-left: 16px;
+}
+
+.vulnerability {
+  display: block;
+  font-size: 14px;
+  color: #666;
+  margin-top: 12px;
+  padding: 8px;
+  background: #f9f9f9;
+  border-radius: 6px;
+  line-height: 1.6;
+}
+
+.routine-section {
+  font-size: 14px;
+  line-height: 2;
+  color: #555;
+}
+
+.routine-item {
+  display: block;
+}
+
+.diet-section .meal-card {
+  padding: 12px;
+  background: #f9f9f9;
+  border-radius: 8px;
+  margin-bottom: 12px;
+}
+
+.meal-card:last-child {
+  margin-bottom: 0;
+}
+
+.meal-title {
+  display: block;
+  font-size: 16px;
+  font-weight: bold;
+  color: #2F4554;
+  margin-bottom: 6px;
+}
+
+.meal-content {
+  display: block;
+  font-size: 14px;
+  color: #555;
+}
+
+.tea-card {
+  padding: 16px;
+  background: #f0f4f8;
+  border-radius: 8px;
+  border-left: 4px solid #2F4554;
+}
+
+.tea-card-title {
+  display: block;
+  font-size: 16px;
+  font-weight: bold;
+  color: #2F4554;
+  margin-bottom: 8px;
+}
+
+.tea-card-content {
+  display: block;
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 4px;
+}
+
+.tea-card-note {
+  display: block;
+  font-size: 13px;
+  color: #666;
+  margin-top: 8px;
+  font-style: italic;
+}
+
+.disclaimer {
+  display: block;
+  font-size: 12px;
+  color: #999;
+  line-height: 1.6;
+  padding: 12px 0;
+  margin-top: 16px;
+}

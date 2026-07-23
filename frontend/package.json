@@ -1,0 +1,53 @@
+{
+  "name": "seasonal-wellness-frontend",
+  "version": "1.0.0",
+  "description": "顺时养生小程序前端",
+  "private": true,
+  "scripts": {
+    "build:weapp": "taro build --type weapp",
+    "dev:weapp": "taro build --type weapp --watch",
+    "build:h5": "taro build --type h5",
+    "dev:h5": "taro build --type h5 --watch",
+    "clean": "rm -rf dist node_modules/.cache"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.21.0",
+    "@tarojs/components": "3.6.24",
+    "@tarojs/helper": "3.6.24",
+    "@tarojs/plugin-framework-react": "3.6.24",
+    "@tarojs/plugin-platform-h5": "3.6.24",
+    "@tarojs/plugin-platform-weapp": "3.6.24",
+    "@tarojs/react": "3.6.24",
+    "@tarojs/runtime": "3.6.24",
+    "@tarojs/shared": "3.6.24",
+    "@tarojs/taro": "3.6.24",
+    "@tarojs/taro-h5": "3.6.24",
+    "enhanced-resolve": "^5.10.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.23.0",
+    "@babel/preset-env": "^7.23.0",
+    "@babel/preset-react": "^7.22.0",
+    "@pmmmwh/react-refresh-webpack-plugin": "0.5.11",
+    "@tarojs/cli": "3.6.24",
+    "@tarojs/webpack5-runner": "3.6.24",
+    "@types/react": "^18.2.0",
+    "babel-preset-taro": "3.6.24",
+    "css-loader": "6.7.1",
+    "html-webpack-plugin": "5.5.0",
+    "node-sass": "^8.0.0",
+    "react-refresh": "0.14.0",
+    "sass": "^1.69.0",
+    "sass-loader": "13.3.2",
+    "style-loader": "3.3.1",
+    "typescript": "^5.0.0",
+    "webpack": "^5.88.2",
+    "webpack-dev-server": "4.15.2",
+    "webpack-virtual-modules": "^0.4.6"
+  },
+  "engines": {
+    "node": ">=16"
+  }
+}

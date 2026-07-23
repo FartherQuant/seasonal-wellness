@@ -1,0 +1,169 @@
+.assess {
+  padding: 20px;
+  background-color: #f5f5f5;
+  min-height: 100vh;
+}
+
+.loading {
+  text-align: center;
+  padding: 40px 0;
+  color: #666;
+  font-size: 16px;
+}
+
+.question {
+  padding: 20px 0;
+}
+
+.progress-text {
+  display: block;
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.question-text {
+  display: block;
+  font-size: 18px;
+  line-height: 1.8;
+  color: #333;
+  padding: 20px;
+  background: #fff;
+  border-radius: 12px;
+  margin-bottom: 24px;
+  min-height: 120px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+}
+
+.options {
+  display: flex;
+  gap: 16px;
+}
+
+.option-btn {
+  flex: 1;
+  padding: 16px;
+  font-size: 18px;
+  border-radius: 12px;
+  background: #fff;
+  border: 2px solid #2F4554;
+  color: #2F4554;
+  font-weight: bold;
+}
+
+.option-btn.yes {
+  background: #2F4554;
+  color: #fff;
+}
+
+.result {
+  padding: 20px 0;
+}
+
+.result-title {
+  display: block;
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 8px;
+}
+
+.constitution-name {
+  display: block;
+  font-size: 28px;
+  font-weight: bold;
+  color: #2F4554;
+  margin-bottom: 8px;
+}
+
+.mixed-types {
+  display: block;
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 16px;
+}
+
+.description {
+  display: block;
+  font-size: 14px;
+  color: #555;
+  line-height: 1.8;
+  padding: 16px;
+  background: #fff;
+  border-radius: 12px;
+  margin-bottom: 16px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+}
+
+.features {
+  background: #fff;
+  border-radius: 12px;
+  padding: 16px;
+  margin-bottom: 16px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+}
+
+.features-title {
+  display: block;
+  font-size: 16px;
+  font-weight: bold;
+  color: #2F4554;
+  margin-bottom: 8px;
+}
+
+.feature-item {
+  display: block;
+  font-size: 14px;
+  color: #555;
+  line-height: 1.8;
+  margin-left: 16px;
+}
+
+.advice {
+  background: #f0f4f8;
+  border-radius: 12px;
+  padding: 16px;
+  margin-bottom: 16px;
+  border-left: 4px solid #2F4554;
+}
+
+.advice-title {
+  display: block;
+  font-size: 16px;
+  font-weight: bold;
+  color: #2F4554;
+  margin-bottom: 8px;
+}
+
+.advice-text {
+  display: block;
+  font-size: 14px;
+  color: #555;
+  line-height: 1.8;
+  margin-bottom: 4px;
+}
+
+.result-actions {
+  display: flex;
+  gap: 12px;
+  margin-top: 20px;
+}
+
+.action-btn {
+  flex: 1;
+  padding: 16px;
+  font-size: 16px;
+  border-radius: 12px;
+  background: #2F4554;
+  color: #fff;
+  font-weight: bold;
+  border: none;
+}
+
+.result-note {
+  display: block;
+  font-size: 12px;
+  color: #999;
+  line-height: 1.6;
+  margin-top: 20px;
+  padding: 12px 0;
+}

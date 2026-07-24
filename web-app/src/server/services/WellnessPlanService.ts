@@ -39,7 +39,7 @@ export class WellnessPlanService {
     const hou = InvarianceLayer.getCurrentHou(term, day)
     const weatherCorrection = weather ? WeatherCorrection.getCorrection(weather) : null
 
-    const recipes = RecipeService.getDailyRecipe(term, constitution || '平和质', weather || null, dateStr, city || null, { intensityFactor })
+    const recipes = RecipeService.getDailyRecipe(term, constitution || '平和质', city || null, dateStr, { intensityFactor })
     const herbalTea = HerbalTeaService.getTeaRecommendation(term, constitution || '平和质', weather || null, dateStr, city || null, { intensityFactor })
 
     // 过渡期方案说明

@@ -94,9 +94,9 @@ export class HerbalTeaService {
       const rw = cityAdaptation?.regional_weight
       if (rw) {
         regionWeights = {
-          cool: rw.cool_weight || 1.0,
-          warm: rw.warm_weight || 1.0,
-          moist: rw.damp_weight || 1.0,
+          cool: rw.cool || 1.0,
+          warm: rw.warm || 1.0,
+          moist: rw.damp || 1.0,
         }
       }
     }

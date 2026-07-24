@@ -112,9 +112,9 @@ export class RecipeService {
         if (style && todayStyles.has(style)) return false
         return true
       })
-      const pool2 = candidates.length > 0 ? candidates : list
-      const idx = (seed + slotOffset) % pool2.length
-      return pool2[idx]
+      if (candidates.length === 0) return null
+      const idx = (seed + slotOffset) % candidates.length
+      return candidates[idx]
     }
 
     const breakfast = pickFrom(pool.food_pool.breakfast, 0)
